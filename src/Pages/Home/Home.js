@@ -15,9 +15,11 @@ import Imga from "./whatsapp.png"
 
 
 const Home = () => {
+
+
   return (
     <>
-    <div id=" div-fixa" className=" flutuar" data-skrink="yes">
+    <div id="fixa" className=" flutuar" data-skrink="yes">
 
 <Link  href=""  target="_blank">
 

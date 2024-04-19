@@ -18,7 +18,7 @@
   background-color: #829078;
   background-size: cover;
 }
-.flutuar{
+#fixa{
   position:fixed;
   bottom: 7rem;
   margin:0 69rem;
@@ -29,23 +29,42 @@
   backdrop-filter: blur(10px);
 }
 
-.flutuar img{
+#fixa img{
   width: 50px;
   height:50px;
  margin-left:-0.3rem;
 }
-.flutuar a .flex-itens{
+#fixa a .flex-itens{
   display: flex;
   align-items:center;
 
 }
-.flutuar a .flex-itens span{
+#fixa a .flex-itens span{
 display:block;
 font-family: "Josefin Sans", sans-serif;
 color: #829078;
 margin-left:1rem;
 font-weight:bold;
+font-size:1.1rem;
+}
 
+.flutuar{
+  animation-name: flutuar;
+  animation-duration:0.7s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar{
+    from{
+      transform: translate3d(0,0,0);
+      filter:brightness(100%);
+    }
+    to{
+      transform: translate3d(0,-15px,0);
+      filter:brightness(150%);
+    }
 }
 
 
