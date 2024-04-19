@@ -1,0 +1,366 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      
+    }
+
+    .Quemsou{
+        display:flex;
+        z-index:0;
+        width: 99.5vw;
+        height: 100vh;
+        Justify-Content: center;
+        align-items: center;
+        background-color:#ffffff ;
+ 
+        
+    }
+
+    .Conteudo{
+        display:flex;
+        width: 30vw;
+        height: 50vh;
+        Justify-Content: flex-start;
+        align-items: center;
+        margin: -2rem -3rem 0 10rem;
+        flex-direction: column;
+      
+        z-index:10;
+        
+    }
+
+    .Conteudo h2{
+        display:flex;
+        Justify-Content: flex-start;
+        align-items:flex-start;
+        font-size: 3rem;
+        line-height: 1;
+        color: #B99496 ;
+        padding: 2rem 10rem 1rem 0.5rem;
+        font-family: "Dancing Script", cursive;
+        font-weight: 700;
+        z-index:10;
+    }
+
+    .Conteudo p{
+        display:flex;
+        Justify-Content: center;
+        align-items:flex-start;
+        text-align: justify;
+        padding: 1rem 2rem 1rem 2rem;
+        color:#829078;
+        font-weight: bold;
+        font-size: 1.3rem;
+        z-index:10;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+ 
+
+  .Quemsou  img {
+         display:flex; 
+         
+         margin-left:-1rem;
+         z-index:1000;
+        background-color:transparent;
+         width: 25vw;
+        height: 70vh;
+    }
+
+    .Quemsou .imge-quemsou img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: -10rem 5rem 0 0;
+        width: 30vw;
+        height: 70vh;
+        z-index: 0;
+        background-color:#000;
+      
+    }
+   
+    @media only screen and (max-width: 1024px) {
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+         
+        }
+        .Quemsou{
+            display:flex;
+            z-index:0;
+            width:98.3vw;
+            height: 100vh;
+            Justify-Content: center;
+            align-items: center;
+            background-color:#ffffff ;
+     
+            
+        }
+        .Conteudo{
+            display:flex;
+            width: 40vw;
+            height: 50vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: 4rem -1rem 0 6rem;
+            flex-direction: column;
+            
+            z-index:10;
+            
+        }   
+        .Conteudo h2{
+            display:flex;
+            Justify-Content: flex-start;
+            align-items:flex-start;
+            font-size: 3.3rem;
+            line-height: 1;
+            color: #B99496 ;
+            padding: 2rem 10rem 1rem 0.5rem;
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+            z-index:10;
+        }
+    
+        .Conteudo p{
+            display:flex;
+            Justify-Content: center;
+            align-items:flex-start;
+            text-align: justify;
+            padding: 1rem 0.8rem 1rem 0.5rem;
+            color:#829078;
+            font-weight: bold;
+            font-size: 1.5rem;
+            z-index:10;
+            font-family: "Josefin Sans", sans-serif;
+        }
+    
+      .Quemsou  img {
+             display:flex;
+             
+             margin-left:-1rem;
+           
+            background-color:transparent;
+             width: 29vw;
+            height: 70vh;
+        }
+    }
+    @media only screen and (max-width: 688px) {
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+         
+        }
+        .Quemsou{
+            display:flex;
+           
+            z-index:0;
+            width:97.5vw;
+            height: 100vh;
+            Justify-Content: center;
+            align-items: center;
+            background-color:#ffffff ;  
+        }
+        .Conteudo{
+            display:flex;
+            width: 60vw;
+            height:55vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: 4rem -1.2rem 0 -1.2rem;
+            flex-direction: column;
+            
+            z-index:10;
+            
+        }  
+        .Conteudo h2{
+            display:flex;
+            Justify-Content: flex-start;
+            align-items:flex-start;
+            font-size: 3rem;
+            line-height: 1;
+            color: #B99496 ;
+            padding: 2rem 10rem 1rem 0.5rem;
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+            z-index:10;
+        }
+    
+        .Conteudo p{
+            display:flex;
+            Justify-Content: center;
+            align-items:flex-start;
+            text-align: justify;
+            padding: 1rem 1rem 1rem 0.5rem;
+            color:#829078;
+            font-weight: bold;
+            font-size: 1.5rem;
+            z-index:10;
+            font-family: "Josefin Sans", sans-serif;
+        } 
+    
+      .Quemsou  img {
+             display:flex;
+             margin-top: -6rem;
+             margin-right: -3rem;
+           
+            
+             width: 38vw;
+            height: 55vh;
+        }
+    }
+
+    @media only screen and (max-width: 414px) {
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+         
+        }
+        .Quemsou{
+            display:flex;
+            z-index:0;
+            width:95.7vw;
+            height: 100vh;
+            Justify-Content: center;
+            align-items: center;
+           
+     
+            
+        }
+        .Conteudo{
+            display:flex;
+            width: 90vw;
+            height: 60vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: 6rem 0.2rem 0 0.2rem;
+            flex-direction: column;
+            
+            z-index:10;
+            
+        }  
+        .Conteudo h2{
+            display:flex;
+            Justify-Content: flex-start;
+            align-items:flex-start;
+            font-size: 2.5rem;
+            line-height: 1;
+            color: #B99496 ;
+            padding: 2rem 10rem 1rem 0.5rem;
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+           
+        }
+    
+        .Conteudo p{
+            display:flex;
+            Justify-Content: center;
+            align-items:flex-start;
+            text-align: justify;
+            padding: 1rem 2rem 1rem 2rem;
+            color:#829078;
+            font-weight: bold;
+            font-size: 1.5rem;
+            font-family: "Josefin Sans", sans-serif;
+        } 
+    
+      .Quemsou  img {
+             display:none;
+            
+        }
+    
+      }
+
+      @media only screen and (max-width: 393px) {
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+        }
+        .Conteudo{
+            display:flex;
+            width: 90vw;
+            height: 60vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: 1.5rem 0.2rem 0 0.2rem;
+            flex-direction: column;
+            
+            z-index:10;
+            
+        }
+    }
+    @media only screen and (max-width: 360px) {
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+        }
+
+        .Quemsou{
+            display:flex;
+            z-index:0;
+            width:95.4vw;
+            height: 100vh;
+            Justify-Content: center;
+            align-items: center;
+            background-color:#ffffff ;
+     
+            
+        }
+        .Conteudo{
+            display:flex;
+            width: 90vw;
+            height: 60vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: 1.5rem 0.2rem 0 0.2rem;
+            flex-direction: column;
+            
+            z-index:10;
+            
+        }
+        .Conteudo h2{
+            display:flex;
+            Justify-Content: flex-start;
+            align-items:flex-start;
+            font-size: 2.5rem;
+            line-height: 1;
+            color: #B99496 ;
+            padding: 2rem 8rem 1rem 0.5rem;
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+           
+        }
+        .Conteudo p{
+            display:flex;
+            Justify-Content: center;
+            align-items:flex-start;
+            text-align: justify;
+            padding: 1rem 2rem 1rem 2rem;
+            color:#829078;
+            font-weight: bold;
+            font-size: 1.4rem;
+            font-family: "Josefin Sans", sans-serif;
+        }
+    }
