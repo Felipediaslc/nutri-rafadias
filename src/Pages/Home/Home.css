@@ -50,7 +50,7 @@ font-size:1.1rem;
 
 .flutuar{
   animation-name: flutuar;
-  animation-duration:0.7s;
+  animation-duration:0.9s;
   animation-iteration-count:infinite;
   animation-direction:alternate;
   animation-timing-function: ease-in-out;

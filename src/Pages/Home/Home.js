@@ -21,14 +21,14 @@ const Home = () => {
     <>
     <div id="fixa" className=" flutuar" data-skrink="yes">
 
-<Link  href=""  target="_blank">
+<a href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" >
 
 <div className="flex-itens" >
     
     <img  src={Imga} alt="Agende sua Consulta no whatsapp" />
 
     <span>Agende sua Consulta</span>
-</div>  </Link>
+</div>  </a>
 
 </div>
    <div className="homestyle">
