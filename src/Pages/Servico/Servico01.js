@@ -1,12 +1,12 @@
 import React from "react";
 import "./servico.css";
 
-import Hipertro from "./images01.jpeg"
-import Funcional from "./dieta.jpeg"
+import NutriEsportivo from "./images01.jpeg"
+import NutriEstetica from "./nutricao-aliada.jpg";
+import Nutricomport from "./nutricao-comportamental.jpg"
+import Saudemulher  from "./alimentos.jpg";
+import Intolerancia from "./Alergia_e_Intolerancia.png"
 import Emagrecimento from "./emagrecimento.jpeg"
-import Intolerancia from "./alimentos.jpg"
-import NutriEstetica from "./nutri.jpeg"
-import NutriEsportivo from "./Nutricao-esportiva.jpg"
 
 
 const Servico01 = () => {
@@ -24,7 +24,7 @@ const Servico01 = () => {
          </div>
       <div class=" card-container">
         <div class="card">
-          <img src={Hipertro} alt="" />
+          <img src={NutriEsportivo} alt="" />
            <div class="card-coment">
               <h1>Nutrição Esportiva</h1>
               <p> A obesidade já é considerada um dos principais problemas de saúde pública no Brasil e no mundo. A nutrição possui papel fundamental na reversão do quadro e promoção de saúde e qualidade de vida.
@@ -42,7 +42,7 @@ const Servico01 = () => {
            </div>
         </div>
         <div class="card">
-          <img src={Emagrecimento} alt="" />
+          <img src={Nutricomport} alt="" />
            <div class="card-coment">
               <h1> Nutrição Comportamental</h1>
               <p>A obesidade já é considerada um dos principais problemas de saúde pública no Brasil e no mundo.
@@ -53,7 +53,7 @@ const Servico01 = () => {
         </div>
 
         <div class="card">
-          <img src={Intolerancia} alt="" />
+          <img src={Saudemulher} alt="" />
            <div class="card-coment">
               <h1>Saúde da Mulher</h1>
               <p>Existem diversos tipos de intolerância e alergia alimentar. A nutrição tem como objetivo analisar quais alimentos causam alergia ou intolerância ao paciente e orientá-lo,
@@ -63,7 +63,7 @@ const Servico01 = () => {
            </div>
         </div>
         <div class="card">
-          <img src={Funcional} alt="" />
+          <img src={Emagrecimento} alt="" />
            <div class="card-coment">
               <h1>Emagrecimento e Obesidade</h1>
               <p>Relaciona a melhora dos resultados de tratamentos estéticos com a conduta nutricional aplicada, a partir do conceito de que a beleza começa de dentro.
@@ -72,7 +72,7 @@ const Servico01 = () => {
            </div>
         </div>
         <div class="card">
-          <img src={NutriEsportivo} alt="" />
+          <img src={Intolerancia} alt="" />
            <div class="card-coment">
               <h1>Intolerância e Alergia Alimentar </h1>
               <p>Aplicação dos conhecimentos em nutrição, bioquímica e fisiologia na área do esporte, a fim de manter o equilíbrio das necessidades energéticas,
