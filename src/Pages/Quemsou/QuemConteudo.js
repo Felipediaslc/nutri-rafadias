@@ -60,11 +60,11 @@ const QuemConteudo = () => {
             <div className="texto-terceiro">
              <h3><b>MISSÃO, DIFERENCIAIS E VALORES</b></h3>
              
-             <div className=" card-container">
-        <div className="card">
+             <div className=" card-container02">
+        <div className="card02">
           
-           <div class="card-coment">
-            <div className="icon">
+           <div class="card-coment02">
+            <div className="icon02">
             <FaStethoscope />
 
            </div>
@@ -76,10 +76,10 @@ const QuemConteudo = () => {
               
            </div>
         </div>
-        <div class="card">
+        <div class="card02">
           
-           <div className="card-coment">
-            <div className="icon">
+           <div className="card-coment02">
+            <div className="icon02">
            <ion-icon name="person-outline"></ion-icon>
            </div>
               <h1>DIFERENCIAIS</h1>
@@ -87,10 +87,10 @@ const QuemConteudo = () => {
              
            </div>
         </div>
-        <div className="card">
+        <div className="card02">
           
-           <div className="card-coment">
-            <div className="icon">
+           <div className="card-coment02">
+            <div className="icon02">
            <ion-icon name="fitness-outline"></ion-icon>
            </div>
               <h1> VALORES</h1>

@@ -187,7 +187,7 @@
 
 
 
-.Quem-Conteudo  .texto-terceiro  .card-container{
+.Quem-Conteudo  .texto-terceiro  .card-container02{
     display:flex;
      justify-content: center;
      flex-wrap:wrap;
@@ -196,7 +196,7 @@
      margin-left: 1rem;
   }
   
-  .card{
+  .card02{
     width:260px;
     
     border: 1px solid #829078;
@@ -207,10 +207,10 @@
     margin: 3px;
   
   }
-  .card:hover{
+  .card02:hover{
     transform: translateY(-20px);
   }
-.icon {
+.icon02 {
   width: 122px;
     height: 123px;
     display: flex;
@@ -224,14 +224,14 @@
   border: 1px solid #829078;
   
 }
-.icon svg {
+.icon02 svg {
   margin-left: 1.8rem;
   margin-top: 0.1rem;
 color: #829078;
   font-size: 4rem;
   
 }
-  .icon ion-icon {
+  .icon02 ion-icon {
     margin-left: 1.8rem;
     margin-top: 0.1rem;
   color: #829078;
@@ -241,14 +241,14 @@ color: #829078;
   
  
   
-  .card-coment  h1{
+  .card-coment02  h1{
     font-size: 1rem;
     margin-bottom: 10px;
     text-align: center;
     color: #829078;
     font-family: "Roboto", sans-serif;
   }
-   .card-coment p{
+   .card-coment02 p{
     font-size: 0.9rem;
     color: #829078;
     margin-bottom: 20px;
