@@ -5,6 +5,7 @@ import Home01 from './Pages/Home/Home';
 import Servicos from './Pages/Servico/Servico';
 import Servico01 from './Pages/Servico/Servico01'
 import Quemsou from './Pages/Quemsou/Quemsou';
+import QuemConteudo from './Pages/Quemsou/QuemConteudo.js';
 
 
 
@@ -20,6 +21,7 @@ export default () => {
     
 
         <Route  path="/sevico01" element={ <Servico01 /> } />
+        <Route  path="/quem02" element={ <QuemConteudo /> } />
         
         
       </Routes>

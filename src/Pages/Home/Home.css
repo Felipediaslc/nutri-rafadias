@@ -78,6 +78,7 @@ background-size: 200% ;
   width: 100vw;
   height: 30vh;
   z-index: 1000;
+  
 }
 
 .homestyle .banner01 span {
@@ -170,7 +171,7 @@ background-size: 200% ;
   height: 80vh;
   justify-content: flex-start;
   align-items: center;
-  margin: 4rem 0 0 0;
+  margin: 8rem 0 0 0;
   flex-direction: column;
   background-color: transparent;
   backdrop-filter: blur(10px);
@@ -231,6 +232,59 @@ background-size: 200% ;
   justify-content: flex-start;
   align-items: center;
   margin: 0 6rem 0 0;
+}
+.Consulta {
+  display: flex;
+  z-index: 0;
+  width: 99.5vw;
+  height: 105vh;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+    
+ 
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Consulta .Consult-card {
+  display: flex;
+  width: 60vw;
+  height: 80vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8rem 0 0 0;
+  padding: -1rem;
+  flex-direction: column;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+
+  z-index: 10;
+}
+.Consult-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 1;
+  color: #829078;
+  margin: -0.6rem 0 0 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.Consult-card p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 1rem 0 1rem;
+  color: #829078;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -594,6 +648,7 @@ background-size: 200% ;
   align-items: center;
   margin: 0 6rem 0 0;
 }
+
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 414px) {
@@ -1071,6 +1126,8 @@ background-size: 200% ;
     font-family: "Josefin Sans", sans-serif;
   }
 }
+
+
 
   
   

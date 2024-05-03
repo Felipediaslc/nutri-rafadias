@@ -50,10 +50,8 @@
         z-index:10;
     }
 
-    .Conteudo p{
-        display:flex;
-        Justify-Content: center;
-        align-items:flex-start;
+    .Conteudo span{
+       
         text-align: justify;
         padding: 1rem 2rem 1rem 2rem;
         color:#829078;
@@ -83,7 +81,7 @@
         width: 30vw;
         height: 70vh;
         z-index: 0;
-        background-color:#000;
+       
       
     }
    
@@ -364,3 +362,4 @@
             font-family: "Josefin Sans", sans-serif;
         }
     }
+    

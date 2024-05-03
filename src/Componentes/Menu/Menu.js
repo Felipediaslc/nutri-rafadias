@@ -23,6 +23,7 @@ function Menu() {
 		          	<Link className='efect' onClick={showNavbar} to="/">Home</Link>
                 <Link className='efect' onClick={showNavbar} to="/quemsou" >Quem Sou</Link>
                 <Link className='efect' onClick={showNavbar}  to="/servico">Serviço em Nutrição</Link>
+                <Link className='efect' onClick={showNavbar}  to="/servico">Consulta</Link>
 				<Link className='efect' onClick={showNavbar}  to="/servicos" >Planos</Link>
 
 				<a href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" > <button type="button" className="button">
@@ -34,8 +35,9 @@ function Menu() {
 
 					</button></a>
 				<ul className="Social-list">
-				<a  href="https://www.instagram.com/nutri_rafadias?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"  ><li><FaInstagram /> </li></a>
-				<a  href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank"rel="noopener noreferrer"  ><li><FaAt /></li></a>
+				<a  href="https://www.instagram.com/nutri_rafadias?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"  ><li>
+					<div className="box"><FaInstagram /></div> </li></a>
+				<li><a href= 'mailto:nutrirafaelledias@gmail.com' target="_blank" rel="noopener noreferrer"><div className="box"><FaAt /></div></a></li>
 				
 				</ul>
 				

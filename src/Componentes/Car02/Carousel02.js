@@ -1,41 +1,41 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import "../style/Carousel.css";
+import "../../style/Carousel02.css";
 
-function Carousel({ images }) {
-  const [current, setCurrent] = useState(0);
-  const [autoPlay, setAutoPlay] = useState(true);
+function Carousel02({ images }) {
+  const [current02, setCurrent02] = useState(0);
+  const [autoPlay02, setAutoPlay02] = useState(true);
   let timeOut = null;
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    timeOut =  autoPlay &&
+    timeOut =  autoPlay02 &&
       setTimeout(() => {
         slideRight();
       }, 3000);
   });
 
   const slideRight = () => {
-    setCurrent(current === images.length - 1 ? 0 : current + 1);
+    setCurrent02(current02 === images.length - 1 ? 0 : current02 + 1);
   };
 
   const slideLeft = () => {
-    setCurrent(current === 0 ? images.length - 1 : current - 1);
+    setCurrent02(current02 === 0 ? images.length - 1 : current02 - 1);
   };
-  console.log(current);
+  console.log(current02);
   return (
     <div
-      className="carousel"
+      className="carousel02"
      
       onMouseEnter={() => {
-        setAutoPlay(false);
+        setAutoPlay02(false);
         clearTimeout(timeOut);
       }}
       onMouseLeave={() => {
-        setAutoPlay(true);
+        setAutoPlay02(true);
       }}
     >
-      <div className="carousel_wrapper">
+      <div className="carousel_wrapper02">
         {images.map((image, index) => {
           return (
             /* (condition) ? true : false */
@@ -43,13 +43,13 @@ function Carousel({ images }) {
             <div
               key={index}
               className={
-                index === current
-                  ? "carousel_card carousel_card-active"
-                  : "carousel_card"
+                index === current02
+                  ? "carousel_card02 carousel_card-active02"
+                  : "carousel_card02"
               }
             >
-              <img className="card_image" src={image.image} alt="" />
-              <div className="card_overlay">
+              <img className="card_image02" src={image.image} alt="" />
+              <div className="card_overlay02">
                 <h2 className="card_title">{image.title}</h2>
               </div>
             </div>
@@ -67,11 +67,11 @@ function Carousel({ images }) {
               <div
                 key={index}
                 className={
-                  index === current
+                  index === current02
                     ? "pagination_dot pagination_dot-active"
                     : "pagination_dot"
                 }
-                onClick={() => setCurrent(index)}
+                onClick={() => setCurrent02(index)}
               ></div>
             );
           })}
@@ -81,4 +81,4 @@ function Carousel({ images }) {
   );
 }
 
-export default Carousel;
+export default Carousel02;

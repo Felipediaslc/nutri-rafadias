@@ -121,16 +121,33 @@ nav .Social-list{
 
 .Social-list li{
 	margin:0 0.1rem;
+
+}
+.Social-list li .box{
+	width: 32px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin: 0.1rem;
+    position: relative;
+
+    cursor: pointer;
+   
+	border-radius: 50%;
+	border: 1px solid #fff;
 }
 .Social-list svg {
-	font-size: 1.3rem;
-	cursor: pointer;
+	font-size: 1.2rem;
+
+	
 	color: #eee;
 }
-.Social-list svg:hover {
-	font-size: 1.1rem;
+.Social-list .box:hover, svg:hover {
+	font-size: 1.2rem;
 	cursor: pointer;
 	color: #B99496;
+	background-color: #fff;
 }
 
 

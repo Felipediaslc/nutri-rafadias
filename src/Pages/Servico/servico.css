@@ -26,18 +26,18 @@
   display:flex;
    justify-content: center;
    flex-wrap:wrap;
-   gap: 22px;
+   gap: 21px;
    margin-top: 1rem;
    margin-left: 1rem;
 }
 
 .card{
-  width:325px;
-  background-color: #829078;
-  border-radius: 10px;
+  width:315px;
+  
+ padding:0 0 0 0.5rem;
   overflow: hidden;
   transition: transform 0.6s ease;
-  margin: 4px;
+  margin: 3px;
 
 }
 .card:hover{
@@ -45,14 +45,15 @@
 }
 
 .car img{
-  width: 100px;
+  width: 105px;
+  margin-left:2rem;
   height: auto;
-  object-fit: cover;
+
   
 }
 
 .card-coment{
-  padding: 1rem;
+  padding: 0.25rem;
 }
 
 .card-coment  h1{
@@ -158,7 +159,7 @@
 .card{
   width:310px;
   background-color: #829078;
-  border-radius: 10px;
+
   overflow: hidden;
   transition: transform 0.6s ease;
   margin: 1px;
@@ -184,6 +185,7 @@
   margin-bottom: 10px;
   text-align: center;
   color:#f4f4f4;
+  letter-spacing: 0.1rem;
   font-family: "Roboto", sans-serif;
 }
  .card-coment p{
@@ -249,10 +251,94 @@
     list-style: none;
     text-decoration: none;
   }
+  .Servicos01{
+    display:flex;
+    z-index:0;
+    width: 97.6vw;
+    height: 120vh;
+    Justify-Content: center;
+    align-items: center;
+  background-color: #829078;
+  
+  flex-wrap:wrap;
+  gap: -20x;
+}
+
+
+.card-container{
+  display:flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px;
+   margin-top: -1.6rem;
+   margin-left: 0;
+   background-color: #829078;
+   width:97.8vw;
+   z-index:0;
+}
+
+
+.card-coment  h1{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color:#f4f4f4;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+ .Servicos01 .Sub-card{
+  margin-bottom: 0;
+  margin-top:9rem;
+  width: 75vw;
+  height: 28vh;
+  
+  z-index:1;
+ 
+ }
+ .Sub-card h2{
+
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 3rem;
+  line-height: 1;
+  color: #f4f4f4 ;
+  margin:0 0 0.5rem 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  background-color: transparent;
+ }
+ .Sub-card small{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.5rem;
+  margin:0 0 0.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  color: #f4f4f4 ;
+  background-color: transparent;
+ 
+ }
+
+ .Sub-card span{
+  display:flex;
+  Justify-Content: flex-start;
+  align-items:center;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: #f4f4f4 ;
+  background-color: #829078;
+  text-align: justify;
+  width: 85vw;
+  margin-left:-2.2rem;
+ }
   
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) { 
   * {
     margin: 0;
     padding: 0;
@@ -260,11 +346,125 @@
     list-style: none;
     text-decoration: none;
   }
-
+  .Servicos01{
+    display:flex;
+    z-index:0;
+    width: 96vw;
+    height: 120vh;
+    Justify-Content: center;
+    align-items: center;
+  background-color: #829078;
   
+  flex-wrap:wrap;
+  gap: -20x;
+}
+
+
+.card-container{
+  display:flex;
+   justify-content: center;
+   flex-wrap:wrap; 
+   gap: 10px;
+   margin-top: 3rem;
+
+   margin-left:0.2rem;
+   background-color: #829078;
+   width:97vw;
+   z-index:0;
+}
+
+.card{
+  width:308px;
+ 
+  
+  overflow: hidden;
+  transition: transform 0.6s ease;
+  margin: 1px;
+
+}
+.card:hover{
+  transform: translateY(-20px);
+}
+
+.car img{
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.card-coment{
+  padding: 1rem;
+}
+
+.card-coment  h1{
+  font-size: 1.4rem;
+  width: 60vw;
+  margin-left:1.1rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color:#f4f4f4;
+  
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+}
+ .card-coment p{
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .Servicos01 .Sub-card{
+  margin-bottom: 0;
+  margin-top: 7rem;
+  width: 75vw;
+  height: 28vh;
+  
+  z-index:1;
+ 
+ }
+ .Sub-card h2{
+
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: #f4f4f4 ;
+  margin:0 0 0.5rem 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  background-color: transparent;
+ }
+ .Sub-card small{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.5rem;
+  margin:0 0 0.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  color: #f4f4f4 ;
+  background-color: transparent;
+ 
+ }
+
+ .Sub-card span{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  color: #f4f4f4 ;
+  background-color: transparent;
+  text-align: justify;
+  margin-left:-1.4rem;
+ }
  
 }
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 412px) { 
   * {
     margin: 0;
     padding: 0;
@@ -272,8 +472,30 @@
     list-style: none;
     text-decoration: none;
   }
+  .Servicos01{
+    display:flex;
+    z-index:0;
+    width: 95.9vw;
+    height: 120vh;
+    Justify-Content: center;
+    align-items: center;
+  background-color: #829078;
+  
+  flex-wrap:wrap;
+  gap: -20x;
+}
+.card-container{
+  display:flex;
+   justify-content: center;
+   flex-wrap:wrap; 
+   gap: 10px;
+   margin-top: 4rem;
 
- 
+   margin-left:0.2rem;
+   background-color: #829078;
+   width:97vw;
+   z-index:0;
+}
 }
 
 @media only screen and (max-width: 393px) {
@@ -284,7 +506,80 @@
     list-style: none;
     text-decoration: none;
   }
+  .Servicos01{
+    display:flex;
+    z-index:0;
+    width: 95.5vw;
+    height: 120vh;
+    Justify-Content: center;
+    align-items: center;
+  background-color: #829078;
   
+  flex-wrap:wrap;
+  gap: -20x;
+}
+
+
+.card-container{
+  display:flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px;
+   margin-top:7rem;
+   margin-left: 0;
+  
+   width:98.3vw;
+   z-index:0;
+}
+
+.card-coment  h1{
+  
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-left:2.5rem;
+  width:200px;
+  text-align: center;
+  color:#f4f4f4;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+ .Servicos01 .Sub-card{
+  margin-bottom: 0;
+  margin-top: 7rem;
+  width: 75vw;
+  height: 28vh;
+  
+  z-index:1;
+ 
+ }
+ .Sub-card h2{
+
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: #f4f4f4 ;
+  margin:0 0 0.5rem 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+
+ }
+
+
+ .Sub-card span{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  color: #f4f4f4 ;
+  
+  text-align: justify;
+ }
 
 }
 @media only screen and (max-width: 360px) {
@@ -295,5 +590,126 @@
     list-style: none;
     text-decoration: none;
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .Servicos01{
+    display:flex;
+    z-index:0;
+    width: 95vw;
+    height: 120vh;
+    Justify-Content: center;
+    align-items: center;
+  background-color: #829078;
   
+  flex-wrap:wrap;
+  gap: -20x;
+}
+
+
+.card-container{
+  display:flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px;
+   margin-top:9rem;
+   margin-left: 0;
+  
+   width:98.3vw;
+   z-index:0;
+}
+
+.card{
+  width:307px;
+  background-color: #829078;
+
+  overflow: hidden;
+  transition: transform 0.6s ease;
+  margin: 1px;
+
+}
+.card:hover{
+  transform: translateY(-20px);
+}
+
+.car img{
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.card-coment{
+  padding: 1rem;
+}
+
+.card-coment  h1{
+  
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-left:2.5rem;
+  width:200px;
+  text-align: center;
+  color:#f4f4f4;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto", sans-serif;
+}
+ .card-coment p{
+  font-size: 1.2rem;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .Servicos01 .Sub-card{
+  margin-bottom: 0;
+  margin-top: 7rem;
+  width: 75vw;
+  height: 28vh;
+  
+  z-index:1;
+ 
+ }
+ .Sub-card h2{
+  width: 80vw;
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #f4f4f4 ;
+  margin:0 0 0.5rem -1rem;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+ 
+ }
+ .Sub-card small{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.5rem;
+  margin:0 0 0.5rem -1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #f4f4f4 ;
+  
+ 
+ }
+
+ .Sub-card span{
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  color: #f4f4f4 ;
+  
+  text-align: justify;
+ }
+
 }

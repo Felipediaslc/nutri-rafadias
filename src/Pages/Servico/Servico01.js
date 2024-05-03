@@ -27,7 +27,8 @@ const Servico01 = () => {
           <img src={NutriEsportivo} alt="" />
            <div class="card-coment">
               <h1>Nutrição Esportiva</h1>
-              <p> A obesidade já é considerada um dos principais problemas de saúde pública no Brasil e no mundo. A nutrição possui papel fundamental na reversão do quadro e promoção de saúde e qualidade de vida.
+              <p> Alimentação planejada de acordo com o tipo, volume e intensidade nos treinos com objetivo de garantir mais resultados,
+                sempre com foco na saúde. Suplementos definidos com cuidado e sempre de forma individualizada
               </p>
               
            </div>
@@ -36,7 +37,9 @@ const Servico01 = () => {
           <img src={NutriEstetica} alt="" />
            <div class="card-coment">
               <h1>Nutrição Estética</h1>
-              <p>Tem como intuito o tratamento de desequilíbrios causados pelo excesso ou pela carência nutricional de cada indivíduo, a partir do desenvolvimento de um cardápio balanceado e individualizado.
+              <p>O atendimento nutricional é voltado ao público no geral que querQueremos nutrir o corpo de forma completa
+                e confiamos que o equilíbrio físico e mental começa com uma alimentação saudável. Somos o que propomos, vivenciamos,
+                 aprendemos e ensinamos.
               </p>
              
            </div>
@@ -56,8 +59,8 @@ const Servico01 = () => {
           <img src={Saudemulher} alt="" />
            <div class="card-coment">
               <h1>Saúde da Mulher</h1>
-              <p>Existem diversos tipos de intolerância e alergia alimentar. A nutrição tem como objetivo analisar quais alimentos causam alergia ou intolerância ao paciente e orientá-lo,
-                 indicando uma dieta adequada e individualizada. 
+              <p>O cuidado especializado em saúde da mulher, tentantes, gestantes e as nutrizes de forma individualizada. Programa alimentar e suplementos são desenvolvidos conforme a necessidade.    Realizamos também toda orientação para introdução alimentar
+                e o acompanhamento com processo de educação nutricional para crianças seletivas e com excesso de peso 
               </p>
               
            </div>
