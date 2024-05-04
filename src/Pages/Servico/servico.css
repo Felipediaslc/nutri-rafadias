@@ -713,3 +713,41 @@
  }
 
 }
+@media only screen and (max-width: 390px), 
+       screen and (max-height: 844px) {
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+        }
+        .Servicos01{
+          display:flex;
+          z-index:0;
+          width: 100vw;
+          height: 190vh;
+          Justify-Content: center;
+          align-items: center;
+        background-color: #829078;
+        
+        flex-wrap:wrap;
+        gap: -20x;
+      }
+      .Servicos01 .Sub-card{
+        margin-bottom: -1rem;
+        margin-top: 6rem;
+        width: 85vw;
+        height: 28vh;
+        background:#000;
+        z-index:1;
+       
+       }
+       .Sub-card p{
+        font-size: 0.875rem;
+        margin-left: -1rem;
+        margin-bottom: 20px;
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+       }
+      }

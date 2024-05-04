@@ -362,4 +362,24 @@
             font-family: "Josefin Sans", sans-serif;
         }
     }
+
+    @media only screen and (width= 390px), 
+       screen and (height= 844px) {
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+        }
+        .Quemsou{
+          
+            width: 100vw;
+            height: 100vh;
+           
+            background-color:#ffffff ;
+     
+            
+        }
+    }
     
