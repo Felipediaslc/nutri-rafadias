@@ -1141,20 +1141,21 @@ background-size: 200% ;
           display: flex;
           justify-content: center;
           align-items: flex-start;
-          height: 90vh;
+          height: 79vh;
           width: 100vw;
           background-color: #829078;
         }
         .homestyle .banner01 {
-          margin-right: -14.5rem;
-          margin-top:16rem;
+          margin-right: 2rem;
+          margin-top:13rem;
           width: 80vw;
-         
+          position:absolute;
         }
         .homestyle .imge img {
-          width: 102vw;
-          margin:37rem 0 0 -8.1rem;
-          z-index: 0;
+          width: 99vw;
+         
+          margin:29.2rem 0 0 0;
+          z-index: 1;
         }
         .Conteudo-home h5 {
        margin-right: -1rem;
