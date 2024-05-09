@@ -175,6 +175,7 @@ nav .Social-list{
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+		background-color: var(--mainColor);
 	}
 
 	nav .nav-close-btn {
@@ -244,12 +245,11 @@ nav .Social-list{
 		display:flex;
 		Justify-Content: center;
 		align-items: center;
-		margin: 4rem 0 0 0;
+		margin: 2rem 0 0 0;
+		
 	}
 	
-	.Social-list li{
-		margin:	 -3.5rem 0 0 0;
-	}
+
 	.Social-list svg { 
 		font-size: 1.4rem;
 		cursor: pointer;

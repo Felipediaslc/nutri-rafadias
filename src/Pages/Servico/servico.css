@@ -12,7 +12,7 @@
 .Servicos01{
     display:flex;
     z-index:0;
-    width: 99.5vw;
+    width: 99.5vw!important;
     height: 170vh;
     Justify-Content: center;
     align-items: center;
@@ -26,9 +26,9 @@
   display:flex;
    justify-content: center;
    flex-wrap:wrap;
-   gap: 21px;
-   margin-top: 1rem;
-   margin-left: 1rem;
+   gap: 20px;
+   background-color: transparent;
+   margin: 1rem 1rem 0 1rem;
 }
 
 .card{
@@ -76,7 +76,7 @@
   margin-top: 6rem;
   width: 75vw;
   height: 28vh;
-  background:transparent;
+  background-color: transparent;
   z-index:1;
  
  }
