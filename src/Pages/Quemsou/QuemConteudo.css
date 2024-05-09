@@ -851,7 +851,6 @@ color: #829078;
     align-items: center;
     width: 100vw;
     height: 30vh;
-   
     background: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
@@ -891,9 +890,6 @@ color: #829078;
 }
 .texto-primeiro .imagem-carossel{
     display: none;
-   
-  
-    
 }
  .texto-primeiro .text h2{
     width:80vw;
