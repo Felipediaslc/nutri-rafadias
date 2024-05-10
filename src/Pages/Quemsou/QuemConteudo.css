@@ -553,7 +553,7 @@ color: #829078;
         url("./download.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
-    margin-top:20rem!important;
+    margin-top:-1.8rem!important;
     
       z-index: 10;
   }
