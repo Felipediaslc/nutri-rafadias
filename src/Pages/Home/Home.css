@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Meddon&family=WindSong:wght@400;500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
 
+
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          list-style: none;
+          text-decoration: none;
+        }
 
 
 .homestyle {
@@ -193,11 +195,11 @@ background-size: 200% ;
 .Serv-card small {
   display: flex;
   justify-content: flex-start;
-
+  letter-spacing: 0.1rem;
   font-size: 1rem;
   line-height: 1;
   color: #f4f4f4;
-  margin: 4rem 0 -2rem -23rem;
+  margin: 4rem 0 -2rem -18rem;
   padding: 0;
   align-items: flex-start;
   font-family: "Josefin Sans", sans-serif;
@@ -205,6 +207,7 @@ background-size: 200% ;
 }
 
 .Serv-card p {
+  text-indent: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,7 +226,7 @@ background-size: 200% ;
   text-align: justify;
   padding: 1rem 6rem 2rem 6rem;
   color: #f4f4f4;
-
+  text-indent: 1.5rem;
   font-size: 1.3rem;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -285,8 +288,9 @@ background-size: 200% ;
   font-size: 1.3rem;
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
+  text-indent: 1.5rem;
 }
-
+      
 @media only screen and (max-width: 1024px) {
   * {
     margin: 0;
@@ -426,11 +430,11 @@ background-size: 200% ;
   .Serv-card small {
     display: flex;
     justify-content: flex-start;
-  
+    
     font-size: 1.4rem;
-    line-height: 1;
+    line-height: 0.1rem;
     color: #f4f4f4;
-    margin: 4rem 0 -2rem -27.5rem;
+    margin: 4rem 0 -1rem -23rem!important;
     padding: 0;
     align-items: flex-start;
     font-family: "Josefin Sans", sans-serif;
@@ -447,6 +451,7 @@ background-size: 200% ;
     color: #f4f4f4;
     flex-direction: column;
     font-size: 2rem;
+    text-indent: 1.5rem;
     font-family: "Josefin Sans", sans-serif;
   }
   .Serv-card span {
@@ -456,7 +461,7 @@ background-size: 200% ;
     text-align: justify;
     padding: 1rem 3rem 2rem 3rem;
     color: #f4f4f4;
-  
+  text-indent: 1.5rem;
     font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
   }
@@ -630,6 +635,7 @@ background-size: 200% ;
   flex-direction: column;
   font-size: 1.5rem;
   font-family: "Josefin Sans", sans-serif;
+  text-indent: 1.5rem;
 }
 .Serv-card span {
   display: flex;
@@ -638,7 +644,7 @@ background-size: 200% ;
   text-align: justify;
   padding: 1rem 3rem 2rem 3rem;
   color: #f4f4f4;
-
+  text-indent: 1.5rem;
   font-size: 1.5rem;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -815,6 +821,7 @@ background-size: 200% ;
     flex-direction: column;
     font-size: 1.4rem;
     font-family: "Josefin Sans", sans-serif;
+    text-indent: 1.5rem;
   }
   .Serv-card span {
     display: flex;
@@ -823,7 +830,7 @@ background-size: 200% ;
     text-align: justify;
     padding: 1rem 0.5rem 2rem 0.5rem;
     color: #f4f4f4;
-  
+    text-indent: 1.5rem;
     font-size: 1.4rem;
     font-family: "Josefin Sans", sans-serif;
   }
@@ -1129,7 +1136,148 @@ background-size: 200% ;
 
 
 @media only screen and (width= 390px), 
-       screen and (height= 844px) {
+screen and (height= 844px) {
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+ }
+ .homestyle .banner01 {
+  margin-left: -0.3rem;
+  margin-top: 15rem;
+  width: 76vw;
+  position:absolute;
+}
+.homestyle .imge img {
+  width: 108vw;
+  height:40vh;
+  margin: 30rem 0 0 0.5rem;
+}
+.Servicos {
+  display: flex;
+  z-index: 0;
+  width: 100vw;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(130, 144, 120, 0.9),
+      rgba(185, 148, 150, 0.9)
+    ),
+    url("./alim.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Servicos .Serv-card {
+  display: flex;
+  width: 91vw;
+  height: 73vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.7rem 0 0 0;
+  flex-direction: column;
+   z-index: 10;
+   background-color: transparent;
+   backdrop-filter: blur(10px);
+}
+.Serv-card small {
+  display: flex;
+  justify-content: flex-start;
+
+  font-size:1rem;
+  line-height: 1;
+  color: #f4f4f4;
+  margin: 2rem 0 -2rem -3.1rem!important;
+  padding: 0;
+  align-items: flex-start;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+.Serv-card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 0.6rem 0 0.6rem;
+  color: #f4f4f4;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Serv-card span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  color: #f4f4f4;
+
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Consulta {
+  display: flex;
+  z-index: 0;
+  width: 100vw;
+  height: 230vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Consulta .Consult-card {
+  display: flex;
+  width: 90vw;
+  height: 160vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: -7rem 0.1rem 0 0;
+  padding: -1rem;
+  flex-direction: column;
+  z-index: 10;
+}
+.Consult-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 1;
+  color: #829078;
+  margin: -0.6rem 0 0 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.Consult-card p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 1rem 0 1rem;
+  color: #829078;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  text-indent: 1.5rem;
+  
+}
+
+}
+       
+       
+
+ 
+  
+  @media only screen and (width= 1920px), 
+       screen and (height= 1080px) {
         * {
           margin: 0;
           padding: 0;
@@ -1137,96 +1285,307 @@ background-size: 200% ;
           list-style: none;
           text-decoration: none;
         }
-        .homestyle {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          height: 79vh;
-          width: 100vw;
-          background-color: #829078;
-        }
-        .homestyle .banner01 {
-          margin-right: 2rem;
-          margin-top:13rem;
-          width: 80vw;
-          position:absolute;
-        }
-        .homestyle .imge img {
-          width: 99vw;
-         
-          margin:29.2rem 0 0 0;
-          z-index: 1;
-        }
-        .Conteudo-home h5 {
-       margin-right: -1rem;
-         
-        }
+
+        
+
+.homestyle {
+  display: flex;
+  height: 109.5vh;
+  width: 109.5vw;
+  background-color: #829078;
+  background-size: cover;
+}
+#fixa{
+  position:fixed;
+  
+  margin: 0 0 46rem 98rem;
+  display:flex;
+  justify-content: flex-end;
+  
+
+  background-color: #829078;
+  width: 460px;
+  height:80px;
+  border-radius:50px;
+  cursor:pointer;
+  backdrop-filter: blur(10px);
+}
+
+#fixa img{
+  width: 80px;
+  height:80px;
+ margin: 0 0 0 0;
+}
+#fixa a .flex-itens{
+  display: flex;
+  align-items:center;
+
+}
+#fixa a .flex-itens span{
+  
+display:block;
+font-family: "Josefin Sans", sans-serif;
+color: #eee;
+margin: 0 1rem 0 0.3rem!important;
+
+font-size: 2.3rem;
+letter-spacing: 0.1rem;
+background-size: 200% ;
+}
+
+.flutuar{
+  animation-name: flutuar;
+  animation-duration:0.9s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar{
+    from{
+      transform: translate3d(0,0,0);
+      filter:brightness(100%);
+    }
+    to{
+      transform: translate3d(0,-15px,0);
+      filter:brightness(150%);
+    }
+}
+
+
+.homestyle .imge img {
+  display: flex;
+  margin: 53.8rem 0 0 -119rem;
+  justify-content: flex-start;
+  align-items: center;
+  width: 109.5vw;
+  height: 30vh;
+  z-index:0
+ 
+  
+}
+
+.homestyle .banner01 span {
+  display: flex;
+  justify-content: center;
+  margin: 9rem 0 0 0;
+  align-items: center;
+  font-family: "WindSong", cursive;
+ 
+  color: #f8f8ff;
+  font-size: 7rem;
+  width: 50vw;
+}
+.homestyle .banner01 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin-left:59.2rem;
+   
+  justify-content: center;
+
+
+}
+.homestyle .banner01 h3 {
+  display: flex;
+  justify-content: center;
+  margin: -0.3rem 0 0 3rem;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  
+  font-size: 5rem;
+  
+  color: #f8f8ff;
+  z-index:0
+}
+.homestyle .banner01 .Crn {
+  display: flex;
+  justify-content: center;
+  margin: 0.1rem 0 0 3.5rem;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  
+ 
+  font-size: 3.5rem;
+  color: #f8f8ff;
+  z-index:0
+}
+.Conteudo-home {
+  display: flex;
+  width: 50vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 0 0;
+  padding: 0;
+  padding-left: -2rem;
+  z-index:0
+}
+
+.Conteudo-home h5 {
+  width: 45vw;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0 1rem 0 1rem;
+  color: #f8f8ff;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+.Servicos {
+  display: flex;
+  z-index: 0;
+  height: 109.5vh;
+  width: 109.5vw;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(130, 144, 120, 0.9),
+      rgba(185, 148, 150, 0.9)
+    ),
+    url("./alim.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Servicos .Serv-card {
+  display: flex;
+  width: 60vw;
+  height: 80vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8rem 0 0 0;
+  flex-direction: column;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+
+  z-index: 10;
+}
+.Serv-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 1;
+  color: #f4f4f4;
+  margin: -0.6rem 0 0 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.Serv-card small {
+  display: flex;
+  justify-content: flex-start;
+
+  font-size: 1rem;
+  line-height: 1;
+  color: #f4f4f4;
+  margin: 4rem 0 -2rem -23rem;
+  padding: 0;
+  align-items: flex-start;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.Serv-card p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 6rem 0 6rem;
+  color: #f4f4f4;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-indent: 1.5rem;
+}
+.Serv-card span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 1rem 6rem 2rem 6rem;
+  color: #f4f4f4;
+  text-indent: 1.5rem;
+  font-size: 1.3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Serv-card Button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 6rem 0 0;
+}
+.Consulta {
+  display: flex;
+  z-index: 0;
+  width: 99.5vw;
+  height: 105vh;
+  justify-content: center;
+  align-items: center;
+ 
     
-        .Servicos {
-          
-          width:100vw;
-          height: 100vh;
-         
-        }
+ 
 
-        .Consulta {
-          
-          width: 100vw;
-          height: 200vh;
-          justify-content: center;
-          align-items: center;
-          background: #f4f4f4;
-            
-         
-        
-          flex-direction: column;
-          flex-wrap: wrap;
-        }
-        .Consulta .Consult-card {
-          display: flex;
-          width: 90vw;
-          height: 80vh;
-          justify-content: flex-start;
-          align-items: center;
-          margin:-40rem 0 0 0;
-          padding: -1rem;
-          flex-direction: column;
-          background-color: transparent;
-          backdrop-filter: blur(10px);
-        
-          z-index: 10;
-        }
-        .Consult-card h2 {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          font-size: 4rem;
-          line-height: 1;
-          color: #829078;
-          margin: -0.6rem 0 0 0;
-          padding: 0;
-          font-family: "Dancing Script", cursive;
-          font-weight: 700;
-        }
-        .Consult-card p{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          z-index: 1000;
-          text-align: justify;
-          padding: 3rem 1rem 0 1rem;
-          color: #829078;
-          flex-direction: column;
-          font-size: 1.3rem;
-          font-weight: bold;
-          font-family: "Josefin Sans", sans-serif;
-        }
-       }
-
-
-
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Consulta .Consult-card {
+  display: flex;
+  width: 60vw;
+  height: 80vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8rem 3rem 0 0;
+  padding: -1rem;
+  flex-direction: column;
   
-  
+  backdrop-filter: blur(10px);
+
+  z-index: 10;
+}
+.Consult-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 1;
+  color: #829078;
+  margin: -0.6rem 0 0 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.Consult-card p{
+  text-indent: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 1rem 0 1rem;
+  color: #829078;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+      }
     
 
  

@@ -30,9 +30,9 @@ const QuemConteudo = () => {
             <div className="texto-primeiro">
                 <div className="text">
                     <h2>Nutricionista por <strong>paixão</strong> e <strong>amor a profissão</strong></h2>
-                    <h3><b>Sou Rafaelle Dias, nutricionista formada pela Unifacisa em 2023  e pós graduanda em Nutrição esportiva e Saúde da  Mulher.
+                    <h3>Sou Rafaelle Dias, nutricionista formada pela Unifacisa em 2023  e pós graduanda em Nutrição esportiva e Saúde da  Mulher.
                      Possuo também formação em Química Industrial pela UEPBem 2010 com experiência em laboratório de analise e controle de qualidade de água 
-                     e esgoto da Paraíba na CAGEPA</b></h3>
+                     e esgoto da Paraíba na CAGEPA</h3>
                      <p>A saúde é fundamental e está diretamente relacionada aos nossos hábitos alimentares.</p>
                      <p>Priorizo sempre a ingestão da “comida de verdade” no qual fazem parte os alimentos naturais,
                          por isso busco incentivar e orientar as pessoas a fazerem as melhores escolhas alimentares com equilíbrio e sabedoria, 
@@ -43,7 +43,7 @@ const QuemConteudo = () => {
                       </div>
             </div>
             <div className="texto-segundo">
-                <h3><b>A História</b></h3>
+                <h3>A História</h3>
                   <p>Sempre fui uma criança e adolescente curiosa em pesquisar sobre alimentação, hábitos saudáveis,
                      receitas culinárias e novas preparações, composições e funções dos alimentos.
                       Conforme fui crescendo a minha paixão pela nutrição caminhava junto com o esporte e exercício físico
@@ -58,7 +58,7 @@ const QuemConteudo = () => {
                         Onde atuo atualmente e sou muito realizada em cada um que busca meu atendimento. </span>
             </div>
             <div className="texto-terceiro">
-             <h3><b>MISSÃO, DIFERENCIAIS E VALORES</b></h3>
+             <h3>Missão, Diferenciais e Valores</h3>
              
              <div className=" card-container02">
         <div className="card02">
@@ -68,7 +68,7 @@ const QuemConteudo = () => {
             <FaStethoscope />
 
            </div>
-              <h1>MISSÃO</h1>
+              <h1>Missão</h1>
               <p> De forma multidisciplinar, humanizada e personalizada busco proporcionar saúde
                  e bem estar aos meus pacientes entregando serviços que possibilite alcançar metas sustentáveis
                  e objetivos, transformando corpo, mente e autoestima.
@@ -82,7 +82,7 @@ const QuemConteudo = () => {
             <div className="icon02">
            <ion-icon name="person-outline"></ion-icon>
            </div>
-              <h1>DIFERENCIAIS</h1>
+              <h1>Diferenciais</h1>
               <p>Acompanhamento nutricional individualizado focado nas necessidades e rotina de cada paciente.</p>
              
            </div>
@@ -93,7 +93,7 @@ const QuemConteudo = () => {
             <div className="icon02">
            <ion-icon name="fitness-outline"></ion-icon>
            </div>
-              <h1> VALORES</h1>
+              <h1> Valores</h1>
               <p>Ter empatia, sensibilidade, respeito, ética, inovação e amor.</p>
               
            </div>

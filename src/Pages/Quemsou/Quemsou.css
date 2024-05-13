@@ -51,10 +51,20 @@
     }
 
     .Conteudo span{
-       
+        text-indent: 1.5rem; 
         text-align: justify;
         padding: 1rem 2rem 1rem 2rem;
         color:#829078;
+        font-weight: bold;
+        font-size: 1.3rem;
+        z-index:10;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .Conteudo p{
+        text-indent: 1.5rem; 
+        text-align: justify;
+        padding: 1rem 2rem 0 2rem;
+        color:#B99496 ;
         font-weight: bold;
         font-size: 1.3rem;
         z-index:10;
@@ -131,18 +141,25 @@
         }
     
         .Conteudo p{
-            display:flex;
-            Justify-Content: center;
-            align-items:flex-start;
+            text-indent: 1.5rem; 
+        text-align: justify;
+        padding: 1rem 2rem 0 2rem;
+        color:#B99496 ;
+        font-weight: bold;
+        font-size: 1.3rem;
+        z-index:10;
+        font-family: "Josefin Sans", sans-serif;
+        }
+        .Conteudo span{
+            text-indent: 1.5rem; 
             text-align: justify;
-            padding: 1rem 0.8rem 1rem 0.5rem;
+            padding: 1rem 2rem 1rem 2rem;
             color:#829078;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             z-index:10;
             font-family: "Josefin Sans", sans-serif;
         }
-    
       .Quemsou  img {
              display:flex;
              
@@ -198,17 +215,25 @@
         }
     
         .Conteudo p{
-            display:flex;
-            Justify-Content: center;
-            align-items:flex-start;
+            text-indent: 1.5rem; 
+        text-align: justify;
+        padding: 1rem 2rem 0 2rem;
+        color:#B99496 ;
+        font-weight: bold;
+        font-size: 1.3rem;
+        z-index:10;
+        font-family: "Josefin Sans", sans-serif;
+        }
+        .Conteudo span{
+            text-indent: 1.5rem; 
             text-align: justify;
-            padding: 1rem 1rem 1rem 0.5rem;
+            padding: 1rem 2rem 1rem 2rem;
             color:#829078;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             z-index:10;
             font-family: "Josefin Sans", sans-serif;
-        } 
+        }
     
       .Quemsou  img {
              display:flex;
@@ -272,7 +297,7 @@
             align-items:flex-start;
             text-align: justify;
             padding: 1rem 2rem 1rem 2rem;
-            color:#829078;
+            color:#B99496 ;
             font-weight: bold;
             font-size: 1.5rem;
             font-family: "Josefin Sans", sans-serif;
@@ -356,10 +381,11 @@
             align-items:flex-start;
             text-align: justify;
             padding: 1rem 2rem 1rem 2rem;
-            color:#829078;
+            color:#B99496 ;
             font-weight: bold;
             font-size: 1.4rem;
             font-family: "Josefin Sans", sans-serif;
+            text-indent: 1.5rem; 
         }
     }
 
@@ -380,6 +406,53 @@
             background-color:#ffffff ;
      
             
+        }
+        .Conteudo{
+            display:flex;
+            width: 90vw;
+            height: 60vh;
+            Justify-Content: flex-start;
+            align-items: center;
+            margin: -10rem 0.2rem 0 0.2rem;
+            flex-direction: column;
+           
+            z-index:10;
+            
+        }
+        
+        .Conteudo p{
+            text-indent: 1.5rem; 
+      
+        padding: 1rem 2rem 0 2rem;
+        color:#B99496 ;
+        font-weight: bold;
+        font-size: 1.3rem;
+        z-index:10;
+        font-family: "Josefin Sans", sans-serif;
+        }
+        .Conteudo h2{
+            display:flex;
+            Justify-Content: flex-start;
+            align-items:flex-start;
+            font-size: 3rem;
+            line-height: 1;
+            color: #B99496 ;
+            padding: 3rem 1rem 1rem 1rem;
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+            z-index:10;
+            width: 76vw;
+           
+        }
+        .Conteudo span{
+            text-indent: 1.5rem; 
+            text-align: justify;
+            padding: 1rem 2rem 3rem 2rem;
+            color:#829078;
+            font-weight: bold;
+            font-size: 1.5rem;
+            z-index:10;
+            font-family: "Josefin Sans", sans-serif;
         }
     }
     

@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
@@ -13,28 +12,30 @@
     display:flex;
     z-index:0;
     width: 99.5vw!important;
-    height: 170vh;
+    height: 190vh!important;
     Justify-Content: center;
     align-items: center;
-  background-color: #829078;
+    background-color: #829078!important;
   
   flex-wrap:wrap;
   gap: -20x;
 }
 
 .card-container{
+  width: 90vw!important;
+  
   display:flex;
    justify-content: center;
    flex-wrap:wrap;
    gap: 20px;
-   background-color: transparent;
-   margin: 1rem 1rem 0 1rem;
+   background-color: transparent!important;
+   margin: 1rem 1rem 0 1rem!important;
 }
 
 .card{
-  width:315px;
+  width:315px!important;
   
- padding:0 0 0 0.5rem;
+ padding:0 0 0 0.5rem!important;
   overflow: hidden;
   transition: transform 0.6s ease;
   margin: 3px;
@@ -57,26 +58,32 @@
 }
 
 .card-coment  h1{
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-size: 1.2rem!important;
+  letter-spacing: 0.1rem!important;
+  margin-bottom: 10px!important;
   text-align: center;
   color:#f4f4f4;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
  .card-coment p{
-  font-size: 0.875rem;
+  font-size: 1.1rem!important;
+  text-indent: 1.5rem;
   color: #f4f4f4;
-  margin-bottom: 20px;
+  margin-bottom: 20px!important;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
  }
-
  .Servicos01 .Sub-card{
-  margin-bottom: -1rem;
-  margin-top: 6rem;
-  width: 75vw;
-  height: 28vh;
-  background-color: transparent;
+  display:flex;
+  Justify-Content: center;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom: -1rem!important;
+  margin-top: 6rem!important;
+  width: 75vw!important;
+  height: 40vh!important;
+  background-color: transparent!important;
+  padding:  0 0 0 0.5rem;
   z-index:1;
  
  }
@@ -85,41 +92,42 @@
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 3rem;
+  font-size: 3rem!important;
   line-height: 1;
   color: #f4f4f4 ;
-  margin:0 0 0.5rem 0;
+  margin:0 0 0.5rem 0!important;
   padding: 0;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
-  background-color: transparent;
+  
+  width: 80vw!important;
  }
  .Sub-card small{
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 1.5rem;
-  margin:0 0 0.5rem 0;
-  font-family: "Open Sans", sans-serif;
+  font-size: 2rem!important;
+  margin:0 0 1rem 0!important;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
- 
- 
+  
+  width: 80vw!important;
  }
+
  .Sub-card p{
-  font-size: 0.875rem;
- 
-  margin-bottom: 20px;
-  text-align: justify;
-  font-family: "Roboto", sans-serif;
- }
- .Sub-card span{
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 0.875rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem !important;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   text-align: justify;
+  text-indent: 2rem; 
+  width: 75vw!important;
+
+  margin-right: -4rem!important;
+  background-color: transparent!important;
+ 
  }
 
  @media only screen and (max-width: 1024px) {
@@ -134,7 +142,7 @@
     display:flex;
     z-index:0;
     width: 98.3vw;
-    height: 120vh;
+    height: 150vh!important;
     Justify-Content: center;
     align-items: center;
   background-color: #829078;
@@ -149,7 +157,7 @@
    justify-content: center;
    flex-wrap:wrap;
    gap: 10px;
-   margin-top: 0.2rem;
+   margin-top: 7rem;
    margin-left: 0;
    background-color: #829078;
    width:98.3vw;
@@ -181,19 +189,19 @@
 }
 
 .card-coment  h1{
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin-bottom: 10px;
   text-align: center;
   color:#f4f4f4;
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
  .card-coment p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #f4f4f4;
   margin-bottom: 20px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
  }
 
  .Servicos01 .Sub-card{
@@ -210,37 +218,43 @@
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 3rem;
+  font-size: 3.3rem;
   line-height: 1;
   color: #f4f4f4 ;
-  margin:0 0 0.5rem 0;
+  margin:0 0 0.5rem 2.5rem;
   padding: 0;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
   background-color: transparent;
  }
- .Sub-card small{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.5rem;
-  margin:0 0 0.5rem 0;
-  font-family: "Open Sans", sans-serif;
-  color: #f4f4f4 ;
-  background-color: transparent;
+ 
+  .Sub-card small{
+    display:flex;
+    Justify-Content: center;
+    align-items:center;
+    font-size: 2.3rem;
+    margin:0 0 1rem 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #f4f4f4 ;
+    font-weight: bold;
  
  }
-
- .Sub-card span{
+ .Sub-card p{
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 1.2rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 2rem !important;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
-  background-color: transparent;
   text-align: justify;
+  text-indent: 2rem; 
+  margin-left:-1.5rem!important;
+  
+ 
+  
+  width: 90vw;
  }
+ 
 }
 
 @media only screen and (max-width: 688px) {
@@ -270,7 +284,7 @@
    justify-content: center;
    flex-wrap:wrap;
    gap: 10px;
-   margin-top: -1.6rem;
+   margin-top: 3rem;
    margin-left: 0;
    background-color: #829078;
    width:97.8vw;
@@ -279,13 +293,20 @@
 
 
 .card-coment  h1{
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin-bottom: 10px;
   text-align: center;
   color:#f4f4f4;
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
+ .card-coment p{
+  font-size: 1.5rem;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+ }
 
 
  .Servicos01 .Sub-card{
@@ -311,30 +332,49 @@
   font-weight: 700;
   background-color: transparent;
  }
- .Sub-card small{
+ .Sub-card h2{
+
   display:flex;
   Justify-Content: center;
   align-items:center;
-  font-size: 1.5rem;
-  margin:0 0 0.5rem 0;
-  font-family: "Open Sans", sans-serif;
+  font-size: 3.3rem;
+  line-height: 1;
   color: #f4f4f4 ;
+  margin:0 0 0.5rem 2.5rem;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
   background-color: transparent;
+ }
+ 
+  .Sub-card small{
+    display:flex;
+    Justify-Content: center;
+    align-items:center;
+    font-size: 2.3rem;
+    margin:0 0 1rem 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #f4f4f4 ;
+    font-weight: bold;
  
  }
-
- .Sub-card span{
+ .Sub-card p{
   display:flex;
-  Justify-Content: flex-start;
+  Justify-Content: center;
   align-items:center;
-  font-size: 1.2rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem !important;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
-  background-color: #829078;
   text-align: justify;
-  width: 85vw;
-  margin-left:-2.2rem;
+  text-indent: 2rem; 
+  margin-left:-3.8rem!important;
+  
+ 
+  
+  width: 90vw;
  }
+
+ 
   
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -406,14 +446,14 @@
   color:#f4f4f4;
   
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
  .card-coment p{
   font-size: 1.2rem;
   color: #f4f4f4;
   margin-bottom: 20px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
  }
 
  .Servicos01 .Sub-card{
@@ -445,7 +485,7 @@
   align-items:center;
   font-size: 1.5rem;
   margin:0 0 0.5rem 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   background-color: transparent;
  
@@ -456,7 +496,7 @@
   Justify-Content: center;
   align-items:center;
   font-size: 1.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   background-color: transparent;
   text-align: justify;
@@ -541,7 +581,7 @@
   text-align: center;
   color:#f4f4f4;
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 
@@ -575,7 +615,7 @@
   Justify-Content: center;
   align-items:center;
   font-size: 1.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   
   text-align: justify;
@@ -656,14 +696,14 @@
   text-align: center;
   color:#f4f4f4;
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
  .card-coment p{
   font-size: 1.2rem;
   color: #f4f4f4;
   margin-bottom: 20px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
  }
 
  .Servicos01 .Sub-card{
@@ -695,7 +735,7 @@
   align-items:center;
   font-size: 1.5rem;
   margin:0 0 0.5rem -1rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   
  
@@ -706,7 +746,7 @@
   Justify-Content: center;
   align-items:center;
   font-size: 1.1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #f4f4f4 ;
   
   text-align: justify;
@@ -725,8 +765,8 @@
         .Servicos01{
           display:flex;
           z-index:0;
-          width: 100vw;
-          height: 190vh;
+          width: 97.6vw;
+          height: 150vh;
           Justify-Content: center;
           align-items: center;
         background-color: #829078;
@@ -734,20 +774,88 @@
         flex-wrap:wrap;
         gap: -20x;
       }
-      .Servicos01 .Sub-card{
-        margin-bottom: -1rem;
-        margin-top: 6rem;
-        width: 85vw;
+      
+      
+      .card-container{
+        display:flex;
+         justify-content: center;
+         flex-wrap:wrap;
+         gap: 10px;
+         margin-top: 3rem;
+         margin-left: 0;
+         background-color: #829078;
+         width:97.8vw;
+         z-index:0;
+      }
+      
+      
+      .card-coment  h1{
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+        text-align: center;
+        color:#f4f4f4;
+        letter-spacing: 0.1rem;
+        font-family: "Josefin Sans", sans-serif;
+      }
+       .card-coment p{
+        font-size: 1.5rem;
+        color: #f4f4f4;
+        margin-bottom: 20px;
+        text-align: justify;
+        font-family: "Josefin Sans", sans-serif;
+       }
+      
+      
+       .Servicos01 .Sub-card{
+        margin-bottom: 0;
+        margin-top:9rem;
+        width: 75vw;
         height: 28vh;
-        background:#000;
+        
         z-index:1;
        
        }
+       .Sub-card h2{
+      width: 97.6vw;
+        display:flex;
+        Justify-Content: center;
+        align-items:center;
+        font-size: 3rem!important;
+        line-height: 1;
+        color: #f4f4f4 ;
+        margin:0 0 0 -2.5rem!important;
+        padding: 0!important;
+        font-family: "Dancing Script", cursive;
+        font-weight: 700;
+       
+       }
+      
+       
+        .Sub-card small{
+          width: 97.6vw;
+          display:flex;
+          Justify-Content: center;
+          align-items:center;
+          font-size: 2rem;
+         margin:0.5rem 0 0.5rem -2.5rem!important;
+          font-family: "Josefin Sans", sans-serif;
+          color: #f4f4f4 ;
+          font-weight: bold;
+       
+       }
        .Sub-card p{
-        font-size: 0.875rem;
-        margin-left: -1rem;
-        margin-bottom: 20px;
+        display:flex;
+        Justify-Content: center;
+        align-items:center;
+        font-size: 1.7rem !important;
+        font-family: "Josefin Sans", sans-serif;
+        color: #f4f4f4 ;
         text-align: justify;
-        font-family: "Roboto", sans-serif;
+        text-indent: 2rem; 
+        margin-left:-3.8rem!important;
+        
+       
+        
+        width: 90vw;
        }
       }

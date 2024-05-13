@@ -17,10 +17,10 @@ const Servico01 = () => {
       <div className="Sub-card">
       <h2>Serviços Oferecidos</h2>
       <small>Qual o seu objetivo?</small>
-            <span>Conheça as minhas especialidades, entenda como cada uma delas pode te ajudar, saiba como funcionam
+            <p>Conheça as minhas especialidades, entenda como cada uma delas pode te ajudar, saiba como funcionam
          e quais os objetivos de cada uma. Apos uma anmenese completa , avaliação nutricional e antropometrica
          e fechado um diagnostico do seu  estado nutricional, iremos traçar metas e estrategias nutricionais
-         individualizadas para alcançar os seus objetivos.</span>
+         individualizadas para alcançar os seus objetivos.</p>
          </div>
       <div class=" card-container">
         <div class="card">
@@ -37,7 +37,7 @@ const Servico01 = () => {
           <img src={NutriEstetica} alt="" />
            <div class="card-coment">
               <h1>Nutrição Estética</h1>
-              <p>O atendimento nutricional é voltado ao público no geral que querQueremos nutrir o corpo de forma completa
+              <p>O atendimento nutricional é voltado ao público no geral que quer. Queremos nutrir o corpo de forma completa
                 e confiamos que o equilíbrio físico e mental começa com uma alimentação saudável. Somos o que propomos, vivenciamos,
                  aprendemos e ensinamos.
               </p>

@@ -26,14 +26,14 @@ function Menu() {
                 <Link className='efect' onClick={showNavbar}  to="/servico">Consulta</Link>
 				<Link className='efect' onClick={showNavbar}  to="/servicos" >Planos</Link>
 
-				<a href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" > <button type="button" className="button">
+				<a className='efect' href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" ><span className="button">
 				<span className="button-icon">
 					<ion-icon name="logo-whatsapp"></ion-icon>
 					</span>
 					<span className="button-text">Agende sua Consulta</span>
 					
-
-					</button></a>
+					</span>
+					</a>
 				<ul className="Social-list">
 				<a  href="https://www.instagram.com/nutri_rafadias?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer"  ><li>
 					<div className="box"><FaInstagram /></div> </li></a>

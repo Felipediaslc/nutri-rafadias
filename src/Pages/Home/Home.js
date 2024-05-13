@@ -62,9 +62,9 @@ const Home = () => {
       
         <div className=" Conteudo">
           <h2>Quem Sou</h2>
-          <span className=" ">
-        <strong> Nutricionista por paixão e amor a profissão.</strong>
-          A palavra equilíbrio sempre me acompanha e levo em conta as individualidades da paciente,
+          
+        <p><strong>Nutricionista por paixão e amor a profissão.</strong></p>
+         <span > A palavra equilíbrio sempre me acompanha e levo em conta as individualidades da paciente,
            acolhendo-a de forma singular, notando suas nuances, estilo de vida, desejos e dúvidas.
           </span>
          

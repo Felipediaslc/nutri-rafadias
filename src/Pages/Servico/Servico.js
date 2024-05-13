@@ -9,9 +9,9 @@ import { Button} from "../../Componentes/Button/Button"
 const Servico = () => {
   return (
     
-     
     <section className="Servicos" >
-    <div className="Serv-card"><h2>Serviço em Nutrição</h2>
+    <div className="Serv-card">
+      <h2>Serviço em Nutrição</h2>
   
   <small>NOSSAS SOLUÇÕES PARA VOCÊ</small>
  
@@ -21,7 +21,8 @@ const Servico = () => {
 
     <span>Dentro do serviço de “consultoria em nutrição” descubra aqui aquele que mais se adequa 
     às suas necessidades e então agende sua consulta presencial/on-line.</span>
-   <Link to="/sevico01"> <Button type="button"  id="Serviços Oferecidos"  ></Button></Link></div>
+   <Link to="/sevico01"> <Button type="button"  id="Serviços Oferecidos" onClick={(e) => (e)} ></Button></Link>
+   </div>
     
   </section>
       
