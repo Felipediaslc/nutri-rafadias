@@ -19,7 +19,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 12vh;
-	width:100vw;
+	width:99.9vw;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
@@ -78,7 +78,7 @@ nav .button{
 	height: 2rem;
 	width:15vw;
 	padding:0;
-	background: var(--mainColor);
+	background: transparent;
 	outline:none;
 	overflow: hidden;
 	font-family: "Josefin Sans", sans-serif;
@@ -97,7 +97,6 @@ nav .button .button-icon,
 }
 nav .button .button-icon{
 	font-size:1.3rem;
-	background: var(--mainColor);
 }
 
 
@@ -178,15 +177,16 @@ nav .Social-list{
 	}
 	nav .button{
 		display: inline-flex;
-		height: 2rem;
+		height: 3rem;
 		width:50vw;
 		padding:0;
-		background: var(--mainColor);
+		background: transparent;
 		outline:none;
 		overflow: hidden;
 		font-family: "Josefin Sans", sans-serif;
-		font-size:1rem;
+		font-size:1.5rem;
 		font-weight:500;
+		margin-left:27rem;
 		color:#eee;
 	}
 	
@@ -199,7 +199,7 @@ nav .Social-list{
 	
 	}
 	nav .button .button-icon{
-		font-size:1.3rem;
+		font-size:1.7rem;
 	}
 	
 
@@ -220,35 +220,62 @@ nav .Social-list{
 		width: 100%;
 	  }
 	  nav .Social-list{
+		
 		display:flex;
 		Justify-Content: center;
 		align-items: center;
 		margin: 2rem 0 0 0;
 		
 	}
+	.Social-list li .box{
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		padding: 6px;
+		margin: 0.1rem;
+		position: relative;
 	
+		cursor: pointer;
+	   
+		
+	}
 
 	.Social-list svg { 
-		font-size: 1.4rem;
+		font-size: 2rem;
 		cursor: pointer;
 		color: #eee;
 	}
 }
 @media only screen and (width 	= 360px) {
 	nav .button{
-	width:55vw;
+	width:70vw;
 	}
 }
 
 @media only screen and (width 	= 1024px) {
 	nav .button{
-	width:20vw;
+	width:70vw;
 	}
 }
 
 @media only screen and (width 	= 688px) {
 	nav .button{
-	width:30vw;
+	width:70vw;
+	}
+	nav .button{
+		display: inline-flex;
+		height: 3rem;
+		width:50vw;
+		padding:0;
+		background: transparent;
+		outline:none;
+		overflow: hidden;
+		font-family: "Josefin Sans", sans-serif;
+		font-size:1.5rem;
+		font-weight:500;
+		margin-left:3rem;
+		color:#eee;
 	}
 }
 
@@ -393,6 +420,31 @@ nav .Social-list{
 	cursor: pointer;
 	color: #B99496;
 	
+}
+
+}
+@media only screen and (width= 390px), 
+screen and (height= 844px) {
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+ } 
+ nav .button{
+	display: inline-flex;
+	height: 3rem;
+	width:80vw;
+	padding:0;
+	background: transparent;
+	outline:none;
+	overflow: hidden;
+	font-family: "Josefin Sans", sans-serif;
+	font-size:1.5rem;
+	font-weight:500;
+	margin-left:1rem;
+	color:#eee;
 }
 
 }

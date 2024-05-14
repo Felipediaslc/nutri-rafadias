@@ -841,7 +841,7 @@ color: #829078;
     display: flex;
   
     width: 99.5vw;
-    height:430vh;
+    height:450vh;
     justify-content: center;
     align-items:center;
     background: transparent;
@@ -864,7 +864,7 @@ color: #829078;
     background-repeat: no-repeat;
     background-size: cover;  
   margin-left:0;
-   margin-top:-7.7rem!important;
+   margin-top:-11.5rem!important;
   position:relative;
    
 }
@@ -935,7 +935,7 @@ color: #829078;
     align-items: center;
     width: 100vw;
     height: 115vh;
-    
+    margin: 4rem  0 0 0;
   position: relative;
     flex-direction: column;
 }
@@ -944,7 +944,7 @@ color: #829078;
     width: 40vw!important;
     
     font-weight: bold;
-    margin: 15rem  0 0 0;
+    margin: 20rem  0 0 0;
    
     
     font-size:2.5rem;
@@ -976,7 +976,7 @@ color: #829078;
 
 .Quem-Conteudo   .texto-terceiro{
     display:flex;
-    margin-top: -2.5rem;
+    margin-top: 4rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1057,7 +1057,7 @@ color: #829078;
  
   
   .card-coment02  h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 8px;
     text-align: center;
     color: #829078;
