@@ -8,31 +8,30 @@
   font-family: sans-serif;
 }
 
-.Servico01{
+.Servicos01{
   display:flex;
   z-index:0;
-  width: 99.5vw;
-  height: 190vh;
+  width: 99.5vw!important;
+  height: 200vh!important;
   Justify-Content: center;
   align-items: center;
   background-color: #829078!important;
-
-flex-wrap:wrap;
-gap: -20x;
+  flex-wrap:wrap;
+  gap: -20x;
 }
 
-.card-containers{
-width: 90vw!important;
+.card-container{
+ width: 90vw!important;
 
-display:flex;
+ display:flex!important;
  justify-content: center;
  flex-wrap:wrap;
  gap: 20px;
- background-color: #829078!important;
- margin: -3rem 1rem 0 1rem!important;
+ 
+ margin: -2.5rem 1rem 0 1rem!important;
 }
 
-.cards{
+.card{
 width:315px!important;
 background-color: transparent!important;
 padding:0 0 0 0!important;
@@ -41,11 +40,11 @@ transition: transform 0.6s ease;
 margin: 3px;
 
 }
-.cards:hover{
+.card:hover{
 transform: translateY(-20px);
 }
 
-.cards img{
+.card img{
   width:320px!important;
 margin-left:-0.3rem;
 height: auto;
@@ -53,11 +52,11 @@ height: auto;
 
 }
 
-.card-coments{
+.card-coment{
 padding: 0.25rem;
 }
 
-.card-coments  h1{
+.card-coment  h1{
 font-size: 1.2rem!important;
 letter-spacing: 0.1rem!important;
 margin-bottom: 10px!important;
@@ -65,7 +64,7 @@ text-align: center;
 color:#f4f4f4;
 font-family: "Josefin Sans", sans-serif;
 }
-.card-coments p{
+.card-coment p{
 font-size: 1.1rem!important;
 text-indent: 1.5rem;
 color: #f4f4f4;
@@ -73,21 +72,21 @@ margin-bottom: 20px!important;
 text-align: justify;
 font-family: "Josefin Sans", sans-serif;
 }
-.Servico01 .Sub-cards{
+.Servicos01 .Sub-card{
 display:flex;
 Justify-Content: center;
 align-items:center;
 flex-direction: column;
 margin-bottom: 4rem!important;
-margin-top: 6rem!important;
-width: 70vw!important;
+margin-top: 6.5rem!important;
+width: 90vw!important;
 height: 40vh!important;
 
 padding:  0 0 0 0.5rem;
 z-index:1;
 
 }
-.Sub-cards h1{
+.Sub-card h1{
 
 display:flex;
 Justify-Content: center;
@@ -102,7 +101,7 @@ font-weight: 700;
 
 width:70vw!important;
 }
-.Sub-cards small{
+.Sub-card small{
 display:flex;
 Justify-Content: center;
 align-items:center;
@@ -114,7 +113,7 @@ color: #f4f4f4 ;
 width:60vw!important;
 }
 
-.Sub-cards p{
+.Sub-card p{
 display:flex;
 Justify-Content: center;
 align-items:center;
@@ -130,7 +129,7 @@ margin-right: 0.5rem!important;
 
 }
 
- @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
@@ -138,11 +137,11 @@ margin-right: 0.5rem!important;
     list-style: none;
     text-decoration: none;
   }
-  .Servico01{
+  .Servicos01{
     display:flex;
     z-index:0;
     width: 98.3vw;
-    height: 252vh!important;
+    height: 350vh!important;
     Justify-Content: center;
     align-items: center;
   
@@ -152,7 +151,7 @@ margin-right: 0.5rem!important;
 }
 
 
-.card-containers{
+.card-container{
   width: 99vw!important;
   
   display:flex;
@@ -163,7 +162,7 @@ margin-right: 0.5rem!important;
    margin: -3rem 1rem 0 1rem!important;
   }
 
-  .cards{
+  .card{
     width:410px!important;
     background-color: transparent!important;
     padding:0 0 0 0!important;
@@ -172,11 +171,11 @@ margin-right: 0.5rem!important;
     margin: 1rem 2rem 0 2rem;
     
     }
-    .cards:hover{
+    .card:hover{
     transform: translateY(-20px);
     }
     
-    .cards img{
+    .card img{
       width:410px!important;
     margin-left:-0.3rem;
     height: auto;
@@ -184,11 +183,11 @@ margin-right: 0.5rem!important;
     
     }
     
-    .card-coments{
+    .card-coment{
     padding: 0.25rem;
     }
     
-    .card-coments  h1{
+    .card-coment  h1{
     font-size: 1.5rem!important;
     letter-spacing: 0.1rem!important;
     margin-bottom: 10px!important;
@@ -196,7 +195,7 @@ margin-right: 0.5rem!important;
     color:#f4f4f4;
     font-family: "Josefin Sans", sans-serif;
     }
-    .card-coments p{
+    .card-coment p{
     font-size: 1.5rem!important;
     text-indent: 1.5rem;
     color: #f4f4f4;
@@ -206,7 +205,7 @@ margin-right: 0.5rem!important;
     }
 
 
- .Servico01 .Sub-cards{
+ .Servicos01 .Sub-card{
   margin-bottom: 0;
   margin-top: 7rem;
   width: 75vw;
@@ -215,7 +214,7 @@ margin-right: 0.5rem!important;
   z-index:1;
  
  }
- .Sub-cards h1{
+ .Sub-card h1{
 
   display:flex;
   Justify-Content: center;
@@ -230,7 +229,7 @@ margin-right: 0.5rem!important;
   
  }
  
-  .Sub-cards small{
+  .Sub-card small{
     display:flex;
     Justify-Content: center;
     align-items:center;
@@ -241,7 +240,7 @@ margin-right: 0.5rem!important;
     font-weight: bold;
     
  }
- .Sub-cards p{
+ .Sub-card p{
   display:flex;
   Justify-Content: center;
   align-items:center;
@@ -395,8 +394,6 @@ margin-right: 0.5rem!important;
   flex-wrap:wrap;
   gap: -20x;
 }
-
-
 .card-containers{
   display:flex;
    justify-content: center;
@@ -759,11 +756,11 @@ margin-right: 0.5rem!important;
           list-style: none;
           text-decoration: none;
         }
-        .Servico01{
+        .Servicos01{
           display:flex;
           z-index:0;
           width: 100vw;
-          height: 600vh!important;
+          height: 500vh!important;
           Justify-Content: center;
           align-items: center;
         background-color: #829078!important;
@@ -781,7 +778,7 @@ margin-right: 0.5rem!important;
       
       }
       
-      .card-containers{
+      .card-container{
         display:flex;
          justify-content: center;
          flex-wrap:wrap;
@@ -793,14 +790,14 @@ margin-right: 0.5rem!important;
          z-index:0;
       }
       
-      .cards img{
+      .card img{
         width: 400px!important;
         height: auto;
         object-fit: cover;
         margin-left:-1rem;
         
       }
-      .card-coments  h1{
+      .card-coment  h1{
         width:70vw;
         font-size: 1.7rem!important;
         margin-left:0.5rem;
@@ -810,7 +807,7 @@ margin-right: 0.5rem!important;
         letter-spacing: 0.1rem;
         font-family: "Josefin Sans", sans-serif;
       }
-       .card-coments p{
+       .card-coment p{
         width: 350px!important;
         font-size: 1.7rem!important;
         color: #f4f4f4;
@@ -821,7 +818,7 @@ margin-right: 0.5rem!important;
        }
       
       
-       .Servico01 .Sub-cards{
+       .Servicos01 .Sub-card{
         margin-bottom: 0;
         margin-top:10rem!important;
         width: 100vw!important;
@@ -830,7 +827,7 @@ margin-right: 0.5rem!important;
         z-index:1;
        
        }
-       .Sub-cards h1{
+       .Sub-card h1{
       width: 100vw!important;
         display:flex;
         Justify-Content: center;
@@ -846,7 +843,7 @@ margin-right: 0.5rem!important;
        }
       
        
-        .Sub-cards small{
+        .Sub-card small{
           width: 90vw!important;
           display:flex;
           Justify-Content: center;
@@ -858,7 +855,7 @@ margin-right: 0.5rem!important;
           font-weight: bold;
       
        }
-       .Sub-cards p{
+       .Sub-card p{
         width: 90vw!important;
         display:flex;
         Justify-Content: center;

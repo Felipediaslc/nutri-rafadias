@@ -459,7 +459,7 @@ background-size: 200% ;
     text-align: justify;
     padding: 1rem 3rem 2rem 3rem;
     color: #f4f4f4;
-  text-indent: 1.5rem;
+    text-indent: 1.5rem;
     font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
   }
@@ -468,6 +468,58 @@ background-size: 200% ;
     justify-content: flex-start;
     align-items: center;
     margin: 0 6rem 0 0;
+  }
+  .Consulta {
+    display: flex;
+    z-index: 0;
+    width: 99.5vw;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Consulta .Consult-card {
+    display: flex;
+    width: 95vw;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin: -30rem 1rem 0 1rem;
+    padding: -1rem;
+    flex-direction: column;
+    
+   background-color:#000;
+  
+    z-index: 10;
+  }
+  .Consult-card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 4rem;
+    line-height: 1;
+    color: #829078;
+    margin: -0.6rem 0 0 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+  }
+  .Consult-card p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    text-align: justify;
+    padding: 3rem 0.5rem 0 0.5rem;
+    color: #829078;
+    flex-direction: column;
+   
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    text-indent: 1.5rem;
   }
 }
 
@@ -615,7 +667,7 @@ background-size: 200% ;
   font-size: 1rem;
   line-height: 1;
   color: #f4f4f4;
-  margin: 3rem 0 -2rem -14.8rem;
+  margin: 3rem 0 -2rem -14rem;
   padding: 0;
   align-items: flex-start;
   font-family: "Josefin Sans", sans-serif;
@@ -652,7 +704,58 @@ background-size: 200% ;
   align-items: center;
   margin: 0 6rem 0 0;
 }
+.Consulta {
+  display: flex;
+  z-index: 0;
+  width: 99.5vw;
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Consulta .Consult-card {
+  display: flex;
+  width: 95vw;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin: -40rem 1rem 0 1rem;
+  padding: -1rem;
+  flex-direction: column;
+  
 
+
+  z-index: 10;
+}
+.Consult-card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 1;
+  color: #829078;
+  margin: -0.6rem -4rem 0 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.Consult-card p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-align: justify;
+  padding: 3rem 0.5rem 0 0.5rem;
+  color: #829078;
+  flex-direction: column;
+ 
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.7rem;
+  text-indent: 1.5rem;
+}
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 414px) {
@@ -1186,11 +1289,10 @@ screen and (height= 844px) {
 .Serv-card small {
   display: flex;
   justify-content: flex-start;
-
-  font-size:1rem;
+  font-size:1rem;  
   line-height: 1;
   color: #f4f4f4;
-  margin: 2rem 0 -2rem -3.1rem!important;
+  margin: 2rem 0 -2rem 0.6rem!important;
   padding: 0;
   align-items: flex-start;
   font-family: "Josefin Sans", sans-serif;
@@ -1253,10 +1355,10 @@ screen and (height= 844px) {
   display: flex;
   justify-content: flex-start;
 
-  font-size:1rem;
+  font-size:1rem;  
   line-height: 1;
   color: #f4f4f4;
-  margin: 2rem 0 -2rem -3.1rem!important;
+  margin: 2rem 0 -2rem 0.6rem!important;
   padding: 0;
   align-items: flex-start;
   font-family: "Josefin Sans", sans-serif;
@@ -1289,7 +1391,7 @@ screen and (height= 844px) {
   display: flex;
   z-index: 0;
   width: 100vw;
-  height: 230vh;
+  height: 250vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -1298,13 +1400,14 @@ screen and (height= 844px) {
 .Consulta .Consult-card {
   display: flex;
   width: 90vw;
-  height: 160vh;
+  height: 200vh;
   justify-content: flex-start;
   align-items: center;
   margin: -7rem 0.1rem 0 0;
   padding: -1rem;
   flex-direction: column;
   z-index: 10;
+  background-color:transparent!important;
 }
 .Consult-card h2 {
   display: flex;
