@@ -156,7 +156,7 @@ h5 {
   width: 400px;
   height: 450px;
 }
-.Quemsou .Conteudo .Conteudo-text h2 {
+ .Conteudo-text h2 {
   padding-bottom: 3.5rem;
   font-size: clamp(3rem, 5vw, 5rem);
   line-height: 1;
@@ -165,7 +165,7 @@ h5 {
   height: 1vh;
   z-index: 1;
 }
-.Quemsou .Conteudo .Conteudo-text h4 {
+ .Conteudo-text h4 {
   text-align: justify;
   color: #b99496;
   font-size: clamp(1.5rem, 5vw, 1.7rem);
@@ -173,7 +173,7 @@ h5 {
   width: 350px;
   z-index: 1;
 }
-.Quemsou .Conteudo .Conteudo-text span {
+.Conteudo-text span {
   text-indent: 2rem;
   text-align: justify;
   color: #829078;
@@ -193,6 +193,10 @@ h5 {
 .Quemsou .quemsou-imagem {
   grid-row: 3/4;
   grid-area: quemsou-imagem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color:#000;
 }
 .Quemsou .quemsou-imagem img {
   width: 30vw;
