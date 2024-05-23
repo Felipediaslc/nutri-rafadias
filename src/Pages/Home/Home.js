@@ -5,7 +5,7 @@ import Carousel from "../../Componentes/Carousel.js";
 import { countries } from "../../Componentes/Data";
 import Efectnovo from "./efectnov.png";
 import Imga from "./whatsapp.png";
-import Imagemraf from "../Quemsou/IMG_0489.png";
+import Quemimag from "../Quemsou/IMG_0489.png";
 import { Button} from "../../Componentes/Button/Button.js";
 import { Link  } from 'react-router-dom';
 
@@ -46,30 +46,20 @@ const Home = () => {
 
 
       <section className="Quemsou">
-
-
-        <div className=" Conteudo">
-          <div className="Conteudo-text">
-          <h2>Quem Sou</h2>
-         <h4>Nutricionista por paixão e amor a profissão.</h4>
-        <span > A palavra equilíbrio sempre me acompanha e levo em conta as individualidades da paciente,
-        acolhendo-a de forma singular, notando suas nuances, estilo de vida, desejos e dúvidas.
-        </span>
-        <Link to="/quem02"> <Button type="button"  id="Saiba mais sobre mim"  ></Button></Link>
-        </div>
-          
-
-        </div>
-
-
-
-        <div className="quemsou-imagem">
-       <img src={ Imagemraf} alt=""/>
-        </div>
-
-
-
-      </section>
+    <div className=" Conteudo">
+      <div className="Conteudo-text">
+      <h2>Quem Sou</h2>
+     <h4>Nutricionista por paixão e amor a profissão.</h4>
+    <span > A palavra equilíbrio sempre me acompanha e levo em conta as individualidades da paciente,
+    acolhendo-a de forma singular, notando suas nuances, estilo de vida, desejos e dúvidas.
+    </span>
+    <Link to="/quem02"> <Button type="button"  id="Saiba mais sobre mim"  ></Button></Link>
+    </div>
+    </div>
+    <div className="quemsou-imagem">
+   <img src={Quemimag} alt=""/>
+    </div>
+  </section>
 
 
 
