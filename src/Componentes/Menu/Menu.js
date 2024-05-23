@@ -3,7 +3,7 @@ import { FaBars, FaTimes  } from "react-icons/fa";
 import {  FaInstagram, FaAt} from "react-icons/fa6";
 
 import { Link  } from 'react-router-dom';
-
+import LOGO from  "./LOGO.png"
 import './Menu.css';
 
 function Menu() {
@@ -18,13 +18,16 @@ function Menu() {
 
 	return (
 		<header>
-			<h4>LOGO</h4>
+			<div className="logo">
+			<img src={LOGO} alt=""/>
+			<h3>Nutricionista</h3>
+			</div>
 			< nav ref={navRef}>
 		          	<Link className='efect' onClick={showNavbar} to="/">Home</Link>
                 <Link className='efect' onClick={showNavbar} to="/quemsou" >Quem Sou</Link>
                 <Link className='efect' onClick={showNavbar}  to="/servico">Serviço em Nutrição</Link>
                 <Link className='efect' onClick={showNavbar}  to="/servico">Consulta</Link>
-				<Link className='efect' onClick={showNavbar}  to="/servicos" >Planos</Link>
+				
 
 				<a className='efect' href="https://api.whatsapp.com/message/DAGJBXKY5RQVP1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" ><span className="button">
 				<span className="button-icon">

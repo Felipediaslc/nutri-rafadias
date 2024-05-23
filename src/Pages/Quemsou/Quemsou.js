@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Quemsou.css";
+
 import { Link  } from 'react-router-dom';
 import { Button} from "../../Componentes/Button/Button"
 import Imagemraf from "./IMG_0489.png"
