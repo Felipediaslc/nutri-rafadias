@@ -194,16 +194,24 @@ h5 {
   grid-row: 3/4;
   grid-area: quemsou-imagem;
   display: grid;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background-color:#000;
+ 
 }
-.Quemsou .quemsou-imagem img {
+.quemsou-imagem  .SouImg{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 30vw;
   height: 65vh;
-  margin: 4rem 0 0 -1rem;
+
+}
+.SouImg img {
+  width: 30vw;
+  height: 65vh;
+ 
   display: flex;
-  justify-self: center;
+  justify-self:flex-start;
   align-self: center;
 }
 

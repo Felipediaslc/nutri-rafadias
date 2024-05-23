@@ -25,7 +25,9 @@ const Quemsou = () => {
     </div>
     </div>
     <div className="quemsou-imagem">
-   <img src={ Quemimag} alt=""/>
+      <div className="SouImg">
+   <img src={Quemimag} alt=""/>
+   </div>
     </div>
   </section>
       

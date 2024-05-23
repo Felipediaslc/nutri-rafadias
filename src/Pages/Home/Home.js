@@ -57,7 +57,9 @@ const Home = () => {
     </div>
     </div>
     <div className="quemsou-imagem">
+      <div className="SouImg">
    <img src={Quemimag} alt=""/>
+   </div>
     </div>
   </section>
 
