@@ -5,10 +5,10 @@ import Carousel from "../../Componentes/Carousel.js";
 import { countries } from "../../Componentes/Data";
 import Efectnovo from "./efectnov.png";
 import Imga from "./whatsapp.png";
-import Quemimag from "../Quemsou/IMG_0489.png";
+
 import { Button} from "../../Componentes/Button/Button.js";
 import { Link  } from 'react-router-dom';
-
+{/*import Quemimag from "../Quemsou/IMG_0489.png";*/}
 
 const Home = () => {
 
@@ -57,9 +57,9 @@ const Home = () => {
     </div>
     </div>
     <div className="quemsou-imagem">
-      <div className="SouImg">
+    {/*  <div className="SouImg">
    <img src={Quemimag} alt=""/>
-   </div>
+  </div>*/}
     </div>
   </section>
 

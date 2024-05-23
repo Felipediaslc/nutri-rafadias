@@ -3,7 +3,7 @@ import React from "react";
 import "../Home/Home.css";
 import { Link  } from 'react-router-dom';
 import { Button} from "../../Componentes/Button/Button"
-import  Quemimag from "./IMG_0489.png"
+{/*import Quemimag from "../Quemsou/IMG_0489.png";*/}
 
 
 
@@ -25,9 +25,9 @@ const Quemsou = () => {
     </div>
     </div>
     <div className="quemsou-imagem">
-      <div className="SouImg">
+     {/* <div className="SouImg">
    <img src={Quemimag} alt=""/>
-   </div>
+   </div>*/}
     </div>
   </section>
       
