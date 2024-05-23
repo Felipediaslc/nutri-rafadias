@@ -35,8 +35,6 @@ const Home = () => {
 
       <Carousel  images={countries} />
         </div>
-
-       
       <div className="cardy-rody">
       <div className="imge">
           <img src={Efectnovo} alt="" /> 
