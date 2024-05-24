@@ -20,8 +20,8 @@ const Servico01 = () => {
          e quais os objetivos de cada uma. Apos uma anmenese completa , avaliação nutricional e antropometrica
          e fechado um diagnostico do seu  estado nutricional, iremos traçar metas e estrategias nutricionais
          individualizadas para alcançar os seus objetivos.</p>
-         </div>
-         <div className="tard-server">
+        
+         
        <div class=" tard-cont">
         <div class="tardy">
           <img src={NutriEsportivo} alt="" />
