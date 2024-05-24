@@ -73,7 +73,7 @@ width:90vw!important;
   background-color: #829078;
 }
 
-.tard-cont{
+.tard-server .tard-cont{
   width: 98.5vw!important;
   display:flex!important;
   justify-content: center;
@@ -83,7 +83,7 @@ width:90vw!important;
 
  }
  
-.tardy{
+ .tard-cont .tardy{
  width:355px!important;
  padding:0 0 0 0!important;
  overflow: hidden;
@@ -91,17 +91,17 @@ width:90vw!important;
  margin: 3px;
  border-radius: 2rem
  }
-.tardy:hover{
+ .tard-cont .tardy:hover{
  transform: translateY(-20px);
  }
  
-.tardy img{
+ .tard-cont .tardy img{
   width:360px!important;
  margin-left:-0.3rem;
  height: auto;
  }
  
-.tard-comenty{
+ .tard-cont.tard-comenty{
  padding: 1rem;
  }
  
