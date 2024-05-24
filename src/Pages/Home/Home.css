@@ -145,9 +145,11 @@ h5 {
   display: flex;
   justify-content:center;
   align-items: center;
+
 }
 
 .Quemsou .Conteudo .Conteudo-text {
+ 
   display: grid;
   justify-content: end;
   align-items: center;
@@ -194,7 +196,7 @@ h5 {
   display:flex;
   justify-content:center;
   align-items: center;
-  width: 30vw;
+  width:25vw;
   height: 65vh;
 
 }
@@ -218,7 +220,7 @@ h5 {
     url("./alim.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   margin: 0;
 }
 
