@@ -11,7 +11,7 @@
 .terv-01{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 46% 1fr ;
+  grid-template-rows: 40% 1fr  ;
   grid-template-areas:
     "terv-tard terv-tard terv-tard"
     "tard-server tard-server tard-server"
@@ -20,6 +20,7 @@
   background-color: #829078;
   height: 190vh;
   margin: 0;
+  row-gap: 5rem;
 }
 
 .terv-tard{
@@ -29,6 +30,7 @@
   justify-content:center;
   padding-top:6rem;
   width:99.5vw!important;
+ background-color:#000;
 
 }
 
