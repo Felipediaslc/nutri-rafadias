@@ -23,7 +23,7 @@
   row-gap: 5rem;
 }
 
-.terv-tard{
+.terv-01 .terv-tard{
   display:grid;
   grid-row: 1/4;
   grid-area: terv-tard;
@@ -34,7 +34,9 @@
 
 }
 
-.terv-tard h1, small, p{
+
+
+.terv-01 .terv-tard h1, small, p{
   color: #f4f4f4 ;
   
 }
@@ -65,7 +67,7 @@ text-align: justify;
 text-indent: 2rem; 
 width:90vw!important;
 }
-.tard-server{
+.terv-01 .tard-server{
   grid-row: 1/4;
   grid-area: tard-server;
   display:grid;
@@ -73,7 +75,7 @@ width:90vw!important;
   background-color: #829078;
 }
 
-.tard-server .tard-cont{
+.terv-01 .tard-server .tard-cont{
   width: 98.5vw!important;
   display:flex!important;
   justify-content: center;
