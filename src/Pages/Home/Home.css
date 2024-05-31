@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Meddon&family=WindSong:wght@400;500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -131,25 +131,22 @@ h5 {
 
 .Quemsou {
   display: grid;
-  grid-template-columns:100%;
+  grid-template-columns: 100%;
   grid-template-rows: 100%;
-  grid-template-areas:
-    "conteudo conteudo conteudo " ;
+  grid-template-areas: "conteudo conteudo conteudo ";
   background-color: #fff;
-  height: 100vh;
+  height: 110vh;
   margin: 0;
 }
 .Quemsou .Conteudo {
   grid-row: 1/4;
   grid-area: conteudo;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-
 }
 
 .Quemsou .Conteudo .Conteudo-text {
- 
   display: grid;
   justify-content: end;
   align-items: center;
@@ -157,7 +154,7 @@ h5 {
   width: 400px;
   height: 450px;
 }
- .Conteudo-text h2 {
+.Conteudo-text h2 {
   padding-bottom: 3.5rem;
   font-size: clamp(3rem, 5vw, 5rem);
   line-height: 1;
@@ -166,7 +163,7 @@ h5 {
   height: 1vh;
   z-index: 1;
 }
- .Conteudo-text h4 {
+.Conteudo-text h4 {
   text-align: justify;
   color: #b99496;
   font-size: clamp(1.5rem, 5vw, 1.7rem);
@@ -178,10 +175,10 @@ h5 {
   text-indent: 2rem;
   text-align: justify;
   color: #829078;
-  font-weight: bold;
-  font-size: clamp(1.6rem, 5vw, 1.7rem);
+
+  font-size: 1.3rem;
   width: 350px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   z-index: 1;
 }
 .Quemsou .Conteudo .Conteudo-text a {
@@ -192,15 +189,14 @@ h5 {
   z-index: 0;
 }
 
-.Conteudo .SouImg{
-  display:flex;
-  justify-content:center;
+.Conteudo .SouImg {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width:25vw;
+  width: 25vw;
   height: 65vh;
-
 }
-.SouImg img{
+.SouImg img {
   width: 30vw;
   height: 65vh;
 }
@@ -209,8 +205,7 @@ h5 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas:
-    "serv-card serv-card serv-card";
+  grid-template-areas: "serv-card serv-card serv-card";
   justify-items: center;
   align-items: center;
   background: linear-gradient(
@@ -220,21 +215,20 @@ h5 {
     url("./alim.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   margin: 0;
 }
 
- .Serv-card {
+.Serv-card {
   grid-row: 1/4;
   grid-area: serv-card;
   display: grid;
-  place-content:center;
-  padding-top:7rem;
+  place-content: center;
+  padding-top:4rem;
   background-color: transparent;
-
 }
 
- .Serv-card h2,
+.Serv-card h2,
 small,
 p,
 span {
@@ -246,41 +240,39 @@ span {
   line-height: 1rem;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
-  text-align:center; 
-  padding:0 0 4rem 0;
-  width: 70vw!important;
-  
+  text-align: center;
+  padding: 0 0 4rem 0;
+  width: 70vw !important;
 }
 .Serv-card small {
-  font-family: "Josefin Sans", sans-serif;
-  width: 70vw!important;
-  text-align:start;
-  padding:0 0 2rem 2rem;
+  font-family: "Cormorant Garamond", serif;
+  width: 70vw !important;
+  text-align: start;
+  padding: 0 0 2rem 2rem;
   font-weight: bold;
   font-size: clamp(1rem, 5vw, 2rem);
 }
 
 .Serv-card p {
-  width: 70vw!important;
+  width: 70vw !important;
   text-align: justify;
   text-indent: 2rem;
-  font-size: clamp(1rem, 5vw, 1.7rem);
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-family: "Cormorant Garamond", serif;
 }
 .Serv-card span {
-  width: 70vw!important;
+  width: 70vw !important;
   text-align: justify;
-  padding:1rem 0 2.5rem 0;
+  padding: 1rem 0 2.5rem 0;
   text-indent: 2rem;
-  font-size: clamp(1rem, 5vw, 1.7rem);
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .Serv-card a {
   display: grid;
-  place-self:center;
-  margin:0 10rem 0 0;
-
+  place-self: center;
+  margin: 0 10rem 0 0;
 }
 
 .Consulta {
@@ -297,48 +289,42 @@ span {
   grid-row: 1/4;
   grid-area: consult-nutri;
   display: grid;
-  place-content:center;
+  place-content: center;
   background-color: #f4f4f4;
-  padding-top:1rem;
+  padding-top: 5rem;
 }
 .Consult-card h2 {
   font-size: clamp(3rem, 5vw, 4.5rem);
-line-height: 1;
-font-family: "Dancing Script", cursive;
-font-weight: 700;
-width: 70vw!important;
+  line-height: 1;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  width: 70vw !important;
 
-text-align:center;
-padding:0 0 1rem 0;
-color: #829078;
-}
-.Consult-card p{
-  font-size: clamp(1rem, 5vw, 1.7rem);
-  font-family: "Josefin Sans", sans-serif;
-  text-align: justify;
-  text-indent: 2rem; 
-  width: 70vw!important;
+  text-align: center;
+  padding: 0 0 0.5rem 0;
   color: #829078;
-  padding-top:4rem;
 }
-.Consult-card span{
-  width: 70vw!important;
+.Consult-card p {
+  font-size: 1.3rem;
+  font-family: "Cormorant Garamond", serif;
   text-align: justify;
-  padding:1rem 0 2.5rem 0;
   text-indent: 2rem;
-  font-size: clamp(1rem, 5vw, 1.7rem);
-  font-family: "Josefin Sans", sans-serif;
+  width: 70vw !important;
+  color: #829078;
+  padding-top: 4rem;
+}
+.Consult-card span {
+  width: 70vw !important;
+  text-align: justify;
+  padding: 1rem 0 2.5rem 0;
+  text-indent: 2rem;
+  font-size: 1.3rem;
+  font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   color: #829078;
 }
-/*
 
-
-
-
-
-    /*  
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
   * {
     margin: 0;
     padding: 0;
@@ -347,102 +333,102 @@ color: #829078;
     text-decoration: none;
   }
   .homestyle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas:
+      "cardy-esquerdo "
+      " cardy-esquerdo "
+      "cardy-rody cardy-rody";
     background-color: #829078;
-  }
-  .homestyle .banner01 {
-    margin-top: 5rem;
-    margin-left:21rem;
-    width:60vw;
-    height: 60vh;
-   
-    position:absolute;
-  }
-  .homestyle .banner01 span {
-    display: flex;
-    justify-content: center;
-    margin: 9rem 0 0 -0.5rem;
-    align-items: center;
-    font-family: "WindSong", cursive;
-    width:60vw;
-    color: #f8f8ff;
-    font-size: 4rem;
-   
-  }
-  .homestyle .banner01 h3 {
-    display: flex;
-    justify-content: center;
-    margin: -0.3rem 0 0 2rem;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-    
-    font-size: 2.5rem;
-    color: #f8f8ff;
+
+    height: 100vh;
+    margin: 0;
   }
 
-  .homestyle .banner01 .Crn {
-    display: flex;
-    justify-content: center;
-    margin: 0.1rem 0 0 3rem;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-  
-    font-size: 1.5rem;
-    color: #f8f8ff;
-  }
-  .Conteudo-home {
-    display: flex;
-    width: 50vw;
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem -8rem 0 7.5rem;
-    padding: 0;
-    background-color: transparent;
-    padding-left: -2rem;
-  
+  .homestyle .cardy-esquerdo {
+    width: 100vw;
+    grid-row: 1/4;
+    grid-area: cardy-esquerdo;
+    margin-left: -11rem;
   }
 
-  .Conteudo-home h5 {
-    width: 50vw;
-    height: 5rem;
+  .cardy-esquerdo span {
+    padding: 4rem 0.5rem 0 0;
+  }
+  .cardy-esquerdo h3 {
+    padding: 0 0 0 2rem;
+  }
+  .cardy-esquerdo h4 {
+    font-size: clamp(1.3rem, 3.5vw, 2.1rem);
+    padding: 0 0 2.5rem 2rem;
+  }
+  .cardy-esquerdo h5 {
+    width: 96vw;
+    font-size: clamp(2.1rem, 4vw, 4rem);
+    font-family: "Dancing Script", cursive;
+    padding: 0 0 0 1rem;
+  }
+
+  .Quemsou {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "conteudo conteudo conteudo ";
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+  .Quemsou .Conteudo .Conteudo-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 350px;
+    height: 450px;
+  }
+
+  .Conteudo-text h4 {
+    text-align: justify;
+    color: #b99496;
+    font-size: clamp(1.7rem, 5vw, 1.7rem);
+    font-family: "Dancing Script", cursive;
+    width: 300px;
+    padding-bottom:2rem;
+    z-index: 1;
+  }
+  .Conteudo-text span {
+    text-indent: 2rem;
+    text-align: justify;
+    color: #829078;
+    font-weight: bold;
+    font-size: clamp(1.6rem, 5vw, 1.7rem);
+    width: 300px;
+    font-family: "Cormorant Garamond", serif;
+    padding-bottom:3rem;
+    z-index: 1;
+  }
+  .Quemsou .Conteudo .Conteudo-text a {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    margin: 0;
-    padding: 0 1rem 12rem 0.1rem;
-    color: #f8f8ff;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 2.8rem;
-    font-family: "Dancing Script", cursive;
-    font-weight: bold;
+    justify-self: center;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+    z-index: 0;
   }
-  .homestyle .imge img {
-    display: flex;
-    margin: 35.5rem 0 0 0;
-    justify-content: center;
-    align-items: center;
-    width: 101vw;
-    height: 30vh;
-    z-index:0;
-    
+
+  .Conteudo .SouImg {
+    display: none;
   }
 
   .Servicos {
-    display: flex;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "serv-card serv-card serv-card";
+    justify-items: center;
     align-items: center;
     background: linear-gradient(
         rgba(130, 144, 120, 0.9),
@@ -451,368 +437,129 @@ color: #829078;
       url("./alim.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 130vh;
+    margin: 0;
+  }
 
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .Servicos .Serv-card {
-    display: flex;
-    width: 88vw;
-    height: 80vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 10rem 0 0 0;
-    flex-direction: column;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    z-index: 10;
-  }
-  .Serv-card h2 {
-    display: flex;
+  .Serv-card {
+    grid-row: 1/4;
+    grid-area: serv-card;
+    display: grid;
     justify-content: center;
-    align-items: flex-start;
-    font-size: 4rem;
-    line-height: 1;
+    height: 94vh;
+    width: 365px !important;
+    margin-top:-5rem;
+  }
+
+  .Serv-card h2,
+  small,
+  p,
+  span {
     color: #f4f4f4;
-    margin: -0.6rem 0 0 0;
-    padding: 0;
+  }
+
+  .Serv-card h2 {
+    font-size: clamp(2.7rem, 5vw, 4.5rem);
+    line-height: 1rem;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
+    text-align: center;
+    padding: 0 0 2.7rem 0;
+    width: 365px !important;
   }
   .Serv-card small {
+    font-family: "Cormorant Garamond", serif;
     display: flex;
-    justify-content: flex-start;
-    
-    font-size: 1.4rem;
-    line-height: 0.1rem;
-    color: #f4f4f4;
-    margin: 4rem 0 -1rem -23rem!important;
-    padding: 0;
-    align-items: flex-start;
-    font-family: "Josefin Sans", sans-serif;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 1rem 3.3rem;
     font-weight: bold;
+    font-size: clamp(1.4rem, 5vw, 2rem);
+    width: 365px !important;
   }
-  
+
   .Serv-card p {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    justify-self: center;
     text-align: justify;
-    padding: 3rem 3rem 0 3rem;
-    color: #f4f4f4;
-    flex-direction: column;
-    font-size: 2rem;
-    text-indent: 1.5rem;
-    font-family: "Josefin Sans", sans-serif;
+    text-indent: 2rem;
+    font-size: clamp(1.5rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    width: 325px !important;
   }
   .Serv-card span {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
     text-align: justify;
-    padding: 1rem 3rem 2rem 3rem;
-    color: #f4f4f4;
-    text-indent: 1.5rem;
-    font-size: 2rem;
-    font-family: "Josefin Sans", sans-serif;
+    padding: 0.3rem 0 1rem 0;
+    text-indent: 2rem;
+    font-size: clamp(1.5rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    width: 325px !important;
+    padding-bottom:3rem;
   }
-  .Serv-card Button {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 6rem 0 0;
+
+  .Serv-card a {
+    display: grid;
+    place-self: center;
+    margin: 0 0.5rem 0 0;
   }
+
   .Consulta {
-    display: flex;
-    z-index: 0;
-    width: 100vw;
-    height: 200vh;
-    justify-content: center;
-    align-items: center;
-    background-color:#fff!important;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consult-nutri consult-nutri consult-nutri"
+      "consult-nutri consult-nutri consult-nutri";
+    height: 300vh;
+    align-items:start;
+    background: rgba(255, 255, 255, 0.9);
   }
   .Consulta .Consult-card {
-    display: flex;
-    width: 95vw;
-    height: 100vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: -30rem 1rem 0 1rem;
-    padding: -1rem;
-    flex-direction: column;
-    
-   
-  
-    z-index: 10;
+    grid-row: 1/4;
+    grid-area: consult-nutri;
+    display: grid;
+    place-content: center;
+    background-color: #f4f4f4;
+    padding-top: 8rem;
   }
   .Consult-card h2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 4rem;
-    line-height: 1;
-    color: #829078;
-    margin: -0.6rem 0 0 0;
-    padding: 0;
+    font-size: clamp(2.7rem, 5vw, 4.5rem);
+    line-height: 1rem;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
-  }
-  .Consult-card p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    text-align: justify;
-    padding: 3rem 0.5rem 0 0.5rem;
-    color: #829078;
-    flex-direction: column;
-   
-    font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 2rem;
-    text-indent: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 688px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .homestyle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 99.9vh;
-    width: 100vw;
-    background-color: #829078;
-  }
-  .homestyle .banner01 {
-    margin-left: 16rem;
-    margin-top:20rem;
-    background-color: #829078;
-  }
-  .homestyle .banner01 span {
-    width: 55vw;
-    display: flex;
-    justify-content: flex-start;
-    margin: 1rem 0 0 1rem;
-    align-items: center;
-    font-family: "WindSong", cursive;
-
-    color: #f8f8ff;
-    font-size: 3.1rem;
-  }
-  .homestyle .banner01 h3 {
-    display: flex;
-    justify-content: center;
-    width: 45vw;
-    margin: -0.3rem 0 0 3.5rem;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-   
-    font-size: 2rem;
-    color: #f8f8ff;
-  }
-
-  .homestyle .banner01 .Crn {
-    display: flex;
-    justify-content: center;
-    margin: 0.1rem 0 0 8rem;
-    width: 25vw;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-    
-    font-size: 1.3rem;
-    color: #f8f8ff;
-  }
-  .Conteudo-home {
-    display: 70vw;
-    height: 20vh;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0 0 2rem;
-    padding: 0;
-
-    padding-left: -2rem;
-    z-index: 10000;
-  }
-
-  .Conteudo-home h5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     text-align: center;
-    margin: 0;
     padding: 2rem 0 2rem 0;
-    color: #f8f8ff;
-
-    font-weight: 700;
-    font-size: 2.1rem;
-    font-family: "Dancing Script", cursive;
+    width: 365px !important;
+    color: #829078;
+  }
+  .Consult-card p {
+    font-size: clamp(1.5rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    text-align: justify;
+    text-indent: 2rem;
+    width: 325px !important;
+    color: #829078;
+    padding-top: 1rem;
     font-weight: bold;
-  }
-  .homestyle .imge img {
     display: flex;
-    margin: 51.7rem 0 0 -1.3rem;
-    justify-content: center;
-    align-items: center;
-    width: 99.2vw;
-    height: 20vh;
-    z-index: 1000;
-   
+    justify-self: center;
   }
-
-.Servicos {
-  display: flex;
-  z-index: 0;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-      rgba(130, 144, 120, 0.9),
-      rgba(185, 148, 150, 0.9)
-    ),
-    url("./alim.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  flex-direction: column;
-  flex-wrap: wrap;
+  .Consult-card span {
+    width: 325px !important;
+    text-align: justify;
+    padding: 1rem 0 2.5rem 0;
+    text-indent: 2rem;
+    font-size: clamp(1.5rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    color: #829078;
+    display: flex;
+    justify-self: center;
+  }
 }
-.Servicos .Serv-card {
-  display: flex;
-  width: 85vw;
-  height: 60vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 2rem 0 0 -0.5rem;
-  flex-direction: column;
-   z-index: 10;
-   background-color: transparent;
-   backdrop-filter: blur(10px);
-}
-.Serv-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 3.5rem;
-  line-height: 1;
-  color: #f4f4f4;
-  margin: -0.5rem 0 0 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-}
-.Serv-card small {
-  display: flex;
-  justify-content: flex-start;
-
-  font-size: 1rem;
-  line-height: 1;
-  color: #f4f4f4;
-  margin: 3rem 0 -2rem -14rem;
-  padding: 0;
-  align-items: flex-start;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-}
-
-.Serv-card p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 3rem 0 3rem;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 1.5rem;
-  font-family: "Josefin Sans", sans-serif;
-  text-indent: 1.5rem;
-}
-.Serv-card span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  padding: 1rem 3rem 2rem 3rem;
-  color: #f4f4f4;
-  text-indent: 1.5rem;
-  font-size: 1.5rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-.Serv-card Button {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 6rem 0 0;
-}
-.Consulta {
-  display: flex;
-  z-index: 0;
-  width: 99.5vw;
-  height: 200vh;
-  justify-content: center;
-  align-items: center;
- 
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.Consulta .Consult-card {
-  display: flex;
-  width: 95vw;
-  height: 100vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: -40rem 1rem 0 1rem;
-  padding: -1rem;
-  flex-direction: column;
-  
-
-
-  z-index: 10;
-}
-.Consult-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 4rem;
-  line-height: 1;
-  color: #829078;
-  margin: -0.6rem -4rem 0 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-}
-.Consult-card p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 0.5rem 0 0.5rem;
-  color: #829078;
-  flex-direction: column;
- 
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.7rem;
-  text-indent: 1.5rem;
-}
-}
-
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 400px) and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -820,329 +567,257 @@ color: #829078;
     list-style: none;
     text-decoration: none;
   }
-
   .homestyle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 99.9vh;
-    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas:
+      "cardy-esquerdo "
+      " cardy-esquerdo "
+      "cardy-rody cardy-rody";
     background-color: #829078;
-  }
-  .homestyle .banner01 {
-    margin-left: -0.1rem;
-    margin-top: 25rem;
-    width: 90vw;
-  }
-  .homestyle .banner01 span {
-    width: 83vw;
-    display: flex;
-    justify-content: flex-start;
-    margin: 1rem 0 0 1.3rem;
-    align-items: center;
-    font-family: "WindSong", cursive;
 
-    color: #f8f8ff;
-    font-size: 2.8rem;
+    height: 100vh;
+    margin: 0;
   }
-  .homestyle .banner01 h3 {
-    display: flex;
+
+  .homestyle .cardy-esquerdo {
+    width: 100vw;
+    grid-row: 1/4;
+    grid-area: cardy-esquerdo;
+    margin-left: -12rem;
+  }
+
+  .cardy-esquerdo span {
+    padding: 4rem 0.5rem 0 0;
+    font-size: clamp(3.2rem, 7vw, 6rem);
+  }
+  .cardy-esquerdo h3 {
+    padding: 0 0 0 2rem;
+    font-size: clamp(1.7rem, 3.5vw, 2.1rem);
+  }
+  .cardy-esquerdo h4 {
+    font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+    padding: 0 0 2.5rem 2rem;
+  }
+  .cardy-esquerdo h5 {
+    width: 96vw;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-family: "Dancing Script", cursive;
+    padding: 0 0 0 1rem;
+  }
+
+  .Quemsou {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "conteudo conteudo conteudo ";
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+  .Quemsou .Conteudo .Conteudo-text {
+    display: grid;
     justify-content: center;
-    width: 45vw;
-    margin: -0.3rem 0 0 6rem;
     align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-    z-index: 1000;
-    font-size: 1.7rem;
-    color: #f8f8ff;
+    margin-top: 2rem;
+    margin-left:1rem;
+    width: 400px;
+    height: 450px;
+  }
+  .Conteudo-text h2{
+    margin-left:1rem;
   }
 
-  .homestyle .banner01 .Crn {
+  .Conteudo-text h4 {
+    text-align: justify;
+    color: #b99496;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Dancing Script", cursive;
+    width: 350px;
+    padding-bottom:2rem;
+    margin-left:1rem;
+    z-index: 1;
+  }
+  .Conteudo-text span {
+    text-indent: 2rem;
+    text-align: justify;
+    color: #829078;
+    font-weight: bold;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    width:370px;
+    font-family: "Cormorant Garamond", serif;
+    z-index: 1;
+    padding-bottom:2rem;
+  }
+  .Quemsou .Conteudo .Conteudo-text a {
     display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: -7rem;
+    z-index: 0;
+    width: 400px;
+  }
+
+  .Conteudo .SouImg {
+    display: none;
+  }
+
+  .Servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "serv-card serv-card serv-card";
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(130, 144, 120, 0.9),
+        rgba(185, 148, 150, 0.9)
+      ),
+      url("./alim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    margin: 0;
+  }
+
+  .Servicos .Serv-card {
+    grid-row: 1/4;
+    grid-area: serv-card;
+    display: grid;
     justify-content: center;
-    margin: 0.1rem 0 0 8rem;
-    width: 30vw;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: bold;
-    z-index: 1000;
-    font-size: 1.2rem;
-    color: #f8f8ff;
-    letter-spacing: 0.1rem;
-  }
-  .Conteudo-home {
-    width: 90vw;
-    display: flex;
-    height: 25vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1rem 0 0 0;
-    padding: 0;
-
-    z-index: 10000;
+    height: 94vh;
+    width: 100vw !important;
+    margin-top:0.8rem;
+    color: #f4f4f4;
+   
   }
 
-  .Conteudo-home h5 {
-    width: 90vw;
 
+
+  .Serv-card h2 {
+  
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
     display: flex;
-    height: 25vh;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-self: center;
     text-align: center;
-    margin: 0;
-    padding: 3rem 0.1rem 2rem 0.1rem;
-    color: #f8f8ff;
-
-    font-size: 2.8rem;
-    font-family: "Dancing Script", cursive;
-    font-weight: bold;
-  }
-  .homestyle .imge img {
-    display: flex;
-    margin: 44.8rem 0 0 -24.2rem;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 20vh;
-    z-index: 1000;
-  }
-
-  .Servicos {
-    display: flex;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(
-        rgba(130, 144, 120, 0.9),
-        rgba(185, 148, 150, 0.9)
-      ),
-      url("./alim.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .Servicos .Serv-card {
-    display: flex;
-    width: 85vw;
-    height: 70vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 7rem 0 0 -0.5rem;
-    flex-direction: column;
-     z-index: 10;
-     background-color: transparent;
-  backdrop-filter: blur(10px);
-  }
-  .Serv-card h2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 3rem;
-    line-height: 1;
-    color: #f4f4f4;
-    margin: -0.5rem 0 0 0;
-    padding: 0;
+    padding: 0 0 3rem 0;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
+    display:flex;
+    justify-content:center;
+    width: 99vw !important;
+  
   }
   .Serv-card small {
+    font-family: "Cormorant Garamond", serif;
     display: flex;
-    justify-content: flex-start;
-  
-    font-size: 1rem;
-    line-height: 1;
-    color: #f4f4f4;
-    margin: 3rem 0 -2rem -4.4rem;
-    padding: 0;
-    align-items: flex-start;
-    font-family: "Josefin Sans", sans-serif;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 1rem 3rem;
     font-weight: bold;
+    font-size: clamp(1.9rem, 5vw, 2rem);
+    width: 99vw !important;
+   
   }
-  
+
   .Serv-card p {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    justify-self: center;
     text-align: justify;
-    padding: 3rem 0.6rem 0 0.6rem;
-    color: #f4f4f4;
-    flex-direction: column;
-    font-size: 1.4rem;
-    font-family: "Josefin Sans", sans-serif;
-    text-indent: 1.5rem;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+   
+    padding: 0;
+    width: 94vw !important;
+  
   }
   .Serv-card span {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
     text-align: justify;
-    padding: 1rem 0.5rem 2rem 0.5rem;
-    color: #f4f4f4;
-    text-indent: 1.5rem;
-    font-size: 1.4rem;
-    font-family: "Josefin Sans", sans-serif;
-  }
- 
-}
-@media only screen and (max-width: 412px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+    padding: 0.3rem 0 1rem 0;
+    text-indent: 2rem;
+    width: 94vw !important;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+
   }
 
-  .homestyle .banner01 {
-    margin-left: 1.7rem;
-    margin-top: 20rem;
-    width: 82vw;
-  }
-  .homestyle .banner01 span {
-    font-size: 2.6rem;
-  }
-  .Conteudo-home {
-    width: 82vw;
-    height: 20vh;
-  }
-
-  .Conteudo-home h5 {
-    height: 20vh;
-    font-size: 2.5rem;
-  }
-
-  .homestyle .imge img {
-    margin: 42.3rem 0 0 -23.9rem;
-  }
-}
-
-@media only screen and (max-width: 393px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .homestyle .banner01 {
-    margin-left: 2.2rem;
-    margin-top: 21rem;
-    width: 76vw;
-  }
-  .homestyle .banner01 span {
-    width: 76vw;
-
-    font-size: 2.2rem;
-  }
-  .homestyle .banner01 h3 {
-    margin: -0.3rem 0 0 4.8rem;
-  }
-  .homestyle .banner01 .Crn {
-    margin: 0.1rem 0 0 7rem;
-  }
-  .homestyle .imge img {
-    width: 98.4vw;
-    margin: 39.3rem 0 0 -21.6rem;
-  }
-  .Conteudo-home {
-    width: 80vw;
-    height: 20vh;
-  }
-
-  .Conteudo-home h5 {
-    height: 20vh;
-    font-size: 2.3rem;
-    padding-right: 1rem;
-  }
-  .Servicos {
+  .Serv-card a {
     display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: 3rem;
     z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(
-        rgba(130, 144, 120, 0.9),
-        rgba(185, 148, 150, 0.9)
-      ),
-      url("./alim.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 400px;
+  }
 
-    flex-direction: column;
-    flex-wrap: wrap;
+  .Consulta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consult-nutri consult-nutri consult-nutri"
+      "consult-nutri consult-nutri consult-nutri";
+    height: 300vh;
+    align-items:start;
+    background: rgba(255, 255, 255, 0.9);
   }
-  .Servicos .Serv-card {
-    display: flex;
-    width: 91vw;
-    height: 73vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 8rem 0 0 0;
-    flex-direction: column;
-     z-index: 10;
-     background-color: transparent;
-     backdrop-filter: blur(10px);
+  .Consulta .Consult-card {
+    grid-row: 1/4;
+    grid-area: consult-nutri;
+    display: grid;
+    place-content: center;
+    background-color: #f4f4f4;
+    padding-top: 8rem;
   }
-  .Serv-card h2 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 2.7rem;
-    line-height: 1;
-    color: #f4f4f4;
-    margin: -0.5rem 0 0 0;
-    padding: 0;
+  .Consult-card h2 {
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    line-height: 1rem;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    width: 365px !important;
+    color: #829078;
   }
-  .Serv-card small {
+  .Consult-card p {
     display: flex;
-    justify-content: flex-start;
-  
-    font-size: 0.9rem;
-    line-height: 1;
-    color: #f4f4f4;
-    margin: 3rem 0 -2rem -7rem;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
     padding: 0;
-    align-items: flex-start;
-    font-family: "Josefin Sans", sans-serif;
+    width: 94vw !important;
+    color: #829078;
+    padding-top: 1rem;
     font-weight: bold;
+   
   }
-  
-  .Serv-card p {
+  .Consult-card span {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    justify-self: center;
     text-align: justify;
-    padding: 3rem 0.6rem 0 0.6rem;
-    color: #f4f4f4;
-    flex-direction: column;
-    font-size: 1.3rem;
-    font-family: "Josefin Sans", sans-serif;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    padding: 1rem 0 2.5rem 0;
+    font-weight: bold;
+    color: #829078;
+   
   }
-  .Serv-card span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    padding: 1rem 0.5rem 2rem 0.5rem;
-    color: #f4f4f4;
-  
-    font-size: 1.3rem;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
 }
-@media only screen and (max-width: 360px) {
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
   * {
     margin: 0;
     padding: 0;
@@ -1151,69 +826,110 @@ color: #829078;
     text-decoration: none;
   }
   .homestyle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas:
+      "cardy-esquerdo "
+      " cardy-esquerdo "
+      "cardy-rody cardy-rody";
+    background-color: #829078;
+
     height: 100vh;
+    margin: 0;
+  }
+
+  .homestyle .cardy-esquerdo {
     width: 100vw;
-  }
-  .homestyle .banner01 {
-    margin-left: 2.7rem;
-    margin-top: 18rem;
-    width: 75vw;
-  }
-  .homestyle .banner01 span {
-    width: 70vw;
-   
-    margin: 1rem 0 0 0.1rem;
-
-    font-size: 2.2rem;
-  }
-  .Conteudo-home h5 {
-    height: 20vh;
-    font-size: 2rem;
-   
-   
-  }
-  .homestyle .banner01 .Crn {
-    font-size: 1rem;
-    margin: 0.1rem 0 0 6rem;
-   
-  }
-  .homestyle .banner01 h3 {
-   
-    margin: -0.3rem 0 0 3.8rem;
-   
-  }
-  .Conteudo-home {
-    width: 75vw;
-    height: 20vh;
-   
-    margin-left: -0.5rem;
+    grid-row: 1/4;
+    grid-area: cardy-esquerdo;
+    margin-left: -13.5rem;
   }
 
-  .Conteudo-home h5 {
-    height: 20vh;
-    font-size: 2rem;
-    padding-right: 0;
+  .cardy-esquerdo span {
+    padding: 4rem 0.5rem 0 0;
+    font-size: clamp(3.2rem, 7vw, 6rem);
   }
-  .homestyle .imge img {
-    display: flex;
-    margin: 37rem 0 0 -20rem;
+  .cardy-esquerdo h3 {
+    padding: 0 0 0 2rem;
+    font-size: clamp(1.7rem, 3.5vw, 2.1rem);
+  }
+  .cardy-esquerdo h4 {
+    font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+    padding: 0 0 2.5rem 2rem;
+  }
+  .cardy-esquerdo h5 {
+    width: 96vw;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-family: "Dancing Script", cursive;
+    padding: 0 0 0 1rem;
+  }
+
+  .Quemsou {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "conteudo conteudo conteudo ";
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+  .Quemsou .Conteudo .Conteudo-text {
+    display: grid;
     justify-content: center;
     align-items: center;
-    width: 97vw;
-    height: 20vh;
-    z-index: 1000;
-   
+    margin-top: 2rem;
+    margin-left:-0.2rem;
+    width: 400px;
+    height: 450px;
+  }
+  .Conteudo-text h2{
+    margin-left:1rem;
+  }
+
+  .Conteudo-text h4 {
+    text-align: justify;
+    color: #b99496;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Dancing Script", cursive;
+    width: 350px;
+    padding-bottom:2rem;
+    margin-left:1rem;
+    z-index: 1;
+  }
+  .Conteudo-text span {
+    text-indent: 2rem;
+    text-align: justify;
+    color: #829078;
+    font-weight: bold;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    width:370px;
+    font-family: "Cormorant Garamond", serif;
+    z-index: 1;
+    padding-bottom:2rem;
+  }
+  .Quemsou .Conteudo .Conteudo-text a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: -7rem;
+    z-index: 0;
+    width: 400px;
+  }
+
+  .Conteudo .SouImg {
+    display: none;
   }
 
   .Servicos {
-    display: flex;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "serv-card serv-card serv-card";
+    justify-items: center;
     align-items: center;
     background: linear-gradient(
         rgba(130, 144, 120, 0.9),
@@ -1222,590 +938,654 @@ color: #829078;
       url("./alim.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 130vh;
+    margin: 0;
+  }
 
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
   .Servicos .Serv-card {
-    display: flex;
-    width: 94vw;
-    height: 76vh;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 7rem 0 0 -0.2rem;
-    flex-direction: column;
-     z-index: 10;
-     background-color: transparent;
-     backdrop-filter: blur(10px);
-  }
-  .Serv-card h2 {
-    display: flex;
+    grid-row: 1/4;
+    grid-area: serv-card;
+    display: grid;
     justify-content: center;
-    align-items: flex-start;
-    font-size: 2.3rem;
-    line-height: 1;
+    height: 94vh;
+    width: 100vw !important;
+    margin-top:-8rem;
     color: #f4f4f4;
-    margin: -0.5rem 0 0 0;
-    padding: 0;
+   
+  }
+
+
+
+  .Serv-card h2 {
+  
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 3rem 0;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
+    display:flex;
+    justify-content:center;
+    width: 99vw !important;
+  
   }
   .Serv-card small {
+    font-family: "Cormorant Garamond", serif;
     display: flex;
-    justify-content: flex-start;
-  
-    font-size: 0.8rem;
-    line-height: 1;
-    color: #f4f4f4;
-    margin: 3rem 0 -2rem -7rem;
-    padding: 0;
-    align-items: flex-start;
-    font-family: "Josefin Sans", sans-serif;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 1rem 3rem;
     font-weight: bold;
+    font-size: clamp(1.9rem, 5vw, 2rem);
+    width: 99vw !important;
+   
   }
-  
+
   .Serv-card p {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    justify-self: center;
     text-align: justify;
-    padding: 3rem 0.6rem 0 0.6rem;
-    color: #f4f4f4;
-    flex-direction: column;
-    font-size: 1.3rem;
-    font-family: "Josefin Sans", sans-serif;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+  
   }
   .Serv-card span {
     display: flex;
+    justify-self: center;
+    text-align: justify;
+    padding: 0.3rem 0 1rem 0;
+    text-indent: 2rem;
+    width: 94vw !important;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+
+  }
+
+  .Serv-card a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: 3rem;
+    z-index: 0;
+    width: 400px;
+  }
+
+  .Consulta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consult-nutri consult-nutri consult-nutri"
+      "consult-nutri consult-nutri consult-nutri";
+    height: 300vh;
+    align-items:start;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .Consulta .Consult-card {
+    grid-row: 1/4;
+    grid-area: consult-nutri;
+    display: grid;
+    place-content: center;
+    background-color: #f4f4f4;
+    padding-top: 2.5rem;
+  }
+  .Consult-card h2 {
+    
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    line-height: 1rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0 3rem 8.5rem;
+    width: 365px !important;
+    color: #829078;
+  }
+  .Consult-card p {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    color: #829078;
+    padding-top: 1rem;
+    font-weight: bold;
+   
+  }
+  .Consult-card span {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    padding: 1rem 0 2.5rem 0;
+    font-weight: bold;
+    color: #829078;
+   
+  }
+}
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .homestyle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas:
+      "cardy-esquerdo "
+      " cardy-esquerdo "
+      "cardy-rody cardy-rody";
+    background-color: #829078;
+
+    height: 100vh;
+    margin: 0;
+  }
+
+  .homestyle .cardy-esquerdo {
+    width: 100vw;
+    grid-row: 1/4;
+    grid-area: cardy-esquerdo;
+    margin-left: -15rem;
+  }
+
+  .cardy-esquerdo span {
+    padding: 4rem 0.5rem 0 0;
+    font-size: clamp(4rem, 7vw, 6rem);
+  }
+  .cardy-esquerdo h3 {
+    padding: 0 0 0 2rem;
+    font-size: clamp(2rem, 3.5vw, 2.1rem);
+  }
+  .cardy-esquerdo h4 {
+    font-size: clamp(1.7rem, 3.5vw, 2.1rem);
+    padding: 0 0 2.5rem 2rem;
+  }
+  .cardy-esquerdo h5 {
+    width: 96vw;
+    font-size: clamp(2.7rem, 4vw, 4rem);
+    font-family: "Dancing Script", cursive;
+    padding: 0 0 0 1rem;
+  }
+
+  .Quemsou {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "conteudo conteudo conteudo ";
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
+
+  .Quemsou .Conteudo .Conteudo-text {
+    display: grid;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    margin-left:-0.2rem;
+    width: 400px;
+    height: 450px;
+  }
+  .Conteudo-text h2{
+    margin-left:1rem;
+  }
+
+  .Conteudo-text h4 {
     text-align: justify;
-    padding: 1rem 0.5rem 2rem 0.5rem;
+    color: #b99496;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Dancing Script", cursive;
+    width: 350px;
+    padding-bottom:2rem;
+    margin-left:1rem;
+    z-index: 1;
+  }
+  .Conteudo-text span {
+    text-indent: 2rem;
+    text-align: justify;
+    color: #829078;
+    font-weight: bold;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    width:370px;
+    font-family: "Cormorant Garamond", serif;
+    z-index: 1;
+    padding-bottom:2rem;
+  }
+  .Quemsou .Conteudo .Conteudo-text a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: -7rem;
+    z-index: 0;
+    width: 400px;
+  }
+
+  .Conteudo .SouImg {
+    display: none;
+  }
+
+  .Servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "serv-card serv-card serv-card";
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(130, 144, 120, 0.9),
+        rgba(185, 148, 150, 0.9)
+      ),
+      url("./alim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin: 0;
+  }
+
+  .Servicos .Serv-card {
+    grid-row: 1/4;
+    grid-area: serv-card;
+    display: grid;
+    justify-content: center;
+    height: 94vh;
+    width: 100vw !important;
+    margin-top:-8rem;
     color: #f4f4f4;
+   
+  }
+
+
+
+  .Serv-card h2 {
   
-    font-size: 1.3rem;
-    font-family: "Josefin Sans", sans-serif;
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 3rem 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    display:flex;
+    justify-content:center;
+    width: 99vw !important;
+  
+  }
+  .Serv-card small {
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 1rem 3rem;
+    font-weight: bold;
+    font-size: clamp(1.9rem, 5vw, 2rem);
+    width: 99vw !important;
+   
+  }
+
+  .Serv-card p {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;  
+    padding: 0;
+    width: 94vw !important;
+  
+  }
+  .Serv-card span {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    padding: 0.3rem 0 1rem 0;
+    text-indent: 2rem;
+    width: 94vw !important;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+
+  }
+
+  .Serv-card a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: 3rem;
+    z-index: 0;
+    width: 400px;
+  }
+
+  .Consulta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consult-nutri consult-nutri consult-nutri"
+      "consult-nutri consult-nutri consult-nutri";
+    height: 300vh;
+    align-items:start;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .Consulta .Consult-card {
+    grid-row: 1/4;
+    grid-area: consult-nutri;
+    display: grid;
+    place-content: center;
+    background-color: #f4f4f4;
+    padding-top: 13rem;
+  }
+  .Consult-card h2 {
+    
+    font-size: clamp(3.6rem, 5vw, 4.5rem);
+    line-height: 1rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0 3rem 11.5rem;
+    width: 365px !important;
+    color: #829078;
+  }
+  .Consult-card p {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    color: #829078;
+    padding-top: 1rem;
+    font-weight: bold;
+   
+  }
+  .Consult-card span {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    padding: 1rem 0 2.5rem 0;
+    font-weight: bold;
+    color: #829078;
+   
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .homestyle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas:
+      "cardy-esquerdo "
+      " cardy-esquerdo "
+      "cardy-rody cardy-rody";
+    background-color: #829078;
 
-@media only screen and (width= 390px), 
-screen and (height= 844px) {
- * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   list-style: none;
-   text-decoration: none;
- }
- .homestyle .banner01 {
-  margin-left: -0.3rem;
-  margin-top: 15rem;
-  width: 76vw;
-  position:absolute;
-}
-.homestyle .imge img {
-  width: 108vw;
-  height:40vh;
-  margin: 30rem 0 0 0.5rem;
-}
-.Servicos {
-  display: flex;
-  z-index: 0;
-  width: 100vw;
-  height: 110vh;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-      rgba(130, 144, 120, 0.9),
-      rgba(185, 148, 150, 0.9)
-    ),
-    url("./alim.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100vh;
+    margin: 0;
+  }
 
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.Servicos .Serv-card {
-  display: flex;
-  width: 91vw;
-  height: 73vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0.7rem 0 0 0;
-  flex-direction: column;
-   z-index: 10;
-   background-color: transparent;
-   backdrop-filter: blur(10px);
-}
-.Serv-card small {
-  display: flex;
-  justify-content: flex-start;
-  font-size:1rem;  
-  line-height: 1;
-  color: #f4f4f4;
-  margin: 2rem 0 -2rem 0.6rem!important;
-  padding: 0;
-  align-items: flex-start;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-}
-.Serv-card p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 0.6rem 0 0.6rem;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 1.5rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-.Serv-card span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  padding: 1rem 0.5rem 2rem 0.5rem;
-  color: #f4f4f4;
+  .homestyle .cardy-esquerdo {
+    width: 100vw;
+    grid-row: 1/4;
+    grid-area: cardy-esquerdo;
+    margin-left: -20rem;
+  }
 
-  font-size: 1.5rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-#Servicos-aplle {
-  display: flex;
-  z-index: 0;
-  width: 100vw;
-  height: 110vh;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-      rgba(130, 144, 120, 0.9),
-      rgba(185, 148, 150, 0.9)
-    ),
-    url("./alim.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  .cardy-esquerdo span {
+    padding: 4rem 0.5rem 0 0;
+    font-size: clamp(4rem, 7vw, 6rem);
+  }
+  .cardy-esquerdo h3 {
+    padding: 0 0 0 2rem;
+    font-size: clamp(2rem, 3.5vw, 2.1rem);
+  }
+  .cardy-esquerdo h4 {
+    font-size: clamp(1.7rem, 3.5vw, 2.1rem);
+    padding: 0 0 2.5rem 2rem;
+  }
+  .cardy-esquerdo h5 {
+    width: 96vw;
+    font-size: clamp(2.7rem, 4vw, 4rem);
+    font-family: "Dancing Script", cursive;
+    padding: 0 0 0 1rem;
+  }
 
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-#Servicos-aplle #Serv-card-aplle {
-  display: flex;
-  width: 91vw;
-  height: 73vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: -2rem 0 0 0;
-  flex-direction: column;
-   z-index: 10;
-   background-color: transparent;
-   backdrop-filter: blur(10px);
-}
-#Serv-card-aplle small {
-  display: flex;
-  justify-content: flex-start;
+  .Quemsou {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "conteudo conteudo conteudo ";
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+  }
 
-  font-size:1rem;  
-  line-height: 1;
-  color: #f4f4f4;
-  margin: 2rem 0 -2rem 0.6rem!important;
-  padding: 0;
-  align-items: flex-start;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-}
-#Serv-card-aplle p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 0.6rem 0 0.6rem;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 1.4rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-#Serv-card-aplle span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  padding: 1rem 0.5rem 1.5rem 0.5rem;
-  color: #f4f4f4;
+  .Quemsou .Conteudo .Conteudo-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left:-0.2rem;
+    width: 400px;
+    height: 450px;
+  }
+  .Conteudo-text h2{
+    margin-left:1rem;
+  }
 
-  font-size: 1.4rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-.Consulta {
-  display: flex;
-  z-index: 0;
-  width: 100vw;
-  height: 250vh;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.Consulta .Consult-card {
-  display: flex;
-  width: 90vw;
-  height: 200vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: -7rem 0.1rem 0 0;
-  padding: -1rem;
-  flex-direction: column;
-  z-index: 10;
-  background-color:transparent!important;
-}
-.Consult-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 4rem;
-  line-height: 1;
-  color: #829078;
-  margin: -0.6rem 0 0 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-}
-.Consult-card p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 1rem 0 1rem;
-  color: #829078;
-  flex-direction: column;
-  font-size: 1.6rem;
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-  text-indent: 1.5rem;
-  
-}
+  .Conteudo-text h4 {
+    text-align: justify;
+    color: #b99496;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Dancing Script", cursive;
+    width: 350px;
+    padding-bottom:2rem;
+    margin-left:1rem;
+    z-index: 1;
+  }
+  .Conteudo-text span {
+    text-indent: 2rem;
+    text-align: justify;
+    color: #829078;
+    font-weight: bold;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    width:370px;
+    font-family: "Cormorant Garamond", serif;
+    z-index: 1;
+    padding-bottom:2rem;
+  }
+  .Quemsou .Conteudo .Conteudo-text a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: -7rem;
+    z-index: 0;
+    width: 400px;
+  }
 
-}
-       
-       
+  .Conteudo .SouImg {
+    display: none;
+  }
 
- 
-  
-  @media only screen and (width= 1920px), 
-       screen and (height= 1080px) {
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          list-style: none;
-          text-decoration: none;
-        }
+  .Servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "serv-card serv-card serv-card";
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(130, 144, 120, 0.9),
+        rgba(185, 148, 150, 0.9)
+      ),
+      url("./alim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin: 0;
+  }
 
-        
-
-.homestyle {
-  display: flex;
-  height: 109.5vh;
-  width: 109.5vw;
-  background-color: #829078;
-  background-size: cover;
-}
-#fixa{
-  position:fixed;
-  
-  margin: 0 0 46rem 98rem;
-  display:flex;
-  justify-content: flex-end;
-  
-
-  background-color: #829078;
-  width: 460px;
-  height:80px;
-  border-radius:50px;
-  cursor:pointer;
-  backdrop-filter: blur(10px);
-}
-
-#fixa img{
-  width: 80px;
-  height:80px;
- margin: 0 0 0 0;
-}
-#fixa a .flex-itens{
-  display: flex;
-  align-items:center;
-
-}
-#fixa a .flex-itens span{
-  
-display:block;
-font-family: "Josefin Sans", sans-serif;
-color: #eee;
-margin: 0 1rem 0 0.3rem!important;
-
-font-size: 2.3rem;
-letter-spacing: 0.1rem;
-background-size: 200% ;
-}
-
-.flutuar{
-  animation-name: flutuar;
-  animation-duration:0.9s;
-  animation-iteration-count:infinite;
-  animation-direction:alternate;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes flutuar{
-    from{
-      transform: translate3d(0,0,0);
-      filter:brightness(100%);
-    }
-    to{
-      transform: translate3d(0,-15px,0);
-      filter:brightness(150%);
-    }
-}
-
-
-.homestyle .imge img {
-  display: flex;
-  margin: 53.8rem 0 0 -119rem;
-  justify-content: flex-start;
-  align-items: center;
-  width: 109.5vw;
-  height: 30vh;
-  z-index:0
- 
-  
-}
-
-.homestyle .banner01 span {
-  display: flex;
-  justify-content: center;
-  margin: 9rem 0 0 0;
-  align-items: center;
-  font-family: "WindSong", cursive;
- 
-  color: #f8f8ff;
-  font-size: 7rem;
-  width: 50vw;
-}
-.homestyle .banner01 {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-  margin-left:59.2rem;
+  .Servicos .Serv-card {
+    grid-row: 1/4;
+    grid-area: serv-card;
+    display: grid;
+    justify-content: center;
+    height: 94vh;
+    width: 100vw !important;
+    margin-top:-8rem;
+    color: #f4f4f4;
    
-  justify-content: center;
+  }
 
 
-}
-.homestyle .banner01 h3 {
-  display: flex;
-  justify-content: center;
-  margin: -0.3rem 0 0 3rem;
-  align-items: center;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
+
+  .Serv-card h2 {
   
-  font-size: 5rem;
+    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 3rem 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    display:flex;
+    justify-content:center;
+    width: 99vw !important;
   
-  color: #f8f8ff;
-  z-index:0
-}
-.homestyle .banner01 .Crn {
-  display: flex;
-  justify-content: center;
-  margin: 0.1rem 0 0 3.5rem;
-  align-items: center;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
+  }
+  .Serv-card small {
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    padding: 0 0 1rem 3rem;
+    font-weight: bold;
+    font-size: clamp(1.9rem, 5vw, 2rem);
+    width: 99vw !important;
+   
+  }
+
+  .Serv-card p {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
   
- 
-  font-size: 3.5rem;
-  color: #f8f8ff;
-  z-index:0
-}
-.Conteudo-home {
-  display: flex;
-  width: 50vw;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0 0 0;
-  padding: 0;
-  padding-left: -2rem;
-  z-index:0
-}
+  }
+  .Serv-card span {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    padding: 0.3rem 0 1rem 0;
+    text-indent: 2rem;
+    width: 94vw !important;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
 
-.Conteudo-home h5 {
-  width: 45vw;
-  height: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 0 1rem 0 1rem;
-  color: #f8f8ff;
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 5rem;
-  font-family: "Dancing Script", cursive;
-  font-weight: bold;
-}
+  }
 
-.Servicos {
-  display: flex;
-  z-index: 0;
-  height: 109.5vh;
-  width: 109.5vw;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(
-      rgba(130, 144, 120, 0.9),
-      rgba(185, 148, 150, 0.9)
-    ),
-    url("./alim.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  .Serv-card a {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-end;
+    margin-left: 3rem;
+    z-index: 0;
+    width: 400px;
+  }
 
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.Servicos .Serv-card {
-  display: flex;
-  width: 60vw;
-  height: 80vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 8rem 0 0 0;
-  flex-direction: column;
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-
-  z-index: 10;
-}
-.Serv-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 4rem;
-  line-height: 1;
-  color: #f4f4f4;
-  margin: -0.6rem 0 0 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-}
-.Serv-card small {
-  display: flex;
-  justify-content: flex-start;
-
-  font-size: 1rem;
-  line-height: 1;
-  color: #f4f4f4;
-  margin: 4rem 0 -2rem -23rem;
-  padding: 0;
-  align-items: flex-start;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bold;
-}
-
-.Serv-card p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 6rem 0 6rem;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 1.3rem;
-  font-family: "Josefin Sans", sans-serif;
-  text-indent: 1.5rem;
-}
-.Serv-card span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  padding: 1rem 6rem 2rem 6rem;
-  color: #f4f4f4;
-  text-indent: 1.5rem;
-  font-size: 1.3rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-.Serv-card Button {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0 6rem 0 0;
-}
-.Consulta {
-  display: flex;
-  z-index: 0;
-  width: 99.5vw;
-  height: 105vh;
-  justify-content: center;
-  align-items: center;
- 
+  .Consulta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consult-nutri consult-nutri consult-nutri"
+      "consult-nutri consult-nutri consult-nutri";
+    height: 300vh;
+    align-items:start;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .Consulta .Consult-card {
+    grid-row: 1/4;
+    grid-area: consult-nutri;
+    display: grid;
+    place-content: center;
+    background-color: #f4f4f4;
+    padding-top: 13rem;
+  }
+  .Consult-card h2 {
     
- 
-
-  flex-direction: column;
-  flex-wrap: wrap;
+    font-size: clamp(3.6rem, 5vw, 4.5rem);
+    line-height: 1rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem 0 3rem 11.5rem;
+    width: 365px !important;
+    color: #829078;
+  }
+  .Consult-card p {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    color: #829078;
+    padding-top: 1rem;
+    font-weight: bold;
+   
+  }
+  .Consult-card span {
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    padding: 0;
+    width: 94vw !important;
+    padding: 1rem 0 2.5rem 0;
+    font-weight: bold;
+    color: #829078;
+   
+  }
 }
-.Consulta .Consult-card {
-  display: flex;
-  width: 60vw;
-  height: 80vh;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 8rem 3rem 0 0;
-  padding: -1rem;
-  flex-direction: column;
-  
-  backdrop-filter: blur(10px);
-
-  z-index: 10;
-}
-.Consult-card h2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 4rem;
-  line-height: 1;
-  color: #829078;
-  margin: -0.6rem 0 0 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-}
-.Consult-card p{
-  text-indent: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  text-align: justify;
-  padding: 3rem 1rem 0 1rem;
-  color: #829078;
-  flex-direction: column;
-  font-size: 1.3rem;
-  font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
-}
-      }
-    
-*/

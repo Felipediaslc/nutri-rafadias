@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -13,7 +14,7 @@
 }
 
 header {
-	font-family: "Josefin Sans", sans-serif;
+	
 	position: fixed;
 	display: flex;
 	align-items: center;
@@ -52,7 +53,8 @@ nav a {
 	margin: 0 0.9rem;
 	color: var(--textColor);
 	text-decoration: none;
-	font-size:1.5rem;
+	font-size:1.4rem;
+	font-family: "Cormorant Garamond", serif;
 }
 
 nav .efect::before {
@@ -91,14 +93,14 @@ nav {
 }
 nav .button{
 	display: inline-flex;
-	height: 3rem;
+	height: 2rem;
 	width:16vw;
 	padding:0;
 	background: transparent;
 	outline:none;
 	overflow: hidden;
-	font-family: "Josefin Sans", sans-serif;
-	font-size:1.2rem;
+	font-family: "Cormorant Garamond", serif;
+	font-size:1.4rem;
 	font-weight:500;
 	color:#eee;
 	
@@ -109,6 +111,7 @@ nav .button .button-icon,
   display: inline-flex;
   align-items:center;
   padding:0 0.1rem;
+  font-family: "Cormorant Garamond", serif;
  
 }
 nav .button .button-icon{
@@ -162,7 +165,7 @@ nav .Social-list{
 	}
 
 	header nav {
-		font-family: "Josefin Sans", sans-serif;
+		
 		position: fixed;
 		top: -100vh;
 		left: 0;
@@ -193,13 +196,13 @@ nav .Social-list{
 	}
 	nav .button{
 		display: inline-flex;
-		height: 3rem;
+		height: 2rem;
 		width:50vw;
 		padding:0;
 		background: transparent;
 		outline:none;
 		overflow: hidden;
-		font-family: "Josefin Sans", sans-serif;
+		font-family: "Cormorant Garamond", serif;
 		font-size:1.5rem;
 		font-weight:500;
 		margin-left:5rem;
@@ -258,7 +261,7 @@ nav .Social-list{
 	}
 
 	.Social-list svg { 
-		font-size: 2rem;
+		font-size: 1.5rem;
 		cursor: pointer;
 		color: #eee;
 	}
@@ -283,13 +286,12 @@ nav .Social-list{
 
 	nav .button{
 		display: inline-flex;
-		height: 3rem;
+		height: 2rem;
 		width:90vw;
 		padding:0;
-		
 		outline:none;
 		overflow: hidden;
-		font-family: "Josefin Sans", sans-serif;
+		font-family: "Cormorant Garamond", serif;
 		font-size:1.3rem;
 		font-weight:500;
 		margin-left:-1rem;
@@ -313,7 +315,7 @@ screen and (height=1080px) {
 }
 
 header {
-	font-family: "Josefin Sans", sans-serif;
+	
 	position: fixed;
 	display: flex;
 	align-items: center;
@@ -349,7 +351,7 @@ header .logo {
 }
 
 header h4{
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Cormorant Garamond", serif;
 	font-size:2rem;
 }
 
@@ -358,6 +360,7 @@ nav a {
 	color: var(--textColor);
 	text-decoration: none;
 	font-size:2rem;
+	font-family: "Cormorant Garamond", serif;
 }
 
 nav .efect::before {
@@ -400,11 +403,9 @@ nav .button{
 	width:20vw;
 	padding:0;
 	background: var(--mainColor);
-	
 	outline:none;
-	
 	overflow: hidden;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Cormorant Garamond", serif;
 	font-size:1.7rem;
 	font-weight:500;
 	color:#eee;
@@ -451,13 +452,13 @@ nav .Social-list{
 	
 }
 .Social-list svg {
-	font-size: 2.5rem;
+	font-size: 2rem;
 
 	
 	color: #eee;
 }
 .Social-list  svg:hover {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	cursor: pointer;
 	color: #B99496;
 	

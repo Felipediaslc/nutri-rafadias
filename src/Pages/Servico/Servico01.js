@@ -17,7 +17,7 @@ const Servico01 = () => {
      <h1>Serviços Oferecidos</h1>
      <small>Qual o seu objetivo?</small>
          <p>Conheça as minhas especialidades, entenda como cada uma delas pode te ajudar, saiba como funcionam
-         e quais os objetivos de cada uma. Apos uma anmenese completa , avaliação nutricional e antropometrica
+         e quais os objetivos de cada uma. Após uma anmenese completa , avaliação nutricional e antropometrica
          e fechado um diagnostico do seu  estado nutricional, iremos traçar metas e estrategias nutricionais
          individualizadas para alcançar os seus objetivos.</p>
         
