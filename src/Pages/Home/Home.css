@@ -179,7 +179,7 @@ h5 {
   font-size: 1.3rem;
   width: 350px;
   font-family: "Cormorant Garamond", serif;
-  z-index: 1;
+  
 }
 .Quemsou .Conteudo .Conteudo-text a {
   display: flex;
@@ -197,8 +197,10 @@ h5 {
   height: 65vh;
 }
 .SouImg img {
+
   width: 30vw;
   height: 65vh;
+
 }
 
 .Servicos {
@@ -225,7 +227,12 @@ h5 {
   display: grid;
   place-content: center;
   padding-top:4rem;
-  background-color: transparent;
+  background: transparent;
+  z-index: 1000;
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+
+ 
 }
 
 .Serv-card h2,
@@ -273,6 +280,16 @@ span {
   display: grid;
   place-self: center;
   margin: 0 10rem 0 0;
+}
+.Servicos img{
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-end;
+  opacity: 0.2;
+  width: 250vw;
+  height:200vh;
+ position:fixed;
+  margin:15rem 0 0 15rem;
 }
 
 .Consulta {

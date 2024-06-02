@@ -7,7 +7,8 @@ import Efectnovo from "./efectnov.png";
 import Imga from "./whatsapp.png";
 import { Button } from "../../Componentes/Button/Button.js";
 import { Link } from "react-router-dom";
-import Quemimag from "../Quemsou/IMG_0489.png"
+import Quemimag from "../Quemsou/IMG_0489.png";
+
 
 const Home = () => {
   return (
@@ -92,6 +93,7 @@ const Home = () => {
             ></Button>
           </Link>
         </div>
+      
       </section>
 
       <section className="Consulta">

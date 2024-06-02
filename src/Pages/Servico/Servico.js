@@ -1,7 +1,8 @@
 import React from "react";
 import { Link  } from 'react-router-dom';
 import "../Home/Home.css";
-import { Button} from "../../Componentes/Button/Button"
+import { Button} from "../../Componentes/Button/Button";
+import marca from "./RD.png";
 
 
 
@@ -10,6 +11,7 @@ const Servico = () => {
   return (
     
     <section className="Servicos">
+      
     <div className="Serv-card">
       <h2>Serviço em Nutrição</h2>
 
@@ -36,7 +38,9 @@ const Servico = () => {
           onClick={(e) => e}
         ></Button>
       </Link>
+      
     </div>
+    <img src={marca} alt="" />
   </section>
       
     
