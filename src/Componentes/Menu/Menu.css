@@ -192,7 +192,7 @@ nav .Social-list{
 	}
 
 	nav a {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	}
 	nav .button{
 		display: inline-flex;
@@ -203,9 +203,9 @@ nav .Social-list{
 		outline:none;
 		overflow: hidden;
 		font-family: "Cormorant Garamond", serif;
-		font-size:1.5rem;
+		font-size:2.5rem;
 		font-weight:500;
-		margin-left:5rem;
+		margin-left:-2rem;
 		color:#eee;
 	}
 	
@@ -218,7 +218,7 @@ nav .Social-list{
 	
 	}
 	nav .button .button-icon{
-		font-size:1.7rem;
+		font-size:2.5rem;
 	}
 	
 
@@ -261,44 +261,155 @@ nav .Social-list{
 	}
 
 	.Social-list svg { 
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 		cursor: pointer;
 		color: #eee;
 	}
 }
-@media only screen and (max-width:360px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  list-style: none;
+	  text-decoration: none;
+	}
 	nav .button{
 	width:70vw;
 	display:flex;
 	justify-content: center;
 	}
-}
-
-@media only screen and (max-width:1024px) {
-	nav .button{
-	width:70vw;
-	display:flex;
-	justify-content: center;
+	nav .button .button-icon{
+		font-size:2rem;
 	}
-}
-
-@media only screen and (max-width: 688px)  {
-
+	nav a {
+		margin: 0 0.9rem;
+		color: var(--textColor);
+		text-decoration: none;
+		font-size:1.8rem;
+		font-family: "Cormorant Garamond", serif;
+	}
 	nav .button{
 		display: inline-flex;
-		height: 2rem;
-		width:90vw;
+		height: 2.5rem!important;
+		width:20vw;
 		padding:0;
+		height:20vh;
 		outline:none;
 		overflow: hidden;
 		font-family: "Cormorant Garamond", serif;
-		font-size:1.3rem;
+		font-size:1.8rem!important;
 		font-weight:500;
-		margin-left:-1rem;
 		color:#eee;
+		
 	}
 }
 
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  list-style: none;
+	  text-decoration: none;
+}
+nav .button{
+		width:70vw;
+		display:flex;
+		justify-content: center;
+}
+nav .button .button-icon{
+			font-size:2rem;
+}
+nav a {
+			margin: 0 0.9rem;
+			color: var(--textColor);
+			text-decoration: none;
+			font-size:1.8rem;
+			font-family: "Cormorant Garamond", serif;
+}
+nav .button{
+			display: inline-flex;
+			height: 2.5rem!important;
+			width:80vw;
+			padding:0;
+			height:40vh;
+			outline:none;
+			overflow: hidden;
+			font-family: "Cormorant Garamond", serif;
+			font-size:1.8rem!important;
+			font-weight:500;
+			color:#eee;
+			
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  list-style: none;
+	  text-decoration: none;
+	}
+	nav .button{
+		width:70vw;
+		display:flex;
+		justify-content: center;
+}
+nav .button .button-icon{
+			font-size:2rem;
+}
+nav a {
+			margin: 0 0.9rem;
+			color: var(--textColor);
+			text-decoration: none;
+			font-size:2rem;
+			font-family: "Cormorant Garamond", serif;
+}
+nav .button{
+			display: inline-flex;
+			height: 2.5rem!important;
+			width:80vw;
+			padding:0;
+			height:20vh;
+			outline:none;
+			overflow: hidden;
+			font-family: "Cormorant Garamond", serif;
+			font-size:2rem!important;
+			font-weight:500;
+			color:#eee;
+			
+}
+}
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+	* {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  list-style: none;
+	  text-decoration: none;
+	}
+	nav .button{
+		display: inline-flex;
+		height: 2.5rem!important;
+		width:80vw;
+		padding:0;
+	
+		outline:none;
+		overflow: hidden;
+		font-family: "Cormorant Garamond", serif;
+		font-size:2rem!important;
+		font-weight:500;
+		color:#eee;
+		
+}
+nav .button{
+	width:70vw;
+	display:flex;
+	justify-content: center;
+}
+}
 @media only screen and (min-width:1600px) and  (max-width:1920px), 
 screen and (height=1080px) {
  * {

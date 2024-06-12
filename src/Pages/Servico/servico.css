@@ -54,7 +54,7 @@
   font-weight: bold;
 }
 .terv-tard p {
-  font-size: clamp(1.5rem, 5vw, 1.7rem);
+  font-size: clamp(1.3rem, 5vw, 1.7rem);
   font-family: "Cormorant Garamond", serif;
   display: grid;
   justify-self: center;
@@ -65,7 +65,7 @@
 }
 
 .terv-tard .tard-cont {
-  width: 98.5vw !important;
+  width: 98.5vw !important; 
   display: flex !important;
   justify-content: center;
   flex-wrap: wrap;
@@ -115,142 +115,139 @@
   padding: 0 1rem 0 1rem;
 }
 
-/*
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   list-style: none;
+    list-style: none;
     text-decoration: none;
   }
-  .terv-01{
-    display:flex;
-    z-index:0;
-    width: 100vw!important;
-    height: 300vh!important;
-    Justify-Content: center;
-    align-items: center;
-   
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-
-
-.tard-cont{
-  width: 99vw!important;
-  
-  display:flex;''
-   justify-content: center;
-   flex-wrap:wrap;
-   gap: 20px;
-   background-color: blue!important;
-   margin: -56rem 1.5rem 0 1rem!important;
-  
+  .terv-tard h1 {
+    font-size: clamp(2.3rem, 5vw, 4.5rem);
   }
-
-  .tardy{
-    width:410px!important;
-    background-color: transparent!important;
-    padding:0 0 0 0!important;
+  
+  .terv-tard small {
+    font-size: clamp(1.6rem, 5vw, 2rem);
+  }
+  .terv-tard .tard-cont {
+    padding-left: 0.1rem;
+  }
+  .tardy .tard-comenty h1{
+    padding-right: 0.5rem;
+  }
+  .tardy .tard-comenty p {
+    padding-right: 1.5rem;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .terv-tard h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    margin-top:3rem;
+  }
+  
+  .terv-tard small {
+    font-size: clamp(1.8rem, 5vw, 2rem);
+  }
+  .terv-tard p {
+    font-size: 1.7rem;
+    padding:0 1rem 1rem 1rem;
+  }
+  .tard-cont .tardy {
+    width: 365px !important;
+    padding: 0 0 0 0 !important;
     overflow: hidden;
     transition: transform 0.6s ease;
-    margin: 1rem 2rem 0 2rem;
+    margin: 3px;
+    border-radius: 2rem;
     
-    }
-    .tardy:hover{
-    transform: translateY(-20px);
-    }
-    
-    .tardy img{
-      width:410px!important;
-    margin-left:-0.3rem;
+  }
+  .tardy img {
+    width:400px !important;
+    margin-left: -0.3rem;
     height: auto;
-    
-    
-    }
-    
-    .tard-comenty{
-    padding: 0.25rem;
-    }
-    
-    .tard-comenty  h1{
-    font-size: 1.5rem!important;
-    letter-spacing: 0.1rem!important;
-    margin-bottom: 10px!important;
+  }
+  .terv-tard .tard-cont {
+    padding-left: 0.1rem;
+  }
+  .tardy .tard-comenty h1{
+   margin-top: 0.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.8rem;
+    width: 400px !important;
+  }
+  .tardy .tard-comenty p {
+    padding:0 3rem 0 1rem;
+    font-size: 1.7rem;
+    width: 400px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .terv-tard h1 {
+    font-size: clamp(2.7rem, 5vw, 4.5rem);
+    margin-top:3rem;
+  }
+  
+  .terv-tard small {
+    font-size: 2rem;
+  }
+  .terv-tard p {
+    font-size: 1.8rem;
+    padding:0 1rem 1rem 1rem;
+  }
+  .tard-cont .tardy {
+    width: 400px !important;
+    padding: 0 0 0 0 !important;
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    margin: 3px;
+    border-radius: 2rem;
+ 
+  }
+  .tardy img {
+    width: 400px !important;
+    margin-left: -0.3rem;
+    height: auto;
+  }
+  .tardy .tard-comenty h1 {
+    width: 400px !important;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem !important;
+    margin-bottom: 10px !important;
     text-align: center;
-    color:#f4f4f4;
-    font-family: "Josefin Sans", sans-serif;
-    }
-    .tard-comenty p{
-    font-size: 1.5rem!important;
-    text-indent: 1.5rem;
     color: #f4f4f4;
-    margin-bottom: 20px!important;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .tardy .tard-comenty p {
+    width: 400px !important;
+    font-size: 1.7rem;
+    text-indent: 2rem;
+    color: #f4f4f4;
+    margin-bottom: 20px !important;
     text-align: justify;
-    font-family: "Josefin Sans", sans-serif;
-    }
-
-
- .terv-01 .terv-tard{
-  display:flex;
-  Justify-Content: flex-start;
- z-index:1;
-  margin-bottom: 0;
-  margin-top:-34rem!important;
-  width: 75vw;
-  height: 28vh;
-  background-color: blue!important;
+    font-family: "Cormorant Garamond", serif;
+    padding: 0 1rem 0 1rem;
+  }
   
- 
- }
- .terv-tard h1{
-  
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 4rem;
-  line-height: 1;
-  color: #f4f4f4 ;
-  margin:0 0 0.5rem 2.5rem;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  
- }
- 
-  .terv-tard small{
-    display:flex;
-    Justify-Content: center;
-    align-items:center;
-    font-size: 2.3rem;
-    margin:0 0 1rem 2rem;
-    font-family: "Josefin Sans", sans-serif;
-    color: #f4f4f4 ;
-    font-weight: bold;
-   
-    
- }
- .terv-tard p{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 2rem !important;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  text-align: justify;
-  text-indent: 2rem; 
-  margin-left:-1.5rem!important;
-  
-  
-  
-  width: 90vw;
- }
- 
 }
-
-@media only screen and (max-width: 688px) {
+@media only screen and (min-width: 541px) and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -258,115 +255,55 @@
     list-style: none;
     text-decoration: none;
   }
-  .Servico01{
-    display:flex;
-    z-index:0;
-    width: 100vw;
-    height: 800vh;
-    Justify-Content: center;
-    align-items: center;
-  background-color: #829078;
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-
-
-.card-containers{
-  display:flex;
-   justify-content: center;
-   flex-wrap:wrap;
-   gap: 10px;
-   margin-top: 3rem;
-   margin-left: 0;
-
-   width:99vw;
-   z-index:0;
-}
-.cards{
-  width:430px!important;
- 
-  padding:0 0 0 0!important;
-  overflow: hidden;
-  transition: transform 0.6s ease;
-  margin: 1rem 2rem 0 2rem;
-  
+  .terv-tard h1 {
+    font-size: clamp(2.7rem, 5vw, 4.5rem);
+    margin-top:3rem;
   }
-
-.card-coments  h1{
-  font-size: 1.7rem;
-  margin-bottom: 10px;
-  text-align: center;
-  color:#f4f4f4;
-  letter-spacing: 0.1rem;
-  font-family: "Josefin Sans", sans-serif;
-}
- .card-coments p{
-  font-size: 1.5rem;
-  color: #f4f4f4;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-family: "Josefin Sans", sans-serif;
- }
-
-
- .Servico01 .Sub-cards{
-  margin-bottom: 0;
-  margin-top:2rem;
-  width: 75vw;
-  height: 28vh;
   
-  z-index:1;
+  .terv-tard small {
+    font-size: 2rem;
+  }
+  .terv-tard p {
+    font-size: 1.8rem;
+    padding:0 1rem 1rem 1rem;
+  }
+  .tard-cont .tardy {
+    width: 400px !important;
+    padding: 0 0 0 0 !important;
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    margin: 3px;
+    border-radius: 2rem;
  
- }
- .Sub-cards h1{
-
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 3rem;
-  line-height: 1;
-  color: #f4f4f4 ;
-  margin:0 0 0.5rem 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  background-color: transparent;
- }
-
- 
-  .Sub-cards small{
-    display:flex;
-    Justify-Content: center;
-    align-items:center;
-    font-size: 2.3rem;
-    margin:0 0 1rem 2rem;
-    font-family: "Josefin Sans", sans-serif;
-    color: #f4f4f4 ;
-    font-weight: bold;
- 
- }
- .Sub-cards p{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.7rem !important;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  text-align: justify;
-  text-indent: 2rem; 
-  margin-left:-1rem!important;
-  
- 
-  
-  width: 90vw;
- }
-
- 
-  
+  }
+  .tardy img {
+    width: 400px !important;
+    margin-left: -0.3rem;
+    height: auto;
+  }
+  .tardy .tard-comenty h1 {
+    width: 400px !important;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+    color: #f4f4f4;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .tardy .tard-comenty p {
+    width: 400px !important;
+    font-size: 1.7rem;
+    text-indent: 2rem;
+    color: #f4f4f4;
+    margin-bottom: 20px !important;
+    text-align: justify;
+    font-family: "Cormorant Garamond", serif;
+    padding: 0 1rem 0 1rem;
+  }
 }
 
-@media only screen and (max-width: 414px) { 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
@@ -374,498 +311,5 @@
     list-style: none;
     text-decoration: none;
   }
-  .Servico01{
-    display:flex;
-    z-index:0;
-    width: 96vw;
-    height: 120vh;
-    Justify-Content: center;
-    align-items: center;
-  background-color: #829078;
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-.card-containers{
-  display:flex;
-   justify-content: center;
-   flex-wrap:wrap; 
-   gap: 10px;
-   margin-top: 3rem;
-
-   margin-left:0.2rem;
-   background-color: #829078;
-   width:97vw;
-   z-index:0;
-}
-
-.cards{
-  width:308px;
- 
-  
-  overflow: hidden;
-  transition: transform 0.6s ease;
-  margin: 1px;
 
 }
-.cards:hover{
-  transform: translateY(-20px);
-}
-
-.cards img{
-  width: 100px;
-  height: auto;
-  object-fit: cover;
-  
-}
-
-.card-coments{
-  padding: 1rem;
-}
-
-.card-coments  h1{
-  font-size: 1.4rem;
-  width: 60vw;
-  margin-left:1.1rem;
-  margin-bottom: 10px;
-  text-align: center;
-  color:#f4f4f4;
-  
-  letter-spacing: 0.1rem;
-  font-family: "Josefin Sans", sans-serif;
-}
- .card-coments p{
-  font-size: 1.2rem;
-  color: #f4f4f4;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-family: "Josefin Sans", sans-serif;
- }
-
- .Servico01 .Sub-cards{
-  margin-bottom: 0;
-  margin-top: 7rem;
-  width: 75vw;
-  height: 28vh;
-  
-  z-index:1;
- 
- }
- .Sub-cards h2{
-
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 2.6rem;
-  line-height: 1;
-  color: #f4f4f4 ;
-  margin:0 0 0.5rem 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  background-color: transparent;
- }
- .Sub-cards small{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.5rem;
-  margin:0 0 0.5rem 0;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  background-color: transparent;
- 
- }
-
- .Sub-cards span{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.1rem;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  background-color: transparent;
-  text-align: justify;
-  margin-left:-1.4rem;
- }
- 
-}
-@media only screen and (max-width: 412px) { 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .Servicos01{
-    display:flex;
-    z-index:0;
-    width: 95.9vw;
-    height: 120vh;
-    Justify-Content: center;
-    align-items: center;
-  background-color: #829078;
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-.card-container{
-  display:flex;
-   justify-content: center;
-   flex-wrap:wrap; 
-   gap: 10px;
-   margin-top: 4rem;
-
-   margin-left:0.2rem;
-   background-color: #829078;
-   width:97vw;
-   z-index:0;
-}
-}
-
-@media only screen and (max-width: 393px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .Servicos01{
-    display:flex;
-    z-index:0;
-    width: 95.5vw;
-    height: 120vh;
-    Justify-Content: center;
-    align-items: center;
-  background-color: #829078;
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-
-
-.card-container{
-  display:flex;
-   justify-content: center;
-   flex-wrap:wrap;
-   gap: 10px;
-   margin-top:7rem;
-   margin-left: 0;
-  
-   width:98.3vw;
-   z-index:0;
-}
-
-.card-coment  h1{
-  
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  margin-left:2.5rem;
-  width:200px;
-  text-align: center;
-  color:#f4f4f4;
-  letter-spacing: 0.1rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-
- .Servicos01 .Sub-card{
-  margin-bottom: 0;
-  margin-top: 7rem;
-  width: 75vw;
-  height: 28vh;
-  
-  z-index:1;
- 
- }
- .Sub-card h2{
-
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 2.6rem;
-  line-height: 1;
-  color: #f4f4f4 ;
-  margin:0 0 0.5rem 0;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-
- }
-
-
- .Sub-card span{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.1rem;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  
-  text-align: justify;
- }
-
-}
-@media only screen and (max-width: 360px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .Servicos01{
-    display:flex;
-    z-index:0;
-    width: 95vw;
-    height: 120vh;
-    Justify-Content: center;
-    align-items: center;
-  background-color: #829078;
-  
-  flex-wrap:wrap;
-  gap: -20x;
-}
-
-
-.card-container{
-  display:flex;
-   justify-content: center;
-   flex-wrap:wrap;
-   gap: 10px;
-   margin-top:9rem;
-   margin-left: 0;
-  
-   width:98.3vw;
-   z-index:0;
-}
-
-.card{
-  width:307px;
-  background-color: #829078;
-
-  overflow: hidden;
-  transition: transform 0.6s ease;
-  margin: 1px;
-
-}
-.card:hover{
-  transform: translateY(-20px);
-}
-
-.card img{
-  width: 100px;
-  height: auto;
-  object-fit: cover;
-  
-}
-
-.card-coment{
-  padding: 1rem;
-}
-
-.card-coment  h1{
-  
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  margin-left:2.5rem;
-  width:200px;
-  text-align: center;
-  color:#f4f4f4;
-  letter-spacing: 0.1rem;
-  font-family: "Josefin Sans", sans-serif;
-}
- .card-coment p{
-  font-size: 1.2rem;
-  color: #f4f4f4;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-family: "Josefin Sans", sans-serif;
- }
-
- .Servicos01 .Sub-card{
-  margin-bottom: 0;
-  margin-top: 7rem;
-  width: 75vw;
-  height: 28vh;
-  
-  z-index:1;
- 
- }
- .Sub-card h2{
-  width: 80vw;
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 2.5rem;
-  line-height: 1;
-  color: #f4f4f4 ;
-  margin:0 0 0.5rem -1rem;
-  padding: 0;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
- 
- }
- .Sub-card small{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.5rem;
-  margin:0 0 0.5rem -1rem;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  
- 
- }
-
- .Sub-card span{
-  display:flex;
-  Justify-Content: center;
-  align-items:center;
-  font-size: 1.1rem;
-  font-family: "Josefin Sans", sans-serif;
-  color: #f4f4f4 ;
-  
-  text-align: justify;
- }
-
-}
-@media only screen and (max-width: 390px), 
-       screen and (max-height: 844px) {
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          list-style: none;
-          text-decoration: none;
-        }
-        .Servicos01{
-          display:flex;
-          z-index:0;
-          width: 100vw;
-          height: 500vh!important;
-          Justify-Content: center;
-          align-items: center;
-        background-color: #829078!important;
-        
-        flex-wrap:wrap;
-        gap: -20x;
-      }
-      .cards{
-        width:350px!important;
-        background-color: #829078;
-      
-        overflow: hidden;
-        transition: transform 0.6s ease;
-        margin: 1rem 0.5rem;
-      
-      }
-      
-      .card-container{
-        display:flex;
-         justify-content: center;
-         flex-wrap:wrap;
-         gap: 10px;
-         margin-top: 0.5rem!important;
-         margin-left: 0;
-         background-color: #829078!important;
-         width:100vw;
-         z-index:0;
-      }
-      
-      .card img{
-        width: 400px!important;
-        height: auto;
-        object-fit: cover;
-        margin-left:-1rem;
-        
-      }
-      .card-coment  h1{
-        width:70vw;
-        font-size: 1.7rem!important;
-        margin-left:0.5rem;
-        margin-bottom: 10px;
-        text-align: center;
-        color:#f4f4f4;
-        letter-spacing: 0.1rem;
-        font-family: "Josefin Sans", sans-serif;
-      }
-       .card-coment p{
-        width: 350px!important;
-        font-size: 1.7rem!important;
-        color: #f4f4f4;
-        margin-left:-1rem;
-        margin-bottom: 20px;
-        text-align: justify;
-        font-family: "Josefin Sans", sans-serif;
-       }
-      
-      
-       .Servicos01 .Sub-card{
-        margin-bottom: 0;
-        margin-top:10rem!important;
-        width: 100vw!important;
-        height: 45vh!important;
-        
-        z-index:1;
-       
-       }
-       .Sub-card h1{
-      width: 100vw!important;
-        display:flex;
-        Justify-Content: center;
-        align-items:center;
-        font-size: 3rem!important;
-        line-height: 1;
-        color: #f4f4f4 ;
-        margin:0 0 0 0!important;
-        padding: 0!important;
-        font-family: "Dancing Script", cursive;
-        font-weight: 700;
-       
-       }
-      
-       
-        .Sub-card small{
-          width: 90vw!important;
-          display:flex;
-          Justify-Content: center;
-          align-items:center;
-          font-size: 1rem;
-         margin:0.5rem 0 1rem 0!important;
-          font-family: "Josefin Sans", sans-serif;
-          color: #f4f4f4 ;
-          font-weight: bold;
-      
-       }
-       .Sub-card p{
-        width: 90vw!important;
-        display:flex;
-        Justify-Content: center;
-        align-items:center;
-        font-size: 1.5rem !important;
-        font-family: "Josefin Sans", sans-serif;
-        color: #f4f4f4 ;
-        text-align: justify;
-        text-indent: 3rem; 
-        margin-left:-0.5rem!important;
-        
-       
-       }
-      }
-
-
-
-
-
-
-      @media only screen and (min-width: 769px) and (max-width: 1281px) { */

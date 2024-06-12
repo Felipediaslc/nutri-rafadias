@@ -2,7 +2,7 @@ import React from "react";
 import { Link  } from 'react-router-dom';
 import "../Home/Home.css";
 import { Button} from "../../Componentes/Button/Button";
-import marca from "./RD.png";
+
 
 
 
@@ -40,7 +40,7 @@ const Servico = () => {
       </Link>
       
     </div>
-    <img src={marca} alt="" />
+    
   </section>
       
     
