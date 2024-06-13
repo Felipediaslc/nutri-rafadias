@@ -213,7 +213,7 @@
     text-decoration: none;
   }
   .Quem-Conteudo {
-    height: 250vh;
+    height:300vh;
     margin: 0;
   }
 
@@ -224,10 +224,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem 1rem 0.5rem;
+    margin-top: -3rem;
   }
   .text h2 {
-    width: 70vw;
+    width: 80vw;
     font-size: clamp(1.5rem, 5vw, 2.5rem);
     color: #b99496;
     font-family: "Dancing Script", cursive;
@@ -261,7 +262,7 @@
     grid-area: texto-segundo;
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
-    margin-top: 25rem;
+    margin-top: 46rem;
     justify-content: center;
     align-items: center;
     width: 98vw;
@@ -303,7 +304,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60rem;
+    margin-top: 83rem;
   }
   .texto-terceiro h3 {
     margin-bottom: 2rem;
