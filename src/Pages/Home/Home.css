@@ -340,9 +340,9 @@ span {
     width: 250px;
     border-radius: 50px;
     cursor: pointer;
-   z-index:1000;
+    z-index: 1000;
   }
-  
+
   #fixa img {
     width: 50px;
     height: 50px;
@@ -351,38 +351,32 @@ span {
   #fixa a .flex-itens {
     display: flex;
     align-items: center;
-   
   }
   #fixa a .flex-itens span {
     display: none;
-  
   }
-  
+
   .flutuar {
     animation-name: flutuar;
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-  
   }
-  
+
   @keyframes flutuar {
     from {
       transform: translate3d(0, 0, 0);
-    
     }
     to {
       transform: translate3d(0, -15px, 0);
-    
     }
   }
-
 
   .homestyle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 37,5% 37,5% 1fr;
+    grid-template-rows: 37, 5% 37, 5% 1fr;
     grid-template-areas:
       "cardy-direito "
       " cardy-esquerdo "
@@ -399,7 +393,6 @@ span {
     margin-left: -14rem;
     margin-top: 17rem;
     height: 40vh;
-   
   }
 
   .cardy-esquerdo span {
@@ -422,14 +415,12 @@ span {
   .homestyle .cardy-direito {
     grid-row: 1/4;
     grid-area: cardy-direito;
-    width:20vw;
+    width: 20vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:12rem 0 0 12rem;
- 
- 
+    padding: 12rem 0 0 12rem;
   }
 
   .Quemsou {
@@ -511,7 +502,6 @@ span {
     height: 94vh;
     width: 365px !important;
     margin-top: 0.5rem;
-   
   }
 
   .Serv-card h2,
@@ -637,9 +627,9 @@ span {
     width: 250px;
     border-radius: 50px;
     cursor: pointer;
-   z-index:1000;
+    z-index: 1000;
   }
-  
+
   #fixa img {
     width: 50px;
     height: 50px;
@@ -648,36 +638,31 @@ span {
   #fixa a .flex-itens {
     display: flex;
     align-items: center;
-   
   }
   #fixa a .flex-itens span {
     display: none;
-  
   }
-  
+
   .flutuar {
     animation-name: flutuar;
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-  
   }
-  
+
   @keyframes flutuar {
     from {
       transform: translate3d(0, 0, 0);
-    
     }
     to {
       transform: translate3d(0, -15px, 0);
-    
     }
   }
-   .homestyle {
+  .homestyle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 37,5% 37,5% 1fr;
+    grid-template-rows: 37, 5% 37, 5% 1fr;
     grid-template-areas:
       "cardy-direito "
       " cardy-esquerdo "
@@ -694,7 +679,6 @@ span {
     margin-left: -14rem;
     margin-top: 17rem;
     height: 40vh;
-   
   }
 
   .cardy-esquerdo span {
@@ -719,14 +703,12 @@ span {
   .homestyle .cardy-direito {
     grid-row: 1/4;
     grid-area: cardy-direito;
-    width:20vw;
+    width: 20vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:12rem 0 0 12rem;
- 
- 
+    padding: 12rem 0 0 12rem;
   }
 
   .Quemsou {
@@ -944,9 +926,9 @@ span {
     width: 250px;
     border-radius: 50px;
     cursor: pointer;
-   z-index:1000;
+    z-index: 1000;
   }
-  
+
   #fixa img {
     width: 50px;
     height: 50px;
@@ -955,36 +937,31 @@ span {
   #fixa a .flex-itens {
     display: flex;
     align-items: center;
-   
   }
   #fixa a .flex-itens span {
     display: none;
-  
   }
-  
+
   .flutuar {
     animation-name: flutuar;
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-  
   }
-  
+
   @keyframes flutuar {
     from {
       transform: translate3d(0, 0, 0);
-    
     }
     to {
       transform: translate3d(0, -15px, 0);
-    
     }
   }
-   .homestyle {
+  .homestyle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 37,5% 37,5% 1fr;
+    grid-template-rows: 37, 5% 37, 5% 1fr;
     grid-template-areas:
       "cardy-direito "
       " cardy-esquerdo "
@@ -1001,7 +978,6 @@ span {
     margin-left: -14rem;
     margin-top: 17rem;
     height: 40vh;
-   
   }
 
   .cardy-esquerdo span {
@@ -1026,14 +1002,12 @@ span {
   .homestyle .cardy-direito {
     grid-row: 1/4;
     grid-area: cardy-direito;
-    width:20vw;
+    width: 20vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:12rem 0 0 12rem;
- 
- 
+    padding: 12rem 0 0 12rem;
   }
 
   .Quemsou {
@@ -1187,14 +1161,13 @@ span {
       "consult-nutri consult-nutri consult-nutri";
     height: 300vh;
     align-items: start;
-   
   }
   .Consulta .Consult-card {
     grid-row: 1/4;
     grid-area: consult-nutri;
     display: grid;
     place-content: center;
-   
+
     padding-top: 8rem;
   }
   .Consult-card h2 {
@@ -1250,9 +1223,9 @@ span {
     width: 250px;
     border-radius: 50px;
     cursor: pointer;
-   z-index:1000;
+    z-index: 1000;
   }
-  
+
   #fixa img {
     width: 50px;
     height: 50px;
@@ -1261,36 +1234,31 @@ span {
   #fixa a .flex-itens {
     display: flex;
     align-items: center;
-   
   }
   #fixa a .flex-itens span {
     display: none;
-  
   }
-  
+
   .flutuar {
     animation-name: flutuar;
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-  
   }
-  
+
   @keyframes flutuar {
     from {
       transform: translate3d(0, 0, 0);
-    
     }
     to {
       transform: translate3d(0, -15px, 0);
-    
     }
   }
-   .homestyle {
+  .homestyle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 37,5% 37,5% 1fr;
+    grid-template-rows: 37, 5% 37, 5% 1fr;
     grid-template-areas:
       "cardy-direito "
       " cardy-esquerdo "
@@ -1307,7 +1275,6 @@ span {
     margin-left: -14rem;
     margin-top: 19rem;
     height: 40vh;
-   
   }
 
   .cardy-esquerdo span {
@@ -1332,14 +1299,12 @@ span {
   .homestyle .cardy-direito {
     grid-row: 1/4;
     grid-area: cardy-direito;
-    width:20vw;
+    width: 20vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:12rem 0 0 12rem;
- 
- 
+    padding: 12rem 0 0 12rem;
   }
 
   .Quemsou {
@@ -1380,7 +1345,7 @@ span {
     text-align: justify;
     color: #829078;
     font-weight: bold;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 3rem;
     width: 370px;
     font-family: "Cormorant Garamond", serif;
     z-index: 1;
@@ -1493,14 +1458,13 @@ span {
       "consult-nutri consult-nutri consult-nutri";
     height: 300vh;
     align-items: start;
-   
   }
   .Consulta .Consult-card {
     grid-row: 1/4;
     grid-area: consult-nutri;
     display: grid;
     place-content: center;
-   
+
     padding-top: 8rem;
   }
   .Consult-card h2 {
@@ -1549,53 +1513,99 @@ span {
     list-style: none;
     text-decoration: none;
   }
+  #fixa {
+    position: fixed;
+    bottom: 7vw;
+    margin: 0 0 0 83vw;
+    background-color: transparent;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  #fixa img {
+    width: 80px;
+    height: 80px;
+    margin-left: -0.3rem;
+  }
+  #fixa a .flex-itens {
+    display: flex;
+    align-items: center;
+  }
+  #fixa a .flex-itens span {
+    display: none;
+  }
+
+  .flutuar {
+    animation-name: flutuar;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes flutuar {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -15px, 0);
+    }
+  }
   .homestyle {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 37,5% 37,5% 1fr;
+    grid-template-rows: 37, 5% 37, 5% 1fr;
     grid-template-areas:
       "cardy-direito "
       " cardy-esquerdo "
       "cardy-rody cardy-rody";
     background-color: #829078;
-
     height: 100vh;
     margin: 0;
   }
-  .homestyle .cardy-direito {
-    grid-row: 1/3;
-    grid-area: cardy-direito;
-    width: 40vw;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0 0 0;
-  }
+
   .homestyle .cardy-esquerdo {
     width: 100vw;
     grid-row: 1/4;
     grid-area: cardy-esquerdo;
-    margin-left: -20rem;
+    margin-left: -14rem;
+    margin-top: 27rem;
+    height: 40vh;
   }
 
   .cardy-esquerdo span {
     padding: 4rem 0.5rem 0 0;
-    font-size: clamp(4rem, 7vw, 6rem);
+    font-size: 5.5rem;
   }
   .cardy-esquerdo h3 {
     padding: 0 0 0 2rem;
-    font-size: clamp(2rem, 3.5vw, 2.1rem);
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
   }
   .cardy-esquerdo h4 {
-    font-size: clamp(1.7rem, 3.5vw, 2.1rem);
+    font-size: 2.5rem;
     padding: 0 0 2.5rem 2rem;
+    letter-spacing: 0.2rem;
   }
   .cardy-esquerdo h5 {
-    width: 96vw;
-    font-size: clamp(2.7rem, 4vw, 4rem);
+    width: 90vw;
+    font-size: 3.5rem;
     font-family: "Dancing Script", cursive;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 4.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .homestyle .cardy-direito {
+    grid-row: 1/4;
+    grid-area: cardy-direito;
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0 0 12rem;
   }
 
   .Quemsou {
@@ -1614,20 +1624,21 @@ span {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-    margin-left: -0.2rem;
-    width: 400px;
-    height: 450px;
+    width: 700px;
+
+    height: 700px;
   }
   .Conteudo-text h2 {
     margin-left: 1rem;
+    font-size: 5rem;
   }
 
   .Conteudo-text h4 {
     text-align: justify;
     color: #b99496;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 2.5rem;
     font-family: "Dancing Script", cursive;
-    width: 350px;
+    width: 400px;
     padding-bottom: 2rem;
     margin-left: 1rem;
     z-index: 1;
@@ -1637,8 +1648,8 @@ span {
     text-align: justify;
     color: #829078;
     font-weight: bold;
-    font-size: clamp(2rem, 5vw, 1.7rem);
-    width: 370px;
+    font-size: 2.5rem;
+    width: 600px;
     font-family: "Cormorant Garamond", serif;
     z-index: 1;
     padding-bottom: 2rem;
@@ -1659,8 +1670,8 @@ span {
 
   .Servicos {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows:100%;
     grid-template-areas: "serv-card serv-card serv-card";
     justify-items: center;
     align-items: center;
@@ -1671,7 +1682,7 @@ span {
       url("./alim.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 130vh;
+    height: 105vh;
     margin: 0;
   }
 
@@ -1682,16 +1693,16 @@ span {
     justify-content: center;
     height: 94vh;
     width: 100vw !important;
-    margin-top: -8rem;
+    margin-top: -0.4rem;
     color: #f4f4f4;
   }
 
   .Serv-card h2 {
-    font-size: clamp(3.3rem, 5vw, 4.5rem);
+    font-size: 5rem;
     display: flex;
     justify-self: center;
     text-align: center;
-    padding: 0 0 3rem 0;
+    padding: 0 0 4rem 0;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
     display: flex;
@@ -1703,9 +1714,8 @@ span {
     display: flex;
     justify-self: center;
     text-align: center;
-    padding: 0 0 1rem 3rem;
-    font-weight: bold;
-    font-size: clamp(1.9rem, 5vw, 2rem);
+    padding: 0 0 1rem 5rem;
+    font-size: 3rem;
     width: 99vw !important;
   }
 
@@ -1714,19 +1724,20 @@ span {
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 2.5rem;
     font-family: "Cormorant Garamond", serif;
-    padding: 0;
+
+    padding: 0 1.5rem 0 1.5rem;
     width: 94vw !important;
   }
   .Serv-card span {
     display: flex;
     justify-self: center;
     text-align: justify;
-    padding: 0.3rem 0 1rem 0;
+    padding: 0.3rem 1.5rem 3rem 1.5rem;
     text-indent: 2rem;
     width: 94vw !important;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 2.5rem;
     font-family: "Cormorant Garamond", serif;
   }
 
@@ -1749,23 +1760,22 @@ span {
       "consult-nutri consult-nutri consult-nutri";
     height: 300vh;
     align-items: start;
-    background: rgba(255, 255, 255, 0.9);
   }
   .Consulta .Consult-card {
     grid-row: 1/4;
     grid-area: consult-nutri;
     display: grid;
     place-content: center;
-    background-color: #f4f4f4;
-    padding-top: 13rem;
+
+    padding-top: 14rem;
   }
   .Consult-card h2 {
-    font-size: clamp(3.6rem, 5vw, 4.5rem);
+    font-size: 5rem;
     line-height: 1rem;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
     text-align: center;
-    padding: 2rem 0 3rem 11.5rem;
+    padding: 2rem 0 4rem 16rem;
     width: 365px !important;
     color: #829078;
   }
@@ -1774,9 +1784,9 @@ span {
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 2.5rem;
     font-family: "Cormorant Garamond", serif;
-    padding: 0;
+    padding: 0 1.5rem 0 1.5rem;
     width: 94vw !important;
     color: #829078;
     padding-top: 1rem;
@@ -1787,12 +1797,13 @@ span {
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    font-size: clamp(2rem, 5vw, 1.7rem);
+    font-size: 2.5rem;
     font-family: "Cormorant Garamond", serif;
     padding: 0;
     width: 94vw !important;
-    padding: 1rem 0 2.5rem 0;
+    padding: 1rem 1.5rem 2.5rem 1.5rem;
     font-weight: bold;
     color: #829078;
+    
   }
 }

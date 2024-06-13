@@ -237,3 +237,42 @@
     align-items: flex-end;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .carousel {
+    position:absolute;
+    margin:15rem 0 0 26rem;
+    display: flex;
+    width:40vw;
+    height:32vh;
+   
+  }
+  .carousel_card-active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: visible;
+  }
+  
+  .card_image {
+    margin: 0;
+    width:40vw;
+    height:32vh;
+    border-radius: 20px;
+  }
+  
+  .card_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 40px 30px;
+    align-items: flex-end;
+  }
+}
