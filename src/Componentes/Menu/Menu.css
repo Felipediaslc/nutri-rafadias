@@ -266,7 +266,7 @@ nav .Social-list{
 		color: #eee;
 	}
 }
-@media only screen and (min-width: 320px) and (max-width: 390px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
 	* {
 	  margin: 0;
 	  padding: 0;
@@ -304,44 +304,7 @@ nav .Social-list{
 		
 	}
 }
-@media only screen and (min-width: 391px) and (max-width: 399px) {
-	* {
-	  margin: 0;
-	  padding: 0;
-	  box-sizing: border-box;
-	  list-style: none;
-	  text-decoration: none;
-	}
-	nav .button{
-	width:70vw;
-	display:flex;
-	justify-content: center;
-	}
-	nav .button .button-icon{
-		font-size:2rem;
-	}
-	nav a {
-		margin: 0 0.9rem;
-		color: var(--textColor);
-		text-decoration: none;
-		font-size:1.8rem;
-		font-family: "Cormorant Garamond", serif;
-	}
-	nav .button{
-		display: inline-flex;
-		height: 3rem!important;
-		width:80vw;
-		padding:0;
-		height:20vh;
-		outline:none;
-		overflow: hidden;
-		font-family: "Cormorant Garamond", serif;
-		font-size:1.8rem!important;
-		font-weight:500;
-		color:#eee;
-		
-	}
-}
+
 
 @media only screen and (min-width: 400px) and (max-width: 480px) {
 * {

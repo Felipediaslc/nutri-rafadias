@@ -204,7 +204,118 @@
   text-indent: 1.5rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 390px) and (max-width: 399px) {
+@media only screen and (min-width: 320px)  and (max-width: 390px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .Quem-Conteudo {
+    height: 250vh;
+    margin: 0;
+  }
+
+  .texto-primeiro .text {
+    width: 98vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .text h2 {
+    width: 70vw;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    color: #b99496;
+    font-family: "Dancing Script", cursive;
+    padding: 0.6rem 0.2rem 0.6rem 1rem;
+  }
+  .text h3 {
+    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    display: grid;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    width: 98vw !important;
+    padding: 0 1rem 0 1rem;
+  }
+  .text p {
+    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-family: "Cormorant Garamond", serif;
+    display: grid;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    width: 98vw !important;
+  }
+  .texto-primeiro .imagem-carossel {
+    display: none;
+  }
+
+  .Quem-Conteudo .texto-segundo {
+    grid-row: 1/4;
+    grid-area: texto-segundo;
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    margin-top: 25rem;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+  }
+
+  .texto-segundo h3 {
+    width: 90vw;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: #829078;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .texto-segundo p {
+    text-indent: 2rem;
+    text-align: justify;
+    padding: 1rem 0 0 0;
+    color: #829078;
+    width: 90vw;
+    font-size: clamp(1.3rem, 5vw, 1.5rem);
+
+    font-family: "Cormorant Garamond", serif;
+  }
+  .texto-segundo span {
+    width: 90vw;
+    text-align: justify;
+    padding: 1rem 0 0 0;
+    color: #829078;
+    text-indent: 2rem;
+    font-size: clamp(1.3rem, 5vw, 1.5rem);
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .Quem-Conteudo .texto-terceiro {
+    grid-row: 1/4;
+    grid-area: texto-terceiro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60rem;
+  }
+  .texto-terceiro h3 {
+    margin-bottom: 2rem;
+    width: 50vw;
+  }
+
+  .texto-terceiro .card-container02 {
+    margin-left: 0;
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 391px)  and (max-width: 399px) {
   * {
     margin: 0;
     padding: 0;
