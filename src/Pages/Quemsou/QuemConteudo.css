@@ -244,7 +244,7 @@
     grid-template-areas:
       " titulo-card titulo-card titulo-card"
       "texto-primeiro texto-primeiro texto-primeiro";
-    height: 230vh;
+    height: 170vh;
     margin: 0;
     background-color: blue;
   }
@@ -272,7 +272,7 @@
     grid-area: texto-primeiro;
     display: flex;
     flex-wrap: wrap;
-    margin-top:8vh;
+    margin-top:4vh;
   }
   .texto-primeiro .text {
     width: 100vw;
@@ -281,13 +281,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
   }
   .text h2 {
     width: 100vw;
     font-size: 1.7rem;
     color: #b99496;
     font-family: "Dancing Script", cursive;
-    padding: 0.1rem 1rem 1rem 1.4rem;
+    padding: 1rem 1rem 1rem 2.8rem;
   }
   
   .text h3 {
@@ -297,12 +298,12 @@
     font-size: 1.4rem;
     text-indent: 2rem;
     font-family: "Cormorant Garamond", serif;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     font-weight: bold;
     width: 100vw;
   }
   .text p {
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     width: 100vw;
     text-align: justify;
     color: #829078;
@@ -320,8 +321,8 @@
     grid-template-rows: 100%;
     grid-template-areas:
       " segundo-alfa segundo-alfa segundo-alfa";
-    height: 225vh;
-    margin-top:-4vh;
+    height: 140vh;
+ 
     justify-content: center;
     align-items: center;
     background-color: #000
@@ -332,7 +333,7 @@
     grid-area:segundo-alfa;
     place-content: center;
     display:grid;
-    margin-top:8vh;
+    margin-top:-14vh;
     width: 100vw!important;
     
   }
@@ -352,7 +353,7 @@
   .segundo-alfa p {
     text-indent: 2rem;
     text-align: justify;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     color: #829078;
     width: 100vw!important;
     font-size:  1.4rem;
@@ -361,7 +362,7 @@
   }
   .segundo-alfa span {
     text-align: justify;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
     color: #829078;
     text-indent: 2rem;
     width: 100vw!important;
@@ -375,7 +376,7 @@
     grid-template-rows: 100%;
     grid-template-areas:
       " terceiro-text terceiro-text terceiro-text";
-      height: 255vh;
+      height: 200vh;
     margin: 0;
     flex-direction: column;
     justify-content: center;
@@ -389,12 +390,14 @@
     grid-area:terceiro-text;
     place-content: center;
     display: grid;
+    margin-top:-7vh;
   }
   
   .terceiro-text h3 {
     font-weight: bold;
     font-size: clamp(2rem, 5vw, 3.5rem);
     color: #b99496;
+     padding: 1rem 6rem 1rem 6rem;
     font-family: "Dancing Script", cursive;
   }
   .terceiro-text .card-container02 {
@@ -449,7 +452,7 @@
     font-family: "Cormorant Garamond", serif;
   }
   .card-coment02 p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #829078;
     margin-bottom: 20px;
     text-align: justify;
