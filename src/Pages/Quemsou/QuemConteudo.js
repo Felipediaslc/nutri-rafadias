@@ -7,6 +7,7 @@ import { FaStethoscope } from "react-icons/fa6";
 
 const QuemConteudo = () => {
   return (
+    <>
     <section className="Quem-Conteudo">
       <div className="titulo-card"><h3>Sobre Rafaelle Dias</h3></div>
 
@@ -25,8 +26,10 @@ const QuemConteudo = () => {
                      <Carousel02 images={countries02 }/>
                       </div>
       </div>
+      </section>
 
-      <div className="texto-segundo">
+     <section className="segundo">
+     <div className="segundo-alfa">
          <h3>A História</h3>
                   <p>Sempre fui uma criança e adolescente curiosa em pesquisar sobre alimentação, hábitos saudáveis,
                      receitas culinárias e novas preparações, composições e funções dos alimentos.
@@ -41,18 +44,25 @@ const QuemConteudo = () => {
                        <span>Iniciei minha carreira profissional como nutricionista clínica de imediato após me formar. 
                         Onde atuo atualmente e sou muito realizada em cada um que busca meu atendimento. </span>
       </div>
+      </section>
 
-      <div className="texto-terceiro">
+
+
+
+
+      <section className="texto-terceiro">
+         <div className="terceiro-text">
           <h3>Missão, Diferenciais e Valores</h3>
              
              <div className=" card-container02">
+
              <div className="card02">
-           
              <div class="card-coment02">
+
              <div className="icon02">
              <FaStethoscope />
-
              </div>
+
               <h1>Missão</h1>
               <p> De forma multidisciplinar, humanizada e personalizada busco proporcionar saúde
                  e bem estar aos meus pacientes entregando serviços que possibilite alcançar metas sustentáveis
@@ -61,31 +71,39 @@ const QuemConteudo = () => {
               
              </div>
              </div>
+
+
+
              <div class="card02">
-          
              <div className="card-coment02">
+
              <div className="icon02">
              <ion-icon name="person-outline"></ion-icon>
              </div>
+
               <h1>Diferenciais</h1>
               <p>Acompanhamento nutricional individualizado focado nas necessidades e rotina de cada paciente.</p>
              
              </div>
              </div>
+
              <div className="card02">
-          
              <div className="card-coment02">
+
              <div className="icon02">
              <ion-icon name="fitness-outline"></ion-icon>
              </div>
+
               <h1> Valores</h1>
               <p>Ter empatia, sensibilidade, respeito, ética, inovação e amor.</p>
-              
              </div>
              </div>
+
+
              </div>
-      </div>
-    </section>
+             </div>
+      </section>
+   </>
   );
 };
 
