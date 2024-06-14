@@ -275,9 +275,9 @@ nav .Social-list{
 	  text-decoration: none;
 	}
 	nav .button{
-	width:70vw;
+	width:90vw!important;
 	display:flex;
-	justify-content: center;
+	justify-self: center;
 	}
 	nav .button .button-icon{
 		font-size:2rem;
@@ -292,7 +292,7 @@ nav .Social-list{
 	nav .button{
 		display: inline-flex;
 		height: 3rem!important;
-		width:80vw;
+		width:90vw!important;
 		padding:0;
 		height:20vh;
 		outline:none;

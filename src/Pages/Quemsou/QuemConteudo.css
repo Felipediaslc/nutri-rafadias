@@ -213,41 +213,224 @@
     text-decoration: none;
   }
   .Quem-Conteudo {
-    height:300vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18% 36% 56% 67%;
+    grid-template-areas:
+      " titulo-card titulo-card titulo-card"
+      "texto-primeiro texto-primeiro texto-primeiro"
+      "texto-segundo texto-segundo texto-segundo"
+      "texto-terceiro texto-terceiro texto-terceiro";
+    height: 300vh;
     margin: 0;
   }
 
   .texto-primeiro .text {
-    width: 98vw;
-    background-color: transparent;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 0 0.5rem 1rem 0.5rem;
-    margin-top: -2rem;
+    margin-top: -5.5rem;
   }
   .text h2 {
-    width: 80vw;
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    padding: 1rem 1rem 0 2rem;
+    letter-spacing: 0.1rem;
+    width: 100vw !important;
+    font-size: 1.7rem;
     color: #b99496;
     font-family: "Dancing Script", cursive;
-    padding: 0rem 0.2rem 2rem 3rem;
   }
   .text h3 {
-    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-size: 1.5rem;
     font-family: "Cormorant Garamond", serif;
-    display: grid;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
     width: 98vw !important;
-    padding: 0 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
   .text p {
-    font-size: clamp(1.3rem, 5vw, 1.7rem);
+    font-size: 1.6rem;
     font-family: "Cormorant Garamond", serif;
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    width: 98vw !important;
+  }
+  .texto-primeiro .imagem-carossel {
+    display: none;
+  }
+
+  .Quem-Conteudo .texto-segundo {
+    grid-row: 1/4;
+    grid-area: texto-segundo;
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .texto-segundo h3 {
+    font-weight: 700;
+    width: 99vw;
+    font-weight: 800;
+    padding: 1rem 1rem 0 2rem;
+    font-size: 2.5rem;
+    color: #829078;
+    font-family: "Dancing Script", cursive;
+  }
+
+  .texto-segundo p {
+    text-indent: 2rem;
+    text-align: justify;
+    padding: 1rem 0 0 0;
+    color: #829078;
+    width: 90vw;
+    font-size: 1.6rem;
+
+    font-family: "Cormorant Garamond", serif;
+  }
+  .texto-segundo span {
+    width: 90vw;
+    text-align: justify;
+    padding: 1rem 0 0 0;
+    color: #829078;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  .Quem-Conteudo .texto-terceiro {
+    grid-row: 1/4;
+    grid-area: texto-terceiro;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+  }
+  .texto-terceiro h3 {
+    padding: 1rem 1rem 1rem 1rem;
+    width: 50vw;
+    font-size: 2.3rem;
+  }
+
+  .texto-terceiro .card-container02 {
+    margin-left: 0;
+    padding-bottom: 2rem;
+  }
+
+  .card02 {
+    width: 340px;
+    border: 1px solid #829078;
+    border-radius: 2rem;
+    padding: 0 0.5rem 0 0.5rem;
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    margin: 3px;
+  }
+  .card02:hover {
+    transform: translateY(-20px);
+  }
+  .icon02 {
+    width: 122px;
+    height: 123px;
+    display: flex;
+    align-self: center;
+    margin: 1rem 1rem 1rem 6.3rem;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid #829078;
+  }
+  .icon02 svg {
+    margin-left: 1.8rem;
+    margin-top: 0.1rem;
+    color: #829078;
+    font-size: 4rem;
+  }
+  .icon02 ion-icon {
+    margin-left: 1.8rem;
+    margin-top: 0.1rem;
+    color: #829078;
+    font-size: 4rem;
+  }
+  .card-coment02 h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #829078;
+    font-weight: bold;
+    font-family: "Cormorant Garamond", serif;
+  }
+  .card-coment02 p {
+    font-size: 1.7rem;
+    color: #829078;
+    padding: 0 1rem 0 1rem;
+    font-family: "Cormorant Garamond", serif;
+    text-indent: 2rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .Quem-Conteudo {
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18% 36% 50% 72%;
+    grid-template-areas:
+      " titulo-card titulo-card titulo-card"
+      "texto-primeiro texto-primeiro texto-primeiro"
+      "texto-segundo texto-segundo texto-segundo"
+      "texto-terceiro texto-terceiro texto-terceiro";
+    height: 260vh;
+    margin: 0;
+  }
+
+  .texto-primeiro .text {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0.5rem 1rem 0.5rem;
+    margin-top: -5.5rem;
+  }
+  .text h2 {
+    padding: 1rem 1rem 0 3rem;
+    letter-spacing: 0.1rem;
+    width: 99vw !important;
+    font-size: 1.7rem;
+    color: #b99496;
+    font-family: "Dancing Script", cursive;
+  }
+  .text h3 {
+    font-size: 1.5rem;
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+    text-indent: 2rem;
+    width: 98vw !important;
+    padding: 1rem 1rem 0 1rem;
+  }
+  .text p {
+    font-size: 1.6rem;
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
@@ -263,16 +446,18 @@
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
     margin-top: -3rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 98vw;
+    width: 100vw;
+
   }
 
   .texto-segundo h3 {
-    width: 90vw;
+    font-weight: 700;
+    width: 99vw;
     font-weight: 800;
-    margin-bottom: 2rem;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    padding: 1rem 1rem 0 2rem;
+    font-size: 2.5rem;
     color: #829078;
     font-family: "Dancing Script", cursive;
   }
@@ -283,7 +468,7 @@
     padding: 1rem 0 0 0;
     color: #829078;
     width: 90vw;
-    font-size: clamp(1.3rem, 5vw, 1.5rem);
+    font-size: 1.6rem;
 
     font-family: "Cormorant Garamond", serif;
   }
@@ -293,7 +478,7 @@
     padding: 1rem 0 0 0;
     color: #829078;
     text-indent: 2rem;
-    font-size: clamp(1.3rem, 5vw, 1.5rem);
+    font-size: 1.6rem;
     font-family: "Cormorant Garamond", serif;
   }
 
@@ -302,144 +487,24 @@
     grid-area: texto-terceiro;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 28rem;
+    margin-top: 0;
+  
   }
   .texto-terceiro h3 {
-    margin-bottom: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     width: 50vw;
+    font-size: 2.3rem;
   }
 
   .texto-terceiro .card-container02 {
     margin-left: 0;
     padding-bottom: 2rem;
   }
-}
 
-@media only screen and (min-width: 400px) and (max-width: 480px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  .Quem-Conteudo {
-    height: 340vh;
-    margin: 0;
-  }
-  .titulo-card h3 {
-    color: #f8f8ff;
-    font-family: "Dancing Script", cursive;
-    font-size: clamp(2.3rem, 5vw, 3.7rem);
-    letter-spacing: 0.1rem;
-  }
-  .texto-primeiro .text {
-    width: 98vw;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
-    margin-top: -8rem;
-  }
-  .text h2 {
-    width: 70vw;
-    font-size: clamp(1.8rem, 5vw, 2.5rem);
-    color: #b99496;
-    font-family: "Dancing Script", cursive;
-    padding: 0 0.2rem 1rem 1rem;
-  }
-  .text h3 {
-    font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
-    display: grid;
-    justify-self: center;
-    text-align: justify;
-    text-indent: 2rem;
-    width: 98vw !important;
-    padding: 0 1rem 0 1rem;
-  }
-  .text p {
-    font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
-    display: grid;
-    justify-self: center;
-    text-align: justify;
-    text-indent: 2rem;
-    width: 90vw !important;
-    padding: 1rem 0.5rem 0 0.5rem;
-  }
-  .texto-primeiro .imagem-carossel {
-    display: none;
-  }
-
-  .Quem-Conteudo .texto-segundo {
-    grid-row: 1/4;
-    grid-area: texto-segundo;
-    padding: 0 0.5rem 0 0.5rem;
-    display: flex;
-    margin-top: 30rem;
-    justify-content: center;
-    align-items: center;
-    width: 98vw;
-  }
-
-  .texto-segundo h3 {
-    width: 90vw;
-    font-weight: 800;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: #829078;
-    padding: 1rem 0.5rem 0 0.5rem;
-    font-family: "Dancing Script", cursive;
-    letter-spacing: 0.1rem;
-  }
-
-  .texto-segundo p {
-    text-indent: 2rem;
-    text-align: justify;
-    padding: 0.5rem 0.5rem 0 0.5rem;
-    color: #829078;
-    width: 90vw;
-    font-size: 1.7rem;
-
-    font-family: "Cormorant Garamond", serif;
-  }
-  .texto-segundo span {
-    width: 90vw;
-    text-align: justify;
-    padding: 1rem 0.5rem 20rem 0.5rem;
-    color: #829078;
-    text-indent: 2rem;
-    font-size: 1.7rem;
-    font-family: "Cormorant Garamond", serif;
-  }
-
-  .Quem-Conteudo .texto-terceiro {
-    grid-row: 1/4;
-    grid-area: texto-terceiro;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 48rem;
-  }
-  .texto-terceiro h3 {
-    margin-bottom: 2rem;
-    width: 50vw;
-    font-size: 2.5rem;
-    letter-spacing: 0.1rem;
-  }
-
-  .texto-terceiro .card-container02 {
-    margin-left: 0;
-    padding-bottom: 2rem;
-  }
   .card02 {
-    width: 350px;
+    width: 340px;
     border: 1px solid #829078;
     border-radius: 2rem;
     padding: 0 0.5rem 0 0.5rem;
@@ -454,8 +519,8 @@
     width: 122px;
     height: 123px;
     display: flex;
-    align-items: center;
-    margin: 1rem 3rem 1rem 6.5rem;
+    align-self: center;
+    margin: 1rem 1rem 1rem 6.3rem;
     position: relative;
     border-radius: 50%;
     border: 1px solid #829078;
@@ -478,16 +543,13 @@
     text-align: center;
     color: #829078;
     font-weight: bold;
-    letter-spacing: 0.1rem;
     font-family: "Cormorant Garamond", serif;
   }
   .card-coment02 p {
     font-size: 1.7rem;
     color: #829078;
-    margin-bottom: 20px;
-    text-align: justify;
+    padding: 0 1rem 0 1rem;
     font-family: "Cormorant Garamond", serif;
-
     text-indent: 2rem;
   }
 }
@@ -501,51 +563,54 @@
     text-decoration: none;
   }
   .Quem-Conteudo {
-    height: 340vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18% 35% 45% 68%;
+    grid-template-areas:
+      " titulo-card titulo-card titulo-card"
+      "texto-primeiro texto-primeiro texto-primeiro"
+      "texto-segundo texto-segundo texto-segundo"
+      "texto-terceiro texto-terceiro texto-terceiro";
+    height: 300vh;
     margin: 0;
   }
-  .titulo-card h3 {
-    color: #f8f8ff;
-    font-family: "Dancing Script", cursive;
-    font-size: clamp(2.3rem, 5vw, 3.7rem);
-    letter-spacing: 0.1rem;
-  }
+
   .texto-primeiro .text {
-    width: 98vw;
-    background-color: transparent;
+    width: 100vw;
+  
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
-    margin-top: -20rem;
+    padding: 0 0.5rem 1rem 0.5rem;
+    margin-top: -5.5rem;
   }
   .text h2 {
-    width: 70vw;
-    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    padding: 1rem 6rem 0 6rem;
+    letter-spacing: 0.1rem;
+    width: 99vw !important;
+    font-size: 1.7rem;
     color: #b99496;
     font-family: "Dancing Script", cursive;
-    padding: 0 0.2rem 1rem 3rem;
   }
   .text h3 {
     font-size: 1.7rem;
     font-family: "Cormorant Garamond", serif;
-    display: grid;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    width: 90vw !important;
-    padding: 1rem 0.5rem 0 0.5rem;
+    width: 98vw !important;
+    padding: 1rem 1rem 0 1rem;
   }
   .text p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: "Cormorant Garamond", serif;
-    display: grid;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    width: 90vw !important;
-    padding: 1rem 0.5rem 0 0.5rem;
+    width: 98vw !important;
   }
   .texto-primeiro .imagem-carossel {
     display: none;
@@ -556,40 +621,40 @@
     grid-area: texto-segundo;
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
-    margin-top: -2rem;
-    justify-content: center;
+    margin-top: -3rem;
+    justify-content: flex-start;
     align-items: center;
-    width: 98vw;
+    width: 100vw;
+
   }
 
   .texto-segundo h3 {
-    width: 90vw;
+    font-weight: 700;
+    width: 99vw;
     font-weight: 800;
-    margin-bottom: 2rem;
+    padding: 1rem 1rem 0 2rem;
     font-size: 2.5rem;
     color: #829078;
-    padding: 1rem 0.5rem 0 0.5rem;
     font-family: "Dancing Script", cursive;
-    letter-spacing: 0.1rem;
   }
 
   .texto-segundo p {
     text-indent: 2rem;
     text-align: justify;
-    padding: 0.5rem 0.5rem 0 0.5rem;
+    padding: 1rem 0 0 0;
     color: #829078;
     width: 90vw;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 
     font-family: "Cormorant Garamond", serif;
   }
   .texto-segundo span {
     width: 90vw;
     text-align: justify;
-    padding: 1rem 0.5rem 20rem 0.5rem;
+    padding: 1rem 0 0 0;
     color: #829078;
     text-indent: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: "Cormorant Garamond", serif;
   }
 
@@ -598,23 +663,24 @@
     grid-area: texto-terceiro;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 0;
+ 
   }
   .texto-terceiro h3 {
-    margin-bottom: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     width: 50vw;
-    font-size: 2.5rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.6rem;
   }
 
   .texto-terceiro .card-container02 {
     margin-left: 0;
     padding-bottom: 2rem;
   }
+
   .card02 {
-    width: 350px;
+    width: 400px;
     border: 1px solid #829078;
     border-radius: 2rem;
     padding: 0 0.5rem 0 0.5rem;
@@ -629,8 +695,8 @@
     width: 122px;
     height: 123px;
     display: flex;
-    align-items: center;
-    margin: 1rem 3rem 1rem 6.5rem;
+    align-self: center;
+    margin: 1rem 1rem 1rem 8rem;
     position: relative;
     border-radius: 50%;
     border: 1px solid #829078;
@@ -648,21 +714,18 @@
     font-size: 4rem;
   }
   .card-coment02 h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 10px;
     text-align: center;
     color: #829078;
     font-weight: bold;
-    letter-spacing: 0.1rem;
     font-family: "Cormorant Garamond", serif;
   }
   .card-coment02 p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #829078;
-    margin-bottom: 20px;
-    text-align: justify;
+    padding: 0 1rem 0 1rem;
     font-family: "Cormorant Garamond", serif;
-
     text-indent: 2rem;
   }
 }
@@ -840,7 +903,7 @@
     text-indent: 2rem;
   }
 }
-
+/* falta esse ultimo*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   * {
     margin: 0;
@@ -850,51 +913,54 @@
     text-decoration: none;
   }
   .Quem-Conteudo {
-    height: 340vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18% 36% 53% 70%;
+    grid-template-areas:
+      " titulo-card titulo-card titulo-card"
+      "texto-primeiro texto-primeiro texto-primeiro"
+      "texto-segundo texto-segundo texto-segundo"
+      "texto-terceiro texto-terceiro texto-terceiro";
+    height: 300vh;
     margin: 0;
   }
-  .titulo-card h3 {
-    color: #f8f8ff;
-    font-family: "Dancing Script", cursive;
-    font-size: 3.7rem;
-    letter-spacing: 0.1rem;
-  }
+
   .texto-primeiro .text {
-    width: 98vw;
-    background-color: transparent;
+    width: 100vw;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
-    margin-top: -48rem;
+    padding: 0 0.5rem 1rem 0.5rem;
+    margin-top: -5.5rem;
   }
   .text h2 {
-    width: 70vw;
-    font-size: 2.7rem;
+    padding: 1rem 1rem 0 3rem;
+    letter-spacing: 0.1rem;
+    width: 99vw !important;
+    font-size: 1.7rem;
     color: #b99496;
     font-family: "Dancing Script", cursive;
-    padding: 6rem 0.2rem 1rem 6rem;
   }
   .text h3 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-family: "Cormorant Garamond", serif;
-    display: grid;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    width: 90vw !important;
-    padding: 1rem 0.5rem 0 0.5rem;
+    width: 98vw !important;
+    padding: 1rem 1rem 0 1rem;
   }
   .text p {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-family: "Cormorant Garamond", serif;
-    display: grid;
+    display: flex;
     justify-self: center;
     text-align: justify;
     text-indent: 2rem;
-    width: 90vw !important;
-    padding: 1rem 0.5rem 0 0.5rem;
+    width: 98vw !important;
   }
   .texto-primeiro .imagem-carossel {
     display: none;
@@ -905,41 +971,39 @@
     grid-area: texto-segundo;
     padding: 0 0.5rem 0 0.5rem;
     display: flex;
-    margin-top: -2rem;
-    justify-content: center;
+    margin-top: -3rem;
+    justify-content: flex-start;
     align-items: center;
-    width: 98vw;
-    margin-top: -52rem;
+    width: 100vw;
   }
 
   .texto-segundo h3 {
-    width: 90vw;
+    font-weight: 700;
+    width: 99vw;
     font-weight: 800;
-    margin-bottom: 2rem;
-    font-size: 3rem;
+    padding: 1rem 1rem 0 2rem;
+    font-size: 2.5rem;
     color: #829078;
-    padding: 1rem 0.5rem 0 0.5rem;
     font-family: "Dancing Script", cursive;
-    letter-spacing: 0.1rem;
   }
 
   .texto-segundo p {
     text-indent: 2rem;
     text-align: justify;
-    padding: 0.5rem 0.5rem 0 0.5rem;
+    padding: 1rem 0 0 0;
     color: #829078;
     width: 90vw;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
 
     font-family: "Cormorant Garamond", serif;
   }
   .texto-segundo span {
     width: 90vw;
     text-align: justify;
-    padding: 1rem 0.5rem 20rem 0.5rem;
+    padding: 1rem 0 0 0;
     color: #829078;
     text-indent: 2rem;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-family: "Cormorant Garamond", serif;
   }
 
@@ -948,71 +1012,68 @@
     grid-area: texto-terceiro;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: -73rem;
+    margin-top: 0;
   }
   .texto-terceiro h3 {
-    margin-bottom: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
     width: 50vw;
-    font-size: 3.7rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.3rem;
   }
 
   .texto-terceiro .card-container02 {
     margin-left: 0;
     padding-bottom: 2rem;
   }
+
   .card02 {
-    width: 500px;
+    width: 340px;
     border: 1px solid #829078;
     border-radius: 2rem;
     padding: 0 0.5rem 0 0.5rem;
     overflow: hidden;
     transition: transform 0.6s ease;
-    margin: 5px;
+    margin: 3px;
   }
   .card02:hover {
     transform: translateY(-20px);
   }
   .icon02 {
-    width: 150px;
-    height: 151px;
+    width: 122px;
+    height: 123px;
     display: flex;
-    align-items: center;
-    margin: 1rem 3rem 1rem 11rem;
+    align-self: center;
+    margin: 1rem 1rem 1rem 6.3rem;
     position: relative;
     border-radius: 50%;
     border: 1px solid #829078;
   }
   .icon02 svg {
-    margin-left: 2.5rem;
+    margin-left: 1.8rem;
     margin-top: 0.1rem;
     color: #829078;
     font-size: 4rem;
   }
   .icon02 ion-icon {
-    margin-left: 2.5rem;
+    margin-left: 1.8rem;
     margin-top: 0.1rem;
     color: #829078;
     font-size: 4rem;
   }
   .card-coment02 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     text-align: center;
     color: #829078;
     font-weight: bold;
-    letter-spacing: 0.1rem;
     font-family: "Cormorant Garamond", serif;
   }
   .card-coment02 p {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     color: #829078;
-    margin-bottom: 20px;
-    text-align: justify;
-    font-family: "Cormorant Garamond", serif;
     padding: 0 1rem 0 1rem;
+    font-family: "Cormorant Garamond", serif;
     text-indent: 2rem;
   }
 }
