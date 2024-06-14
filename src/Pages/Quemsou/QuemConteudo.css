@@ -272,7 +272,7 @@
     grid-area: texto-primeiro;
     display: flex;
     flex-wrap: wrap;
-    margin-top:20vh;
+    margin-top:35vh;
   }
   .texto-primeiro .text {
     width: 100vw;
