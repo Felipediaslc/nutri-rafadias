@@ -244,7 +244,7 @@
     grid-template-areas:
       " titulo-card titulo-card titulo-card"
       "texto-primeiro texto-primeiro texto-primeiro";
-    height: 170vh;
+    height: 160vh;
     margin: 0;
     background-color: blue;
   }
@@ -272,7 +272,7 @@
     grid-area: texto-primeiro;
     display: flex;
     flex-wrap: wrap;
-    margin-top:4vh;
+    margin-top:20vh;
   }
   .texto-primeiro .text {
     width: 100vw;
