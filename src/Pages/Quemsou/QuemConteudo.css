@@ -404,7 +404,7 @@
     flex-wrap: wrap;
     gap: 21px;
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 0;
   }
   
   .card02 {
