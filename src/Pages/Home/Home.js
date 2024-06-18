@@ -29,8 +29,8 @@ const Home = () => {
       <section className="homestyle">
         <div className="cardy-esquerdo">
           <span> Rafaelle Dias</span>
-          <h3>Nutricionista</h3>
-          <h4>CRN 43895</h4>
+          <small>Nutricionista</small>
+          <p>CRN 43895</p>
           <h5> Saúde, Qualidade de Vida e Longevidade </h5>
         </div>
         <div className="cardy-direito">
