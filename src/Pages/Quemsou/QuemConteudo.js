@@ -28,8 +28,8 @@ const QuemConteudo = () => {
       </div>
       </section>
 
-     <section className="segundo">
-     <div className="segundo-alfa">
+     <section className="Segundo">
+     <div className="Segundo-alfa">
          <h3>A História</h3>
                   <p>Sempre fui uma criança e adolescente curiosa em pesquisar sobre alimentação, hábitos saudáveis,
                      receitas culinárias e novas preparações, composições e funções dos alimentos.
